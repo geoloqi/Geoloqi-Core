@@ -10,43 +10,48 @@
 		<header id="header">
 			<a href="" id="logo">Geoloqi</a>
 			<nav id="site-selector">
-				<ul>
-					<li class="dropdown">
-						<a href="">Geoloqi</a>
-						<ul>
-							<li>
-								<a href="">
-									<span>Home</span>
-									<small>Learn more about Geoloqi</small>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span>Developers</span>
-									<small>Build location-aware applicaitons with Geoloqi</small>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span>Apps</span>
-									<small>See what we have built with our native SDKs</small>
-								</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
+					<ul>
+						<li class="dropdown">
+							<a href="">Geoloqi</a>
+							<div class="dropdown-menu">
+								<ul>
+									<li>
+										<a href="">
+											<span>Home</span>
+											<small>Learn more about Geoloqi</small>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<span>Developers</span>
+											<small>Build location-aware applicaitons with Geoloqi</small>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<span>Apps</span>
+											<small>See what we have built with our native SDKs</small>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				
 			</nav>
 
 			<nav>
 				<ul>
 					<li class="dropdown">
 						<a href="">Geonotes</a>
-						<ul>
-							<li><a href="">What?</a></li>
-							<li><a href="">How?</a></li>
-							<li><a href="">iPhone</a></li>
-							<li><a href="">Android</a></li>
-						</ul>
+						<div class="dropdown-menu">
+							<ul>
+								<li><a href="">What?</a></li>
+								<li><a href="">How?</a></li>
+								<li><a href="">iPhone</a></li>
+								<li><a href="">Android</a></li>
+							</ul>
+						</div>
 					</li>
 					<li><a href="">Trips</a></li>
 					<li><a href="">Poncho</a></li>
@@ -58,13 +63,29 @@
 			<nav class="secondary">
 				<ul>
 					<li class="dropdown">
-						<a href="">Geonotes</a>
-						<ul>
-							<li><a href="">What?</a></li>
-							<li><a href="">How?</a></li>
-							<li><a href="">iPhone</a></li>
-							<li><a href="">Android</a></li>
-						</ul>
+						<a href="">Patrick Arlt</a>
+						<div class="dropdown-menu">
+								<h3>Account</h3>
+								<ul>
+									<li><a href="">Profile</a></li>
+									<li><a href="">Change Password</a></li>
+								</ul>
+								<h3>Developer</h3>
+								<ul>
+									<li><a href="">Dashboard</a></li>
+									<li><a href="">Applications</a></li>
+									<li><a href="">Layers</a></li>
+									<li><a href="">Analytics</a></li>
+									<li><a href="">Billing</a></li>
+								</ul>
+								<h3>Geoloqi Apps</h3>
+								<ul>
+									<li><a href="">Trips</a></li>
+									<li><a href="">Geonotes</a></li>
+								</ul>
+								<hr>
+								<ul><li><a href="">Log Out</a></li></ul>
+						</div>
 					</li>
 				</ul>
 			</nav>

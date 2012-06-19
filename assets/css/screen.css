@@ -859,24 +859,24 @@ html, body {
   display: inline;
   float: right;
 }
-/* line 51, ../sass/lib/_layout.scss */
-#header nav.secondary ul li .dropdown {
+/* line 52, ../sass/lib/_layout.scss */
+#header nav.secondary ul li.dropdown .dropdown-menu {
   right: 0;
 }
-/* line 57, ../sass/lib/_layout.scss */
+/* line 59, ../sass/lib/_layout.scss */
 #header nav ul {
   font-size: 1em;
   line-height: 1.5em;
   margin: 0;
   padding: 0;
 }
-/* line 61, ../sass/lib/_layout.scss */
+/* line 63, ../sass/lib/_layout.scss */
 #header nav ul li {
   display: inline;
   float: left;
   text-shadow: 0 1px 0 #1f1f1f;
 }
-/* line 64, ../sass/lib/_layout.scss */
+/* line 66, ../sass/lib/_layout.scss */
 #header nav ul li a {
   color: white;
   padding: 0 1em;
@@ -886,19 +886,19 @@ html, body {
   color: #ebebeb;
   text-shadow: 0 1px 0 #1f1f1f;
 }
-/* line 73, ../sass/lib/_layout.scss */
+/* line 75, ../sass/lib/_layout.scss */
 #header nav ul li:hover, #header nav ul li:focus {
   -webkit-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   -moz-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   background: #1f1f1f;
 }
-/* line 77, ../sass/lib/_layout.scss */
+/* line 79, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown {
   position: relative;
   padding-right: .5em;
 }
-/* line 80, ../sass/lib/_layout.scss */
+/* line 82, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown > a {
   position: relative;
 }
@@ -917,14 +917,14 @@ html, body {
   border-right: 4px solid transparent;
   border-top: 4px solid #595959;
 }
-/* line 82, ../sass/lib/_layout.scss */
+/* line 84, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown > a:after {
   position: absolute;
   top: 49%;
   right: .25em;
 }
-/* line 88, ../sass/lib/_layout.scss */
-#header nav ul li.dropdown ul {
+/* line 90, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu {
   overflow: hidden;
   position: absolute;
   top: 99%;
@@ -934,35 +934,60 @@ html, body {
   background: #1f1f1f;
   border-top: 1px solid #333333;
   display: none;
-  margin: 0;
-  padding: 0;
-  width: 120px;
   float: left;
   clear: both;
 }
-/* line 99, ../sass/lib/_layout.scss */
-#header nav ul li.dropdown ul li {
+/* line 98, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  line-height: 1.5em;
+  padding-left: .75em;
+  padding-right: .75em;
+  color: #ebebeb;
+}
+/* line 107, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu hr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+/* line 113, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu ul {
+  margin: 0;
+  padding: 0;
+  width: 160px;
+}
+/* line 117, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu ul li {
   display: inline;
   float: none;
   display: block;
   clear: both;
   padding: 0;
 }
-/* line 104, ../sass/lib/_layout.scss */
-#header nav ul li.dropdown ul li a {
+/* line 122, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu ul li a {
   border: none;
-  line-height: 3em;
+  font-size: 0.813em;
+  line-height: 1.846em;
+  line-height: 2.25em;
+  color: #a6a6a6;
 }
-/* line 107, ../sass/lib/_layout.scss */
-#header nav ul li.dropdown ul li a:hover {
+/* line 127, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu ul li a:hover {
+  color: white;
   background: black;
 }
-/* line 114, ../sass/lib/_layout.scss */
-#header nav ul li.dropdown:hover ul {
+/* line 136, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown:hover .dropdown-menu {
   display: block;
 }
 
-/* line 126, ../sass/lib/_layout.scss */
+/* line 148, ../sass/lib/_layout.scss */
 #logo {
   display: block;
   width: 30px;
@@ -977,7 +1002,7 @@ html, body {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 136, ../sass/lib/_layout.scss */
+  /* line 158, ../sass/lib/_layout.scss */
   #logo {
     display: block;
     width: 60px;
@@ -988,7 +1013,7 @@ html, body {
     background-size: 50% auto;
   }
 }
-/* line 142, ../sass/lib/_layout.scss */
+/* line 164, ../sass/lib/_layout.scss */
 #logo-footer {
   width: 20%;
   float: left;
@@ -1000,22 +1025,22 @@ html, body {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 152, ../sass/lib/_layout.scss */
+  /* line 174, ../sass/lib/_layout.scss */
   #logo-footer {
     background: url("/img/logo-footer@2x.png" no-repeat 0 0);
     background-size: 50% auto;
   }
 }
-/* line 160, ../sass/lib/_layout.scss */
+/* line 182, ../sass/lib/_layout.scss */
 #header #site-selector {
   background: #222;
   border-right: 1px solid #333333;
 }
-/* line 164, ../sass/lib/_layout.scss */
+/* line 186, ../sass/lib/_layout.scss */
 #header #site-selector ul li {
   padding-right: 0;
 }
-/* line 166, ../sass/lib/_layout.scss */
+/* line 188, ../sass/lib/_layout.scss */
 #header #site-selector ul li a {
   font-size: 1.5em;
   line-height: 2.35em;
@@ -1024,26 +1049,26 @@ html, body {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 173, ../sass/lib/_layout.scss */
+/* line 195, ../sass/lib/_layout.scss */
 #header #site-selector ul li a:hover {
   text-decoration: none;
 }
-/* line 178, ../sass/lib/_layout.scss */
-#header #site-selector ul li.dropdown ul {
+/* line 201, ../sass/lib/_layout.scss */
+#header #site-selector ul li.dropdown .dropdown-menu ul {
   width: 250px;
 }
-/* line 181, ../sass/lib/_layout.scss */
-#header #site-selector ul li.dropdown ul li a {
+/* line 204, ../sass/lib/_layout.scss */
+#header #site-selector ul li.dropdown .dropdown-menu ul li a {
   font-size: 1.25em;
   line-height: 1em;
   padding: .5em;
 }
-/* line 185, ../sass/lib/_layout.scss */
-#header #site-selector ul li.dropdown ul li a span {
+/* line 208, ../sass/lib/_layout.scss */
+#header #site-selector ul li.dropdown .dropdown-menu ul li a span {
   display: block;
 }
-/* line 188, ../sass/lib/_layout.scss */
-#header #site-selector ul li.dropdown ul li a small, #header #site-selector ul li.dropdown ul li a table caption, table #header #site-selector ul li.dropdown ul li a caption {
+/* line 211, ../sass/lib/_layout.scss */
+#header #site-selector ul li.dropdown .dropdown-menu ul li a small, #header #site-selector ul li.dropdown .dropdown-menu ul li a table caption, table #header #site-selector ul li.dropdown .dropdown-menu ul li a caption {
   display: block;
   color: gray;
   font-size: .5em;
@@ -1051,7 +1076,7 @@ html, body {
   font-weight: 500;
 }
 
-/* line 207, ../sass/lib/_layout.scss */
+/* line 231, ../sass/lib/_layout.scss */
 #site-footer {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #050505), color-stop(100%, #1f1f1f));
   background: -webkit-linear-gradient(#050505, #1f1f1f);
@@ -1066,14 +1091,14 @@ html, body {
   height: 177px;
 }
 
-/* line 214, ../sass/lib/_layout.scss */
+/* line 238, ../sass/lib/_layout.scss */
 #common-footer {
   background: #ebebeb;
   border-top: 1px solid #1f1f1f;
   height: 72px;
 }
 
-/* line 220, ../sass/lib/_layout.scss */
+/* line 244, ../sass/lib/_layout.scss */
 #footer-menu {
   width: 53.684%;
   float: left;
@@ -1081,12 +1106,12 @@ html, body {
   margin-top: 1em;
   color: #a6a6a6;
 }
-/* line 224, ../sass/lib/_layout.scss */
+/* line 248, ../sass/lib/_layout.scss */
 #footer-menu nav {
   margin: 0;
   padding: 0;
 }
-/* line 227, ../sass/lib/_layout.scss */
+/* line 251, ../sass/lib/_layout.scss */
 #footer-menu nav ul {
   overflow: hidden;
   font-size: 0.75em;
@@ -1094,32 +1119,32 @@ html, body {
   margin: 0;
   padding: 0;
 }
-/* line 232, ../sass/lib/_layout.scss */
+/* line 256, ../sass/lib/_layout.scss */
 #footer-menu nav ul li {
   display: inline;
   float: left;
   margin-right: 1em;
 }
-/* line 235, ../sass/lib/_layout.scss */
+/* line 259, ../sass/lib/_layout.scss */
 #footer-menu nav ul li a {
   color: gray;
 }
-/* line 241, ../sass/lib/_layout.scss */
+/* line 265, ../sass/lib/_layout.scss */
 #footer-menu small, #footer-menu table caption, table #footer-menu caption {
   font-size: 0.625em;
   line-height: 2.4em;
   display: block;
 }
-/* line 244, ../sass/lib/_layout.scss */
+/* line 268, ../sass/lib/_layout.scss */
 #footer-menu small a, #footer-menu table caption a, table #footer-menu caption a {
   color: #a6a6a6;
 }
-/* line 246, ../sass/lib/_layout.scss */
+/* line 270, ../sass/lib/_layout.scss */
 #footer-menu small a:hover, #footer-menu table caption a:hover, table #footer-menu caption a:hover {
   color: #a6a6a6;
 }
 
-/* line 253, ../sass/lib/_layout.scss */
+/* line 277, ../sass/lib/_layout.scss */
 #social-links {
   width: 24.211%;
   float: right;
@@ -1127,20 +1152,20 @@ html, body {
   padding-top: .85em;
   text-align: right;
 }
-/* line 257, ../sass/lib/_layout.scss */
+/* line 281, ../sass/lib/_layout.scss */
 #social-links a {
   font-size: 2.25em;
   line-height: 1.333em;
   padding: 0 0 0 .5em;
   color: #a6a6a6;
 }
-/* line 261, ../sass/lib/_layout.scss */
+/* line 285, ../sass/lib/_layout.scss */
 #social-links a:hover {
   color: gray;
   text-decoration: none;
 }
 
-/* line 270, ../sass/lib/_layout.scss */
+/* line 294, ../sass/lib/_layout.scss */
 .container {
   max-width: 59.375em;
   margin-left: auto;

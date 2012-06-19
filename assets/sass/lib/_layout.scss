@@ -48,8 +48,10 @@ $header-height: 3.5em;
 			@include float(right);
 			ul {
 				li {
-					.dropdown {
-						right:0;
+					&.dropdown {
+						.dropdown-menu {
+							right:0;
+						}
 					}
 				}
 			}
@@ -85,33 +87,53 @@ $header-height: 3.5em;
 							right:.25em;
 						}
 					}
-					ul {
+					.dropdown-menu {
 						@include clearfix;
 						@include position(absolute, 99%);
 						background: $darkestGray;
 						border-top: 1px solid $darkerGray;
 						display: none;
-						margin: 0;
-						padding: 0;
-						width: 120px;
 						float: left;
 						clear: both;
-						li {
-							@include float(none);
-							display: block;
-							clear: both;
+						h3 {
+							@include adjust-font-size-to(16px);
+							@include leader(1);
+							@include trailer(0);
+							@include adjust-leading-to(1);
+							padding-left: .75em;
+							padding-right: .75em;
+							color: $lightestGray;
+						}
+						hr {
+							border-top:1px solid $black;
+							border-bottom:1px solid $darkerGray;
+							border-left:1px solid transparent;
+							border-right:1px solid transparent;
+						}
+						ul {
+							margin: 0;
 							padding: 0;
-							a {
-								border: none;
-								@include adjust-leading-to(2);
-								&:hover {
-									background: $black;
+							width: 160px;
+							li {
+								@include float(none);
+								display: block;
+								clear: both;
+								padding: 0;
+								a {
+									border: none;
+									@include adjust-font-size-to(13px);
+									@include adjust-leading-to(1.5);
+									color: $lightGray;
+									&:hover {
+										color: $white;
+										background: $black;
+									}
 								}
 							}
 						}
 					}
 					&:hover {
-						ul {
+						.dropdown-menu {
 							display: block;
 						}
 					}
@@ -175,22 +197,24 @@ $header-height: 3.5em;
 				}
 			}
 			&.dropdown {
-				ul {
-					width:250px;
-					li {
-						a {
-							font-size:1.25em;
-							line-height:1em;
-							padding:.5em;
-							span {
-								display:block;
-							}
-							small {
-								display:block;
-								color: $gray;
-								font-size:.5em;
-								font-family: $bodyFont;
-								font-weight: 500;
+				.dropdown-menu {
+					ul {
+						width:250px;
+						li {
+							a {
+								font-size:1.25em;
+								line-height:1em;
+								padding:.5em;
+								span {
+									display:block;
+								}
+								small {
+									display:block;
+									color: $gray;
+									font-size:.5em;
+									font-family: $bodyFont;
+									font-weight: 500;
+								}
 							}
 						}
 					}
