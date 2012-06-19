@@ -1,0 +1,118 @@
+// headers ---------------------------------------------------------------------
+h1,h2,h3,h4,h5,h6 {
+	font-family: $PTSans;
+	color: $darkestGray;
+	&.divider {
+		border-color: $lighterGray;
+	}
+}
+
+h1 {
+	@include adjust-font-size-to(48px);
+	&.divider {
+		@include apply-side-rhythm-border(bottom ,1px, 0, 48px);
+	}
+}
+
+h2 {
+	@include adjust-font-size-to(36px);
+	&.divider {
+		@include apply-side-rhythm-border(bottom ,1px, 0, 36px);
+	}
+}
+
+h3 {
+	@include adjust-font-size-to(24px);
+	&.divider {
+		@include apply-side-rhythm-border(bottom ,1px, 0, 24px);
+	}
+}
+
+h4 {
+	@include adjust-font-size-to(18px);
+	&.divider {
+		@include apply-side-rhythm-border(bottom ,1px, 0, 18px);
+	}
+}
+
+h5 {
+	@include adjust-font-size-to(16px);
+	&.divider {
+		@include apply-side-rhythm-border(bottom ,1px, 0, 16px);
+	}
+}
+
+h6 {
+	@include adjust-font-size-to(16px);
+	color: $darkerGray;
+	&.divider {
+		@include apply-side-rhythm-border(bottom ,1px, 0, 16px);
+	}
+}
+
+// paragraphs ------------------------------------------------------------------
+
+p {
+	@include trailer(1);
+	@include adjust-font-size-to(14px);
+	&.large {
+		@include adjust-font-size-to(18px);
+	}
+	&.small {
+		@include adjust-font-size-to(13px);
+	}
+}
+
+// links -----------------------------------------------------------------------
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+	&:hover, &:focus {
+		color: $linkHover;
+		text-decoration: underline;
+	}
+}
+
+// lists -----------------------------------------------------------------------
+
+ul, ol {
+	@include adjust-font-size-to(14px);
+	@include leader(1);
+	@include trailer(1);
+	padding-left: 1.25em;
+	li {
+	}
+}
+
+dl {
+	@include adjust-font-size-to(14px);
+	dt {
+		@include adjust-font-size-to(18px);
+		color: $darkestGray;
+		font-family: $PTSans;
+		font-weight:700;
+	}
+	dd {
+		margin: 0;
+		@include trailer(1);
+	}
+}
+
+// code ------------------------------------------------------------------------
+
+code {
+	@include border-radius(4px);
+	border: 1px solid $lighterGray;
+	background: $lightestGray;
+	padding:.25em;
+	&[lang] {
+		@include adjust-font-size-to(14px);
+		@include rhythm-borders(1px, 1, 14px);
+		overflow-x: scroll;
+		overflow-y: auto;
+		white-space: pre;
+	  word-wrap: normal;
+	  display: block;	
+	}
+}

@@ -1,0 +1,165 @@
+input[type="submit"], .btn, button {
+	@include adjust-font-size-to(16px);
+	@include border-radius(4px);
+	@include rhythm-borders(1px, .35, 18px, solid);
+	@include button-color($lighterGray, $lightGray);
+	@include box-shadow(0 2px 2px rgba(0,0,0,0.1));
+	border-width:1px;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: $PTSans;
+	color: $white;
+	
+	// states --------------------------------------------------------------------
+	&:hover {
+		text-decoration:none;
+    color:$white;
+    &:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lighterGray, $lightGray);
+			}
+		}
+	}
+
+	&:disabled, &.disabled {
+		@include opacity(.5);
+		&:hover {
+			cursor: default;
+		}
+	}
+
+	&.block {
+		float: left;
+		text-align: center;
+		display:block;
+		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			padding: 0;
+			display: block;
+		}
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 1em;
+			padding-right: 1em;	
+		}
+	}
+
+	// colors --------------------------------------------------------------------
+	&.primary, &.blue {
+		@include button-color($lightBlue, $darkBlue);
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lightBlue, $darkBlue);
+			}
+		}
+	}
+
+	&.clear {
+		background: $offWhite;
+		border-color:$lighterGray;
+		color:$lightGray;
+		text-shadow: none;
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($offWhite, $lighterGray);
+			}
+		}
+	}
+
+	&.secondary, &.orange {
+		@include button-color($lightOrange, $darkOrange);
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lightOrange, $darkOrange);
+			}
+		}
+	}
+
+	&.danger, &.delete, &.cancel, &.red {
+		@include button-color($lightRed, $darkRed);
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lightRed, $darkRed);
+			}
+		}
+	}
+
+	&.green {
+		@include button-color($lightGreen, $darkGreen);
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lightGreen, $darkGreen);
+			}
+		}
+	}
+
+	&.yellow {
+		@include button-color($lightYellow, $darkYellow);
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lightYellow, $darkYellow);
+			}
+		}
+	}
+
+	&.pink {
+		@include button-color($lightPink, $darkPink);
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lightPink, $darkPink);
+			}
+		}
+	}
+
+	&.purple {
+		@include button-color($lightPurple, $darkPurple);
+		&:disabled, &.disabled {
+			&:hover {
+				@include button-color-disabled($lightPurple, $darkPurple);
+			}
+		}
+	}
+
+	// sizes ---------------------------------------------------------------------
+	&.small {
+		@include adjust-font-size-to(14px);
+		border-width:1px;
+	}
+
+	&.large {
+		@include adjust-font-size-to(18px);	
+	}
+
+	&.x-large {
+		font-weight:700;
+		@include adjust-font-size-to(24px);	
+	}
+	
+	// icons ---------------------------------------------------------------------
+	&[class^="icon-"]::before, &[class*=" icon-"]::before {
+		padding-right:.25em;
+		position:relative;
+		top:.1em;
+		font-weight:normal !important;
+	}
+}
+
+// block icons -----------------------------------------------------------------
+.btn-group {
+	@include clearfix();
+	.btn {
+		@include border-radius(0px);
+		border-left-width:0px;
+		display:block;
+		float:left;
+	}
+
+	.btn:first-of-type {
+		@include border-top-left-radius(4px);
+		@include border-bottom-left-radius(4px);
+		border-left-width:1px;
+	}
+	
+	.btn:last-of-type {
+		@include border-top-right-radius(4px);
+		@include border-bottom-right-radius(4px);
+	}
+}

@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+<head>
+	<title>Geoloqi CSS Style Guide</title>
+	<link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="wrapper">
+		
+		<header id="header">
+			<a href="" id="logo">Geoloqi</a>
+			<nav id="site-selector">
+				<ul>
+					<li class="dropdown">
+						<a href="">Geoloqi</a>
+						<ul>
+							<li>
+								<a href="">
+									<span>Home</span>
+									<small>Learn more about Geoloqi</small>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span>Developers</span>
+									<small>Build location-aware applicaitons with Geoloqi</small>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span>Apps</span>
+									<small>See what we have built with our native SDKs</small>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<nav>
+				<ul>
+					<li class="dropdown">
+						<a href="">Geonotes</a>
+						<ul>
+							<li><a href="">What?</a></li>
+							<li><a href="">How?</a></li>
+							<li><a href="">iPhone</a></li>
+							<li><a href="">Android</a></li>
+						</ul>
+					</li>
+					<li><a href="">Trips</a></li>
+					<li><a href="">Poncho</a></li>
+					<li><a href="">DinoDeals</a></li>
+					<li><a href="">Map Attack</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div id="page">
+
+			<div class="row">
+				<div class="headers">
+					<h3 class="divider">Headers</h3>
+					<h1>Header 1</h1>
+					<h2>Header 2</h2>
+					<h3>Header 3</h3>
+					<h4>Header 4</h4>
+					<h5>Header 5</h5>
+					<h6>Header 6</h6>
+				</div>
+
+				<div class="buttons">
+					<h3 class="divider">Icons</h3>
+					<a href="" class="btn primary icon-github">Github</a>
+					<a href="" class="btn green icon-phone">Call</a>
+					<a href="" class="btn delete icon-delete">Delete</a>
+					
+					<h3 class="divider">Colors</h3>
+					<a href="" class="btn primary">Blue</a>
+					<a href="" class="btn secondary">Orange</a>
+					<a href="" class="btn delete">Red</a>
+					<a href="" class="btn pink">Pink</a>
+					<a href="" class="btn purple">Purple</a>
+					<a href="" class="btn yellow">Yellow</a>
+					<a href="" class="btn green">Green</a>
+					<a href="" class="btn clear">Clear</a>
+
+					<h3 class="divider">Sizes</h3>
+					<a href="" class="btn x-large">X Large</a>
+					<a href="" class="btn large">Large</a>
+					<a href="" class="btn">Normal</a>
+					<a href="" class="btn small">Small</a>
+
+					<h3 class="divider">States</h3>
+					<a href="" class="btn disabled">Disabled</a>
+	
+					<h3 class="divider">Blocks and Groups</h3>
+					<a href="" class="btn icon-plus green block">Add</a>
+					<div class="btn-group">
+						<a href="" class="btn icon-eye clear block">View</a>
+						<a href="" class="btn icon-pencil clear block">Edit</a>
+						<a href="" class="btn icon-comments clear block">Comments</a>
+						<a href="" class="btn icon-delete clear block">Delete</a>
+					</div>
+					<div class="btn-group">
+						<a href="" class="btn green icon-plus">Add</a>
+						<a href="" class="btn blue icon-search">Search</a>
+						<a href="" class="btn orange icon-settings">Settings</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="lists">
+					<h3 class="divider">Lists</h3>
+					<dl>
+						<dt>Dolor sit amet</dt>
+						<dd>Aliquam tincidunt mauris eu risus.</dd>
+						<dt>Vestibulum</dt>
+						<dd>Aliquam tincidunt mauris eu risus.</dd>
+						<dt>Dapibus neque</dt>
+						<dd>Consectetuer adipiscing elit.</dd>
+					</dl>
+					<ul>
+					  <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+					  <li>Aliquam tincidunt mauris eu risus.</li>
+					  <li>Vestibulum auctor dapibus neque.</li>
+					</ul>
+					<ol>
+					  <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+					  <li>Aliquam tincidunt mauris eu risus.</li>
+					  <li>Vestibulum auctor dapibus neque.</li>
+					</ol>
+				</div>
+				<div class="paragraphs">
+					<h3 class="divider">Paragraphs &amp; Code</h3>
+					<p>Pellentesque habitant <em>morbi</em> tristique <strong>senectus</strong> et netus et <code>malesuada</code> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<code class="block" lang="javascript">http.createServer(function (request, response) {    
+  path.exists(filePath, function(exists) {
+    if (exists) {
+      fs.readFile(filePath, function(error, content) {
+        if (error) {
+          response.writeHead(500);
+          response.end();
+        }
+      });
+    }
+  });     
+}).listen(8125);</code>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="table">
+					<h3 class="divider">Table</h3>
+					<table class="hover-rows bordered striped">
+						<thead class="strong">
+							<tr>
+								<th>Name</th>
+								<th>Email</th>
+								<th>Phone</th>
+								<th>Twitter</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Patrick Arlt</td>
+								<td>patrick.arlt@gmail.com</td>
+								<td>503-422-2345</td>
+								<td>@patrickarlt</td>
+							</tr>
+							<tr>
+								<td>Aaron Parecki</td>
+								<td>aaron@geoloqi.com</td>
+								<td>503-234-5678</td>
+								<td>@aaronpk</td>
+							</tr>
+							<tr>
+								<td>Kyle Drake</td>
+								<td>kyle.drake@gmail.com</td>
+								<td>503-987-6543</td>
+								<td>@kyledrake</td>
+							</tr>
+							<tr>
+								<td>Amber Case</td>
+								<td>amber@geoloqi.com</td>
+								<td>503-246-802</td>
+								<td>@caseorganic</td>
+							</tr>
+						</tbody>
+						<tfoot class="strong">
+							<tr>
+								<td>Name</td>
+								<td>Email</td>
+								<td>Phone</td>
+								<td>Twitter</td>
+							</tr>
+						</tfoot>
+						<caption>This is a table caption.</caption>
+					</table>
+				</div>
+			</div>
+
+			<div class="form">
+				<h3 class="divider">Standard Form</h3>
+				<form action="">
+					<label>
+				    <span>Name</span>
+				    <div class="multi-input two">
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    	<small>Help Text</small>
+					    </div>
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    	<small>Help Text</small>
+					    </div>
+				    </div>
+				  </label>
+
+				  <label>
+				    <span>Name</span>
+				    <div class="multi-input three">
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    	<small>Help Text</small>
+					    </div>
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    	<small>Help Text</small>
+					    </div>
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    	<small>Help Text</small>
+					    </div>
+				    </div>
+				  </label>
+
+				  <label>
+				    <span>Name</span>
+				    <div class="multi-input four">
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    </div>
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    </div>
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    </div>
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    </div>
+					    <small>Fields can share help text.</small>
+				    </div>
+				  </label>
+				 
+				  <label>
+				    <span>Loves</span>
+				    <div class="input">
+				    	<select name="loves" id="loves">
+				    		<option value="puppies">Puppies</option>
+				    		<option value="lolcats">LOL Cats</option>
+				    	</select>
+				    	<small>Help Text</small>
+				    </div>
+				  </label>
+
+				  <label>
+				    <span>Gender</span>
+				    <div class="input-list">
+				    	<ul>
+				    		<li><input type="checkbox" name="gender" value="male"><label>Male</label></li>
+				    		<li><input type="checkbox" name="gender" value="female"><label>Female</label></li>
+				    		<li><input type="checkbox" name="gender" value="na"><label>N/A</label></li>
+				    	</ul>
+				    	<small>Help Text</small>
+				    </div>
+				  </label>
+
+				  <label>
+				    <span>Photo</span>
+				    <div class="input">
+				    	<input type="file" name="photo">
+				    	<small>Help Text</small>
+				    </div>
+				  </label>
+
+				  <div class="actions">
+				  	<input type="submit" value="Submit">
+				  </div>
+				</form>
+			</div>
+
+			<div class="form-stacked">
+				<h3 class="divider">Stacked Form</h3>
+				<form action="" class="stacked">
+					<label>
+				    <span>Name</span>
+				    <div class="input">
+		    	  	<input type='text' name='name'>
+				    	<small>Help Text</small>
+				    </div>
+				  </label>
+				 
+				  <label>
+				    <span>Loves</span>
+				    <div class="input">
+				    	<select name="loves" id="loves">
+				    		<option value="puppies">Puppies</option>
+				    		<option value="lolcats">LOL Cats</option>
+				    	</select>
+				    	<small>Help Text</small>
+				    </div>
+				  </label>
+
+				  <label>
+				    <span>Gender</span>
+				    <div class="input-list">
+				    	<ul>
+				    		<li><input type="radio" name="gender" value="male"><label>Male</label></li>
+				    		<li><input type="radio" name="gender" value="female"><label>Female</label></li>
+				    		<li><input type="radio" name="gender" value="na"><label>N/A</label></li>
+				    	</ul>
+				    	<small>Help Text</small>
+				    </div>
+				  </label>
+
+				  <label>
+				    <span>Photo</span>
+				    <div class="input">
+				    	<input type="file" name="photo">
+				    	<small>Help Text</small>
+				    </div>
+				  </label>
+
+				  <div class="actions">
+				  	<input type="submit" value="Submit">
+				  </div>
+				</form>	
+			</div>
+
+			<div class="form-misc">
+				<h3 class="divider">Single Field</h3>
+				<form action="" class="single">
+				  <label>
+				    <span>Search</span>
+				    <div class="input">
+				  		<input type="search" placeholder="Search">
+				    </div>
+				  </label>
+				  <div class="actions">
+				  	<input type="submit" value="Go">
+				  </div>
+				</form>
+
+				<form action="" class="single">
+				  <label class="hide-text">
+				    <span>Search</span>
+				    <div class="input">
+				  		<input type="search" placeholder="Search">
+				    </div>
+				  </label>
+				  <div class="actions">
+				  	<input type="submit" value="Go">
+				  </div>
+				</form>
+			</div>
+
+		</div>
+		
+		<div id="push"></div>
+	</div>
+	
+	<footer id="footer">
+		<div id="site-footer">
+			Site Footer
+		</div>
+		<div id="common-footer">
+			<div class="container">
+				<a href="https://geoloqi.com" id="logo-footer">Geoloqi</a>
+				<section id="footer-menu">
+					<nav>
+						<ul>
+							<li><a href="">Developers</a></li>
+							<li><a href="">Press</a></li>
+							<li><a href="">Partners &amp; OEMs</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">API Status</a></li>
+							<li><a href="">Privacy</a></li>
+							<li><a href="">Contact Us</a></li>
+						</ul>
+					</nav>
+					<small>&copy; Copyright 2012 <a href="http://geoloqi.com">Geoloqi LLC</a>. and contributers.</small>
+				</section>
+				<div id="social-links">
+					<a href="" class="icon-twitter"></a>
+					<a href="" class="icon-facebook"></a>
+					<a href="" class="icon-github"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

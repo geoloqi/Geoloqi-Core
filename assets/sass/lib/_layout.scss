@@ -1,0 +1,266 @@
+// sticky footer ---------------------------------------------------------------
+
+@import "compass/layout/sticky-footer";
+
+$footer-height: 250px;
+
+@include sticky-footer($footer-height, "#wrapper", "#push", "#footer");
+
+// layout ----------------------------------------------------------------------
+
+#wrapper {
+	@if $enable-grids {
+		@include susy-grid-background;
+	}
+}
+
+#page {
+	@include margin-leader(4);
+	@include margin-trailer(2);
+	@include container;
+}
+
+// header ----------------------------------------------------------------------
+
+$header-height: 3.5em;
+
+#header {
+	@include clearfix();
+	@include background(linear-gradient($darkerGray, $offBlack));
+	@include box-shadow(0 1px 3px rgba(0,0,0,0.10));	
+	@include position(fixed, 0, 0, auto, 0);
+	@include box-sizing(border-box);
+	border-bottom:1px solid $darkerGray;
+	height: $header-height;
+	overflow: visible;
+	z-index: 100;
+	.inner {
+		@include container();	
+	}
+}
+
+// header navigation -----------------------------------------------------------
+
+#header {
+	nav {
+		@include float(left);
+		&.secondary {
+			@include float(right);
+		}
+		ul {
+			@include adjust-font-size-to(16px);
+			margin: 0;
+			padding: 0;
+			li {
+				@include float(left);
+				text-shadow:0 1px 0 $darkestGray;
+				a {					
+					color: $white;
+					padding: 0 1em;
+					line-height: 4em;
+					font-size:14px;
+					display: block;
+					color: $lightestGray;
+					text-shadow: 0 1px 0 $darkestGray;
+				}
+				&:hover, &:focus {
+					@include box-shadow(inset -1px 0px 2px rgba(255,255,255,0.05), inset 1px 0px 2px rgba(255,255,255,0.05));
+					background: $darkestGray;
+				}
+				&.dropdown {
+					position: relative;
+					padding-right:.5em;
+					> a{
+						@include arrow-down(4px, $darkGray);
+						&:after {
+							position:absolute;
+							top:49%;
+							right:.25em;
+						}
+					}
+					ul {
+						@include clearfix;
+						@include position(absolute, 99%);
+						background: $darkestGray;
+						border-top: 1px solid $darkerGray;
+						display: none;
+						margin: 0;
+						padding: 0;
+						width: 120px;
+						float: left;
+						clear: both;
+						li {
+							@include float(none);
+							display: block;
+							clear: both;
+							padding: 0;
+							border-bottom:1px solid $darkerGray;
+							a {
+								font-size: 14px;
+								border: none;
+								&:hover {
+									background: $black;
+								}
+							}
+						}
+					}
+					&:hover {
+						ul {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+
+// logo ------------------------------------------------------------------------
+
+#logo {
+	@include image-replace("/img/logo-block.png", 30px, 34px, #222);
+	background-origin:content-box;
+	padding:.65em .5em .8em;
+	float: left;
+	border-right:1px solid $darkerGray;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
+			 only screen and (min-device-pixel-ratio : 1.5) {
+	#logo {
+		@include image-replace("/img/logo-block@2x.png", 60px, 72px, #222);
+		background-size:50% auto;
+	}
+}
+
+#logo-footer {
+	@include span-columns(5);
+	background: url("/img/logo-footer.png") no-repeat 0 0;
+	height: 38px;
+	margin-top: 1.25em;
+	text-indent:-9999em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
+			 only screen and (min-device-pixel-ratio : 1.5) {
+	#logo-footer {
+		background: url("/img/logo-footer@2x.png" no-repeat 0 0);
+		background-size:50% auto;
+	}
+}
+
+// site selector ---------------------------------------------------------------
+
+#header #site-selector {
+	background: #222;
+	border-right:1px solid $darkerGray;
+	ul {
+		li {
+			padding-right:0;
+			a {
+				font-size:1.5em;
+				line-height:2.35em;
+				color:white;
+				padding:0 .75em 0 .25em;
+				font-family: $PTSans;
+				font-weight: 700;
+				&:hover {
+					text-decoration:none;
+				}
+			}
+			&.dropdown {
+				ul {
+					width:250px;
+					li {
+						a {
+							font-size:1.25em;
+							line-height:1em;
+							padding:.5em;
+							span {
+								display:block;
+							}
+							small {
+								display:block;
+								color: $gray;
+								font-size:.5em;
+								font-family: $bodyFont;
+								font-weight: 500;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// footer ----------------------------------------------------------------------
+
+$common-footer-height: 72px;
+
+#site-footer {
+	@include background(linear-gradient($offBlack, $darkestGray));
+	@include box-shadow(0 -1px 3px rgba(0,0,0,0.10));
+	border-top:1px solid $darkerGray;
+	height:$footer-height - $common-footer-height - 1;
+}
+
+#common-footer {
+	background: $lightestGray;
+	border-top: 1px solid $darkestGray;
+	height: $common-footer-height;
+}
+
+#footer-menu {
+	@include span-columns(13);
+	margin-top:1em;
+	color: $lightGray;
+	nav {
+		margin: 0;
+		padding: 0;
+		ul {
+			@include clearfix();
+			@include adjust-font-size-to(12px);
+			margin: 0;
+			padding: 0;
+			li {
+				@include float(left);
+				margin-right: 1em;
+				a {
+					color: $gray;
+				}
+			}
+		}
+	}
+	small {
+		@include adjust-font-size-to(10px);
+		display: block;
+		a {
+			color: $lightGray;
+			&:hover {
+				color: $lightGray;
+			}
+		}
+	}
+}
+
+#social-links {
+	@include span-columns(6 omega);
+	padding-top: .85em;
+	text-align: right;
+	a {
+		@include adjust-font-size-to(36px);
+		padding:0 0 0 .5em;
+		color: $lightGray;
+		&:hover {
+			color: $gray;
+			text-decoration: none;
+		}
+	}
+}
+
+// grid ------------------------------------------------------------------------
+
+.container {
+	@include container;
+}

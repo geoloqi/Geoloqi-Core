@@ -1,0 +1,230 @@
+// form ------------------------------------------------------------------------
+$labelSpan : 5;
+
+form {
+	> label {
+		@include leader(1);
+		@include clearfix();
+		clear:both;
+		display:block;
+		&.hide-text {
+			span {
+				@include visuallyhidden;
+			}
+			.input, .input-list {
+				@include pre(0);
+			}
+		}
+		span {
+			@include span-columns($labelSpan);
+			@include adjust-font-size-to(14px);
+			@include apply-side-rhythm-border(top, 0px, .25, 14px, solid);
+			text-align:right;
+		}
+		.input, .input-list {
+			@include pre($labelSpan);	
+		}
+		small {
+			display: block;
+			@include adjust-font-size-to(12px);
+			color: $lightGray;
+		}
+
+		// multpile inputs --------------------------------------------------------
+		.multi-input {
+			@include pre($labelSpan);
+			@include clearfix();
+			.input:last-child {
+				@include float(right);
+			}
+			&.two {
+				.input {
+					@include pre(0);
+					width:49%;
+				}
+				.input:first-child {
+					@include float(left);
+				}
+				.input:last-child {
+					@include float(right);
+				}
+			}
+			&.three {
+				.input {
+					@include pre(0);
+					width:32%;
+					@include float-left;
+				}
+				.input:nth-child(2){
+					margin:0 2.5%;
+				}
+				.input:last-child {
+					@include float(right);
+				}
+			}
+			&.four {
+				.input {
+					@include pre(0);
+					width:24%;
+					@include float-left;
+				}
+				.input:nth-child(1),.input:nth-child(2),.input:nth-child(3){
+					margin:0 1.75% 0 0;
+				}
+			}
+		}
+	}
+	
+	// input list ----------------------------------------------------------------
+
+	.input-list {
+		@include apply-side-rhythm-border(top, 0px, .25, 14px, solid);
+		ul{
+			@include leader(0);
+			@include trailer(0);
+			padding:0;
+			list-style: none;
+			li {
+				@include clearfix();
+				margin:0;
+				label {
+					@include float(left);
+					margin: 0;
+				}
+				input {
+					@include float(left);
+				}
+			}
+		}
+	}
+	
+	// actions -------------------------------------------------------------------
+	.actions {
+		@include pre($labelSpan);
+		@include leader(1);
+		& :first-child {
+			@include float-left();
+		};
+		@include clearfix();
+		.secondary {
+			@include adjust-font-size-to(18px);
+			@include rhythm-borders(0px, .5, 18px, solid);
+			@include float-right();
+			&.left {
+				@include float-left();
+				margin-left:.25em;
+			}
+		}	
+	}
+	// stacked -------------------------------------------------------------------
+	&.stacked {
+		label {
+			span {
+				text-align:left;
+				@include adjust-font-size-to(16px);
+			}
+			.input, .input-list {
+				@include pre(0);
+				padding:0;
+				clear:both;
+			}
+		}
+		.actions {
+			@include pre(0);
+		}
+	}
+
+	// single --------------------------------------------------------------------
+	&.single {
+		position: relative;
+		input[type="submit"] {
+			@include adjust-font-size-to(18px);
+			@include rhythm-borders(1px, .25, 18px, solid);
+			@include box-shadow(none);
+			@include border-top-left-radius(0);
+			@include border-bottom-left-radius(0);
+			padding-left: .75em;
+			padding-right: .75em;
+			position:absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+
+// reset outlines --------------------------------------------------------------
+input, label, select {
+	&:focus {
+		outline: none;
+	}
+}
+
+// select and file inputs ------------------------------------------------------
+select, input[type="file"] {
+	@include adjust-font-size-to(14px);
+  vertical-align:top;
+  line-height:34px;
+  height: 34px;
+}
+
+// select ----------------------------------------------------------------------
+select {
+	border: 1px solid $lightGray;
+	-webkit-appearance: menulist-button;
+}
+
+// full width inputs -----------------------------------------------------------
+input, select {
+	@include box-sizing(border-box);
+	width:100%;
+}
+
+// search inputs ---------------------------------------------------------------
+input[type=search]{
+	position:relative;
+	text-indent:1.5em;
+	@extend [class^="icon-"];
+	@extend .icon-search;
+	&:before {
+		text-indent:0em;
+		display:block;
+		font-size: 24px;
+		color: $lightGray;
+		position:absolute;
+		top:.225em;
+		left:.1em;
+	}
+}
+
+// checkboxes and radio buttons ------------------------------------------------
+input[type="checkbox"], input[type="radio"] {
+	display:block;
+	margin:6px 4px 6px 1px;
+	width:auto;
+} 	
+
+// input styles ----------------------------------------------------------------
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="date"],
+input[type="url"],
+input[type="tel"] {
+	@include box-sizing(border-box);
+	@include adjust-font-size-to(14px);
+	@include rhythm-borders(1px, .25, 14px, solid);
+	@include border-radius(3px);
+	border:1px solid $lightGray;
+	@include box-shadow(0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0,0,0,0.15));
+	&:focus {
+		border-color: $lightBlue;
+		@include box-shadow(none);
+	}
+}
+
+// submit ----------------------------------------------------------------------
+input[type="submit"] {
+	width: auto;
+}
