@@ -54,6 +54,20 @@
 					<li><a href="">Map Attack</a></li>
 				</ul>
 			</nav>
+
+			<nav class="secondary">
+				<ul>
+					<li class="dropdown">
+						<a href="">Geonotes</a>
+						<ul>
+							<li><a href="">What?</a></li>
+							<li><a href="">How?</a></li>
+							<li><a href="">iPhone</a></li>
+							<li><a href="">Android</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		
 		<div id="page">
@@ -83,7 +97,7 @@
 					<a href="" class="btn purple">Purple</a>
 					<a href="" class="btn yellow">Yellow</a>
 					<a href="" class="btn green">Green</a>
-					<a href="" class="btn clear">Clear</a>
+					<a href="" class="btn light">Light</a>
 
 					<h3 class="divider">Sizes</h3>
 					<a href="" class="btn x-large">X Large</a>
@@ -97,10 +111,10 @@
 					<h3 class="divider">Blocks and Groups</h3>
 					<a href="" class="btn icon-plus green block">Add</a>
 					<div class="btn-group">
-						<a href="" class="btn icon-eye clear block">View</a>
-						<a href="" class="btn icon-pencil clear block">Edit</a>
-						<a href="" class="btn icon-comments clear block">Comments</a>
-						<a href="" class="btn icon-delete clear block">Delete</a>
+						<a href="" class="btn hover-blue icon-eye light block">View</a>
+						<a href="" class="btn hover-blue icon-pencil light block">Edit</a>
+						<a href="" class="btn hover-blue icon-comments light block">Comments</a>
+						<a href="" class="btn hover-blue icon-delete light block">Delete</a>
 					</div>
 					<div class="btn-group">
 						<a href="" class="btn green icon-plus">Add</a>

@@ -46,6 +46,13 @@ $header-height: 3.5em;
 		@include float(left);
 		&.secondary {
 			@include float(right);
+			ul {
+				li {
+					.dropdown {
+						right:0;
+					}
+				}
+			}
 		}
 		ul {
 			@include adjust-font-size-to(16px);
@@ -94,10 +101,9 @@ $header-height: 3.5em;
 							display: block;
 							clear: both;
 							padding: 0;
-							border-bottom:1px solid $darkerGray;
 							a {
-								font-size: 14px;
 								border: none;
+								@include adjust-leading-to(2);
 								&:hover {
 									background: $black;
 								}
