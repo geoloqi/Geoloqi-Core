@@ -85,3 +85,20 @@
 .icon-close {
 	@extend .icon-cancel
 }
+
+.box, .well {
+	@include border-radius(4px);
+	@include rhythm-borders(1px, 1);
+}
+
+.box {
+	@include box-shadow(0 1px 1px $lightGray);
+	background: $white;
+	border-color: $lighterGray;
+}
+
+.well {
+	@include box-shadow(inset 0 1px 1px $lightGray, 0 1px 1px $white);
+	background: $lightestGray;
+	border-color: $lighterGray;
+}

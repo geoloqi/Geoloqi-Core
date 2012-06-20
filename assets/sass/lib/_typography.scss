@@ -66,6 +66,7 @@ blockquote {
 p {
 	@include trailer(1);
 	@include adjust-font-size-to(14px);
+	margin-top:0;
 	&.large {
 		@include adjust-font-size-to(18px);
 	}
@@ -89,15 +90,16 @@ a {
 
 ul, ol {
 	@include adjust-font-size-to(14px);
-	@include leader(1);
 	@include trailer(1);
 	padding-left: 1.25em;
+	margin-top:0;
 	li {
 	}
 }
 
 dl {
 	@include adjust-font-size-to(14px);
+	margin-top:0;
 	dt {
 		@include adjust-font-size-to(18px);
 		color: $darkestGray;

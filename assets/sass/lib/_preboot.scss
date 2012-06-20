@@ -48,6 +48,6 @@ $linkHover:           $lightBlue;
 
 body {
 	@include establish-baseline(16px);
-	background-image: url("/img/background-pattern.png");
+	background: #f2f2f2;
 	color: #2e2e2e;
 }
