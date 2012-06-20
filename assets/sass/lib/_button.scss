@@ -164,6 +164,10 @@ input[type="submit"], .btn, button {
 	}
 	
 	// icons ---------------------------------------------------------------------
+	&[class^="icon-"], &[class*=" icon-"] {
+		padidng-left:.8em;
+		padding-right:1.2em;
+	}
 	&[class^="icon-"]::before, &[class*=" icon-"]::before {
 		padding-right:.25em;
 		position:relative;

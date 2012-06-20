@@ -7,17 +7,13 @@ $footer-height: 250px;
 @include sticky-footer($footer-height, "#wrapper", "#push", "#footer");
 
 // layout ----------------------------------------------------------------------
-
-#wrapper {
-	@if $enable-grids {
-		@include susy-grid-background;
-	}
-}
-
 #page {
 	@include margin-leader(4);
 	@include margin-trailer(2);
 	@include container;
+	@if $enable-grids {
+		@include susy-grid-background;
+	}
 }
 
 // header ----------------------------------------------------------------------
@@ -167,6 +163,12 @@ $header-height: 3.5em;
 	height: 38px;
 	margin-top: 1.25em;
 	text-indent:-9999em;
+	@include at-breakpoint($screen-tablet-portrait){
+		@include hide();
+	}
+	@include at-breakpoint($screen-smartphone){
+		@include hide();	
+	}
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
@@ -241,6 +243,12 @@ $common-footer-height: 72px;
 	height: $common-footer-height;
 }
 
+#common-footer, #site-footer {
+	.inner {
+		@include container;
+	}
+}
+
 #footer-menu {
 	@include span-columns(13);
 	margin-top:1em;
@@ -289,8 +297,44 @@ $common-footer-height: 72px;
 	}
 }
 
-// grid ------------------------------------------------------------------------
-
-.container {
-	@include container;
+// responsive layout -----------------------------------------------------------
+@include	at-breakpoint($screen-large){
+	#page {
+		@include container; 
+		@if $enable-grids {
+			@include susy-grid-background;
+		}
+	}
+}
+@include	at-breakpoint($screen-normal){
+	#page {
+		@include container; 
+		@if $enable-grids {
+			@include susy-grid-background;
+		}
+	}
+}
+@include	at-breakpoint($screen-tablet-landscape){
+	#page {
+		@include container; 
+		@if $enable-grids {
+			@include susy-grid-background;
+		}
+	}
+}
+@include	at-breakpoint($screen-tablet-portrait){
+	#page {
+		@include container; 
+		@if $enable-grids {
+			@include susy-grid-background;
+		}
+	}
+}
+@include	at-breakpoint($screen-smartphone){
+	#page {
+		@include container; 
+		@if $enable-grids {
+			@include susy-grid-background;
+		}
+	}
 }

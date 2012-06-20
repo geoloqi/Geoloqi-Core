@@ -45,11 +45,9 @@ $darkGreen: 					#79b335;
 // Links
 $linkColor:           $darkBlue;
 $linkHover:           $lightBlue;
+
 body {
 	@include establish-baseline(16px);
 	background-image: url("/img/background-pattern.png");
 	color: #2e2e2e;
-	@if $enable-grids {
-		@include grid-background(1, 5000px, 0px, $base-line-height, 0px, $force-fluid: true);
-	}
 }

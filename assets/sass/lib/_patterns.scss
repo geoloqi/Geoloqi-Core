@@ -1,0 +1,87 @@
+.flash, .alert {
+	@include border-radius(4px);
+	@include box-color(lighten($lighterGray, 30), lighten($lightGray, 30), $lightGray);
+	@include box-shadow(0 2px 2px rgba(0,0,0,0.1));
+	@include trailer(1);
+	position: relative;
+	h1, h2, h3, h4, h5, h6 {
+		@include leader(0);
+		@include trailer(0.5);
+	}
+	.icon-close {
+		@include adjust-font-size-to(10px);
+		@include opacity(0.5);
+		position: absolute;
+		display: block;
+		right: 1em;
+		border-bottom: none;
+		&:hover {
+			@include opacity(0.8);
+			text-decoration:none;
+		}
+	}
+}
+
+.alert {
+	@include rhythm-borders(1px, 1, 16px, solid);
+	display:block;
+	.icon-close {
+		top: .5em;
+		color: $gray;
+	}
+	&.success {
+		@include box-color(lighten($lightGreen, 25), lighten($darkGreen, 25), $darkGreen);
+	}
+	&.error, {
+		@include box-color(lighten($lightRed, 25), lighten($darkRed, 25), $darkRed);
+	}
+	&.info, {
+		@include box-color(lighten($lightBlue, 25), lighten($darkBlue, 25), $darkBlue);
+	}
+	&.notice, {
+		@include box-color(lighten($lightOrange, 25), lighten($darkOrange, 25), $darkOrange);
+	}
+	.btn {
+		@include box-shadow(none);
+	}
+}
+
+.flash {
+	@include box-color($lighterGray, $lightGray, $lightGray);
+	@include rhythm-borders(1px, 0, 16px, solid);
+	color: $white;
+	text-align: center;
+	.icon-close {
+		top: 25%;
+		color: $white;
+	}
+	a {
+		color: $white;
+		border-bottom: 1px solid $white;
+		&:hover {
+			@include opacity(0.8);
+			border-bottom: none;	
+			text-decoration: none;
+		}
+	}
+	p {
+		@include leader(.5);
+		@include trailer(.5);
+	}
+	&.success {
+		@include box-color($lightGreen, $darkGreen, $darkGreen);
+	}
+	&.error, {
+		@include box-color($lightRed, $darkRed, $darkRed);
+	}
+	&.info, {
+		@include box-color($lightBlue, $darkBlue, $darkBlue);
+	}
+	&.notice, {
+		@include box-color($lightOrange, $darkOrange, $darkOrange);
+	}
+}
+
+.icon-close {
+	@extend .icon-cancel
+}

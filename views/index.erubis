@@ -92,6 +92,40 @@
 		</header>
 		
 		<div id="page">
+			
+			<div class="flash notice"><p>You are near the usage limit for the free plan. Please <a href="">upgrade your plan</a>.</p><a href="" class="icon-close"></a></div>
+			<div class="flash info"><p>This method will be depreciated on March 15th 2013.</p><div class="icon-close"></div></div>
+			<div class="flash success"><p>You have successfully deleted the place "Moms House". <a href="">undo</a></p><a href="" class="icon-close"></a></div>
+			<div class="flash error"><p>Oh no! Something went wrong</p><a href="" class="icon-close"></a></div>
+
+			<div class="alert">
+				<a href="" class="icon-close"></a>
+				<h5>Beta Access</h5>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				<a class="btn primary">Sign Up</a>
+			</div>
+			<div class="alert info">
+				<a href="" class="icon-close"></a>
+				<h5>Beta Access</h5>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				<a class="btn light">Sign Up</a>
+			</div>
+			<div class="alert success">
+				<a href="" class="icon-close"></a>
+				<h5>Beta Access</h5>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				<a class="btn light">Sign Up</a>
+			</div>
+			<div class="alert error">
+				<a href="" class="icon-close"></a>
+				<h5>Beta Access</h5>
+				<ul>
+				  <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				  <li>Aliquam tincidunt mauris eu risus.</li>
+				  <li>Vestibulum auctor dapibus neque.</li>
+				</ul>
+				<a class="btn delete">Confirm Delete</a>
+			</div>
 
 			<div class="row">
 				<div class="headers">
@@ -133,9 +167,9 @@
 					<a href="" class="btn icon-plus green block">Add</a>
 					<div class="btn-group">
 						<a href="" class="btn hover-blue icon-eye light block">View</a>
-						<a href="" class="btn hover-blue icon-pencil light block">Edit</a>
-						<a href="" class="btn hover-blue icon-comments light block">Comments</a>
-						<a href="" class="btn hover-blue icon-delete light block">Delete</a>
+						<a href="" class="btn hover-green icon-pencil light block">Edit</a>
+						<a href="" class="btn icon-comments light block">Comments</a>
+						<a href="" class="btn hover-red icon-delete light block">Delete</a>
 					</div>
 					<div class="btn-group">
 						<a href="" class="btn green icon-plus">Add</a>
@@ -169,8 +203,9 @@
 				</div>
 				<div class="paragraphs">
 					<h3 class="divider">Paragraphs &amp; Code</h3>
-					<p>Pellentesque habitant <em>morbi</em> tristique <strong>senectus</strong> et netus et <code>malesuada</code> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					<p><abbr title="How should I know?">Pellentesque</abbr> habitant <em>morbi</em> tristique <strong>senectus</strong> et netus et <code>malesuada</code> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<blockquote>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</blockquote>
 					<code class="block" lang="javascript">http.createServer(function (request, response) {    
   path.exists(filePath, function(exists) {
     if (exists) {
@@ -303,12 +338,13 @@
 				  </label>
 
 				  <label>
-				    <span>Gender</span>
+				    <span>Likes</span>
 				    <div class="input-list">
 				    	<ul>
-				    		<li><input type="checkbox" name="gender" value="male"><label>Male</label></li>
-				    		<li><input type="checkbox" name="gender" value="female"><label>Female</label></li>
-				    		<li><input type="checkbox" name="gender" value="na"><label>N/A</label></li>
+				    		<li><label><input type="checkbox" name="gender" value="male">Bikes</label></li>
+				    		<li><label><input type="checkbox" name="gender" value="male">Laptops</label></li>
+				    		<li><label><input type="checkbox" name="gender" value="female">Beer</label></li>
+				    		<li><label><input type="checkbox" name="gender" value="na">Photography</label></li>
 				    	</ul>
 				    	<small>Help Text</small>
 				    </div>
@@ -410,10 +446,12 @@
 	
 	<footer id="footer">
 		<div id="site-footer">
-			Site Footer
+			<div class="inner">
+				Site Footer
+			</div>
 		</div>
 		<div id="common-footer">
-			<div class="container">
+			<div class="inner">
 				<a href="https://geoloqi.com" id="logo-footer">Geoloqi</a>
 				<section id="footer-menu">
 					<nav>
@@ -438,6 +476,5 @@
 			</div>
 		</div>
 	</footer>
-
 </body>
 </html>
