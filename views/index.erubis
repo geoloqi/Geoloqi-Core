@@ -17,19 +17,19 @@
 								<ul>
 									<li>
 										<a href="">
-											<span>Home</span>
+											<h6>Home</h6>
 											<small>Learn more about Geoloqi</small>
 										</a>
 									</li>
 									<li>
 										<a href="">
-											<span>Developers</span>
+											<h6>Developers</h6>
 											<small>Build location-aware applicaitons with Geoloqi</small>
 										</a>
 									</li>
 									<li>
 										<a href="">
-											<span>Apps</span>
+											<h6>Apps</h6>
 											<small>See what we have built with our native SDKs</small>
 										</a>
 									</li>
@@ -92,7 +92,7 @@
 		</header>
 		
 		<div id="page">
-			
+			<div class="flash"><p>You are near the usage limit for the free plan. Please <a href="">upgrade your plan</a>.</p><a href="" class="icon-close"></a></div>
 			<div class="flash notice"><p>You are near the usage limit for the free plan. Please <a href="">upgrade your plan</a>.</p><a href="" class="icon-close"></a></div>
 			<div class="flash info"><p>This method will be depreciated on March 15th 2013.</p><div class="icon-close"></div></div>
 			<div class="flash success"><p>You have successfully deleted the place "Moms House". <a href="">undo</a></p><a href="" class="icon-close"></a></div>
@@ -103,6 +103,12 @@
 				<h5>Beta Access</h5>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 				<a class="btn primary">Sign Up</a>
+			</div>
+			<div class="alert notice">
+				<a href="" class="icon-close"></a>
+				<h5>Beta Access</h5>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				<a class="btn light">Sign Up</a>
 			</div>
 			<div class="alert info">
 				<a href="" class="icon-close"></a>
@@ -182,7 +188,7 @@
 			<div class="row">
 				<div class="lists">
 					<h3 class="divider">Lists</h3>
-					<div class="well">
+					<div class="well clip-bottom">
 						<dl>
 							<dt>Dolor sit amet</dt>
 							<dd>Aliquam tincidunt mauris eu risus.</dd>
@@ -205,7 +211,7 @@
 				</div>
 				<div class="paragraphs">
 					<h3 class="divider">Paragraphs &amp; Code</h3>
-					<div class="box">
+					<div class="box clip-bottom">
 						<p><abbr title="How should I know?">Pellentesque</abbr> habitant <em>morbi</em> tristique <strong>senectus</strong> et netus et <code>malesuada</code> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 						<blockquote>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</blockquote>
@@ -221,6 +227,7 @@
     }
   });     
 }).listen(8125);</code>
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 					</div>
 				</div>
 
@@ -275,23 +282,57 @@
 					</table>
 				</div>
 			</div>
+			
+			<div class="blocked-list">
+				<div class="articles-list">
+					<section class="box articles">
+						<article>
+							<h3>Title</h3>
+							<p>Paragraph</p>
+						</article>
+						<article>
+							<h3>Title</h3>
+							<p>Paragraph</p>
+						</article>
+						<article>
+							<h3>Title</h3>
+							<p>Paragraph</p>
+						</article>
+					</section>
+				</div>
 
+				<div class="box-list">
+					<div class="well list">
+						<ul>
+							<li>
+								<p>Lorem Ipsum Dolor Sit Amet</p>
+							</li>
+							<li>
+								<p>Lorem Ipsum Dolor Sit Amet</p>
+							</li>
+							<li>
+								<p>Lorem Ipsum Dolor Sit Amet</p>
+							</li>
+							<li>
+								<p>Lorem Ipsum Dolor Sit Amet</p>
+							</li>
+							<li>
+								<p>Lorem Ipsum Dolor Sit Amet</p>
+							</li>
+							<li>
+								<p>Lorem Ipsum Dolor Sit Amet</p>
+							</li>
+							<li>
+								<p>Lorem Ipsum Dolor Sit Amet</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<div class="form">
 				<h3 class="divider">Standard Form</h3>
-				<form action="">
-					<label>
-				    <span>Name</span>
-				    <div class="multi-input two">
-					    <div class="input">
-			    	  	<input type='text' name='name'>
-					    	<small>Help Text</small>
-					    </div>
-					    <div class="input">
-			    	  	<input type='text' name='name'>
-					    	<small>Help Text</small>
-					    </div>
-				    </div>
-				  </label>
+				<div class="well">
+					<form action="">
 
 				  <label>
 				    <span>Name</span>
@@ -365,17 +406,25 @@
 				  <div class="actions">
 				  	<input type="submit" value="Submit">
 				  </div>
+			  </div>
 				</form>
 			</div>
 
 			<div class="form-stacked">
 				<h3 class="divider">Stacked Form</h3>
-				<form action="" class="stacked">
+				<div class="box">
+					<form action="" class="stacked">
 					<label>
 				    <span>Name</span>
-				    <div class="input">
-		    	  	<input type='text' name='name'>
-				    	<small>Help Text</small>
+				    <div class="multi-input two">
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    	<small>Help Text</small>
+					    </div>
+					    <div class="input">
+			    	  	<input type='text' name='name'>
+					    	<small>Help Text</small>
+					    </div>
 				    </div>
 				  </label>
 				 
@@ -413,6 +462,7 @@
 				  <div class="actions">
 				  	<input type="submit" value="Submit">
 				  </div>
+			  </div>
 				</form>	
 			</div>
 

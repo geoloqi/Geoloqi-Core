@@ -83,6 +83,7 @@ a {
 	&:hover, &:focus {
 		color: $linkHover;
 		text-decoration: underline;
+		cursor: pointer;
 	}
 }
 
@@ -122,6 +123,7 @@ code {
 	&[lang] {
 		@include adjust-font-size-to(14px);
 		@include rhythm-borders(1px, 1, 14px);
+		@include trailer(1);
 		overflow-x: scroll;
 		overflow-y: auto;
 		white-space: pre;

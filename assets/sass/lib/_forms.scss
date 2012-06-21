@@ -52,7 +52,7 @@ form {
 			&.three {
 				.input {
 					@include pre(0);
-					width:32%;
+					width:31.5%;
 					@include float-left;
 				}
 				.input:nth-child(2){
@@ -65,7 +65,7 @@ form {
 			&.four {
 				.input {
 					@include pre(0);
-					width:24%;
+					width:23.5%;
 					@include float-left;
 				}
 				.input:nth-child(1),.input:nth-child(2),.input:nth-child(3){
@@ -75,7 +75,7 @@ form {
 		}
 	}
 	
-	// input list ----------------------------------------------------------------
+	// input list -------------------------------------------------------------------
 
 	.input-list {
 		@include apply-side-rhythm-border(top, 0px, .25, 14px, solid);
@@ -89,6 +89,7 @@ form {
 				margin:0;
 				label {
 					@include float(left);
+					line-height:24px;
 					margin: 0;
 				}
 				input {
@@ -126,7 +127,14 @@ form {
 			.input, .input-list {
 				@include pre(0);
 				padding:0;
+				clear:both;		
+			}
+			.multi-input {
+				@include pre(0);
 				clear:both;
+				.input {
+					clear: none;
+				}
 			}
 		}
 		.actions {
@@ -159,20 +167,6 @@ input, label, select {
 	}
 }
 
-// select and file inputs ------------------------------------------------------
-select, input[type="file"] {
-	@include adjust-font-size-to(14px);
-  vertical-align:top;
-  line-height:34px;
-  height: 34px;
-}
-
-// select ----------------------------------------------------------------------
-select {
-	border: 1px solid $lightGray;
-	-webkit-appearance: menulist-button;
-}
-
 // full width inputs -----------------------------------------------------------
 input, select {
 	@include box-sizing(border-box);
@@ -199,9 +193,9 @@ input[type=search]{
 // checkboxes and radio buttons ------------------------------------------------
 input[type="checkbox"], input[type="radio"] {
 	display:block;
-	margin:6px 4px 6px 1px;
+	margin:6px 4px 0 1px;
 	width:auto;
-} 	
+}
 
 // input styles ----------------------------------------------------------------
 input[type="email"],
@@ -211,18 +205,40 @@ input[type="search"],
 input[type="number"],
 input[type="date"],
 input[type="url"],
-input[type="tel"] {
+input[type="tel"],
+select{
 	@include box-sizing(border-box);
-	@include adjust-font-size-to(14px);
+	@include box-shadow(0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0,0,0,0.15));
 	@include rhythm-borders(1px, .25, 14px, solid);
 	@include border-radius(3px);
+	@include adjust-font-size-to(14px);
+	
+	
 	border:1px solid $lightGray;
-	@include box-shadow(0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0,0,0,0.15));
+	height: rhythm(1.5, 14px);
 	&:focus {
 		border-color: $lightBlue;
 		@include box-shadow(none);
 	}
 }
+
+// select ----------------------------------------------------------------------
+select {
+	@include rhythm-borders(1px, .4, 14px, solid);
+	border: 1px solid $lightGray;
+	-webkit-appearance: menulist-button;
+	line-height:34px;
+  height: 34px;
+}
+
+
+// select and file inputs ------------------------------------------------------
+input[type="file"] {
+	font-size: 12px;
+	width:90%;
+	margin: 8px 0;
+}
+
 
 // submit ----------------------------------------------------------------------
 input[type="submit"] {

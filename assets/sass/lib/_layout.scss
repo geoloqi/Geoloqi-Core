@@ -91,6 +91,9 @@ $header-height: 3.5em;
 						display: none;
 						float: left;
 						clear: both;
+						> :nth-child(1){
+							@include leader(.5);
+						}
 						h3 {
 							@include adjust-font-size-to(16px);
 							@include leader(1);
@@ -100,11 +103,16 @@ $header-height: 3.5em;
 							padding-right: .75em;
 							color: $lightestGray;
 						}
+						h3:first-of-type{
+							@include leader(.5);
+						}
 						hr {
 							border-top:1px solid $black;
 							border-bottom:1px solid $darkerGray;
 							border-left:1px solid transparent;
 							border-right:1px solid transparent;
+							@include leader(.5);
+							@include trailer(.5);
 						}
 						ul {
 							margin: 0;
@@ -127,6 +135,9 @@ $header-height: 3.5em;
 								}
 							}
 						}
+						ul:last-of-type{
+							@include trailer(.5);
+						}
 					}
 					&:hover {
 						.dropdown-menu {
@@ -142,7 +153,7 @@ $header-height: 3.5em;
 // logo ------------------------------------------------------------------------
 
 #logo {
-	@include image-replace("/img/logo-block.png", 30px, 34px, #222);
+	@include image-replace("/img/logo-block.png", 30px, 33px, #222);
 	background-origin:content-box;
 	padding:.65em .5em .8em;
 	float: left;
@@ -207,8 +218,12 @@ $header-height: 3.5em;
 								font-size:1.25em;
 								line-height:1em;
 								padding:.5em;
-								span {
-									display:block;
+								h6 {
+									@include adjust-font-size-to(14px);
+									@include adjust-leading-to(.5);
+									@include leader(0);
+									@include trailer(0);
+									color: $white;
 								}
 								small {
 									display:block;

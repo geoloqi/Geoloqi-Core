@@ -971,7 +971,7 @@ html, body {
 #header nav ul li.dropdown > a {
   position: relative;
 }
-/* line 49, ../sass/lib/_mixins.scss */
+/* line 48, ../sass/lib/_mixins.scss */
 #header nav ul li.dropdown > a:after {
   width: 0;
   height: 0;
@@ -979,7 +979,7 @@ html, body {
   text-indent: -9999em;
   display: block;
 }
-/* line 69, ../sass/lib/_mixins.scss */
+/* line 68, ../sass/lib/_mixins.scss */
 #header nav ul li.dropdown > a:after {
   margin-left: -4px;
   border-left: 4px solid transparent;
@@ -1007,6 +1007,10 @@ html, body {
   clear: both;
 }
 /* line 94, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu > :nth-child(1) {
+  margin-top: 0.75em;
+}
+/* line 97, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu h3 {
   font-size: 1em;
   line-height: 1.5em;
@@ -1017,20 +1021,26 @@ html, body {
   padding-right: .75em;
   color: #ebebeb;
 }
-/* line 103, ../sass/lib/_layout.scss */
+/* line 106, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu h3:first-of-type {
+  margin-top: 0.75em;
+}
+/* line 109, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu hr {
   border-top: 1px solid black;
   border-bottom: 1px solid #333333;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
-/* line 109, ../sass/lib/_layout.scss */
+/* line 117, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul {
   margin: 0;
   padding: 0;
   width: 160px;
 }
-/* line 113, ../sass/lib/_layout.scss */
+/* line 121, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li {
   display: inline;
   float: none;
@@ -1038,7 +1048,7 @@ html, body {
   clear: both;
   padding: 0;
 }
-/* line 118, ../sass/lib/_layout.scss */
+/* line 126, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li a {
   border: none;
   font-size: 0.813em;
@@ -1046,21 +1056,25 @@ html, body {
   line-height: 2.25em;
   color: #a6a6a6;
 }
-/* line 123, ../sass/lib/_layout.scss */
+/* line 131, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li a:hover {
   color: white;
   background: black;
 }
-/* line 132, ../sass/lib/_layout.scss */
+/* line 138, ../sass/lib/_layout.scss */
+#header nav ul li.dropdown .dropdown-menu ul:last-of-type {
+  margin-bottom: 0.75em;
+}
+/* line 143, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown:hover .dropdown-menu {
   display: block;
 }
 
-/* line 144, ../sass/lib/_layout.scss */
+/* line 155, ../sass/lib/_layout.scss */
 #logo {
   display: block;
   width: 30px;
-  height: 34px;
+  height: 33px;
   text-indent: -9999em;
   background: #222222 url("/img/logo-block.png") no-repeat 0 0;
   overflow: hidden;
@@ -1071,7 +1085,7 @@ html, body {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 154, ../sass/lib/_layout.scss */
+  /* line 165, ../sass/lib/_layout.scss */
   #logo {
     display: block;
     width: 60px;
@@ -1082,7 +1096,7 @@ html, body {
     background-size: 50% auto;
   }
 }
-/* line 160, ../sass/lib/_layout.scss */
+/* line 171, ../sass/lib/_layout.scss */
 #logo-footer {
   width: 20%;
   float: left;
@@ -1093,14 +1107,14 @@ html, body {
   text-indent: -9999em;
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 160, ../sass/lib/_layout.scss */
+  /* line 171, ../sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
     visibility: hidden;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 160, ../sass/lib/_layout.scss */
+  /* line 171, ../sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
     visibility: hidden;
@@ -1108,22 +1122,22 @@ html, body {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 176, ../sass/lib/_layout.scss */
+  /* line 187, ../sass/lib/_layout.scss */
   #logo-footer {
     background: url("/img/logo-footer@2x.png" no-repeat 0 0);
     background-size: 50% auto;
   }
 }
-/* line 184, ../sass/lib/_layout.scss */
+/* line 195, ../sass/lib/_layout.scss */
 #header #site-selector {
   background: #222;
   border-right: 1px solid #333333;
 }
-/* line 188, ../sass/lib/_layout.scss */
+/* line 199, ../sass/lib/_layout.scss */
 #header #site-selector ul li {
   padding-right: 0;
 }
-/* line 190, ../sass/lib/_layout.scss */
+/* line 201, ../sass/lib/_layout.scss */
 #header #site-selector ul li a {
   font-size: 1.5em;
   line-height: 2.35em;
@@ -1132,25 +1146,30 @@ html, body {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 197, ../sass/lib/_layout.scss */
+/* line 208, ../sass/lib/_layout.scss */
 #header #site-selector ul li a:hover {
   text-decoration: none;
 }
-/* line 203, ../sass/lib/_layout.scss */
+/* line 214, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul {
   width: 250px;
 }
-/* line 206, ../sass/lib/_layout.scss */
+/* line 217, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a {
   font-size: 1.25em;
   line-height: 1em;
   padding: .5em;
 }
-/* line 210, ../sass/lib/_layout.scss */
-#header #site-selector ul li.dropdown .dropdown-menu ul li a span {
-  display: block;
+/* line 221, ../sass/lib/_layout.scss */
+#header #site-selector ul li.dropdown .dropdown-menu ul li a h6 {
+  font-size: 0.875em;
+  line-height: 1.714em;
+  line-height: 0.75em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  color: white;
 }
-/* line 213, ../sass/lib/_layout.scss */
+/* line 228, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a small, #header #site-selector ul li.dropdown .dropdown-menu ul li a table caption, table #header #site-selector ul li.dropdown .dropdown-menu ul li a caption {
   display: block;
   color: gray;
@@ -1159,7 +1178,7 @@ html, body {
   font-weight: 500;
 }
 
-/* line 233, ../sass/lib/_layout.scss */
+/* line 248, ../sass/lib/_layout.scss */
 #site-footer {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #050505), color-stop(100%, #1f1f1f));
   background: -webkit-linear-gradient(#050505, #1f1f1f);
@@ -1174,14 +1193,14 @@ html, body {
   height: 177px;
 }
 
-/* line 240, ../sass/lib/_layout.scss */
+/* line 255, ../sass/lib/_layout.scss */
 #common-footer {
   background: #ebebeb;
   border-top: 1px solid #1f1f1f;
   height: 72px;
 }
 
-/* line 247, ../sass/lib/_layout.scss */
+/* line 262, ../sass/lib/_layout.scss */
 #common-footer .inner, #site-footer .inner {
   max-width: 59.375em;
   margin-left: auto;
@@ -1196,7 +1215,7 @@ html, body {
   clear: both;
 }
 
-/* line 252, ../sass/lib/_layout.scss */
+/* line 267, ../sass/lib/_layout.scss */
 #footer-menu {
   width: 53.684%;
   float: left;
@@ -1204,12 +1223,12 @@ html, body {
   margin-top: 1em;
   color: #a6a6a6;
 }
-/* line 256, ../sass/lib/_layout.scss */
+/* line 271, ../sass/lib/_layout.scss */
 #footer-menu nav {
   margin: 0;
   padding: 0;
 }
-/* line 259, ../sass/lib/_layout.scss */
+/* line 274, ../sass/lib/_layout.scss */
 #footer-menu nav ul {
   overflow: hidden;
   font-size: 0.75em;
@@ -1217,32 +1236,32 @@ html, body {
   margin: 0;
   padding: 0;
 }
-/* line 264, ../sass/lib/_layout.scss */
+/* line 279, ../sass/lib/_layout.scss */
 #footer-menu nav ul li {
   display: inline;
   float: left;
   margin-right: 1em;
 }
-/* line 267, ../sass/lib/_layout.scss */
+/* line 282, ../sass/lib/_layout.scss */
 #footer-menu nav ul li a {
   color: gray;
 }
-/* line 273, ../sass/lib/_layout.scss */
+/* line 288, ../sass/lib/_layout.scss */
 #footer-menu small, #footer-menu table caption, table #footer-menu caption {
   font-size: 0.625em;
   line-height: 2.4em;
   display: block;
 }
-/* line 276, ../sass/lib/_layout.scss */
+/* line 291, ../sass/lib/_layout.scss */
 #footer-menu small a, #footer-menu table caption a, table #footer-menu caption a {
   color: #a6a6a6;
 }
-/* line 278, ../sass/lib/_layout.scss */
+/* line 293, ../sass/lib/_layout.scss */
 #footer-menu small a:hover, #footer-menu table caption a:hover, table #footer-menu caption a:hover {
   color: #a6a6a6;
 }
 
-/* line 285, ../sass/lib/_layout.scss */
+/* line 300, ../sass/lib/_layout.scss */
 #social-links {
   width: 24.211%;
   float: right;
@@ -1250,21 +1269,21 @@ html, body {
   padding-top: .85em;
   text-align: right;
 }
-/* line 289, ../sass/lib/_layout.scss */
+/* line 304, ../sass/lib/_layout.scss */
 #social-links a {
   font-size: 2.25em;
   line-height: 1.333em;
   padding: 0 0 0 .5em;
   color: #a6a6a6;
 }
-/* line 293, ../sass/lib/_layout.scss */
+/* line 308, ../sass/lib/_layout.scss */
 #social-links a:hover {
   color: gray;
   text-decoration: none;
 }
 
 @media (min-width: 1367px) {
-  /* line 302, ../sass/lib/_layout.scss */
+  /* line 317, ../sass/lib/_layout.scss */
   #page {
     max-width: 59.375em;
     margin-left: auto;
@@ -1280,7 +1299,7 @@ html, body {
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
-  /* line 310, ../sass/lib/_layout.scss */
+  /* line 325, ../sass/lib/_layout.scss */
   #page {
     max-width: 59.375em;
     margin-left: auto;
@@ -1296,7 +1315,7 @@ html, body {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 318, ../sass/lib/_layout.scss */
+  /* line 333, ../sass/lib/_layout.scss */
   #page {
     max-width: 59.375em;
     margin-left: auto;
@@ -1312,7 +1331,7 @@ html, body {
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 326, ../sass/lib/_layout.scss */
+  /* line 341, ../sass/lib/_layout.scss */
   #page {
     max-width: 39.375em;
     margin-left: auto;
@@ -1328,7 +1347,7 @@ html, body {
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 334, ../sass/lib/_layout.scss */
+  /* line 349, ../sass/lib/_layout.scss */
   #page {
     max-width: 14.375em;
     margin-left: auto;
@@ -1466,9 +1485,10 @@ a {
 a:hover, a:focus {
   color: #55c8fe;
   text-decoration: underline;
+  cursor: pointer;
 }
 
-/* line 91, ../sass/lib/_typography.scss */
+/* line 92, ../sass/lib/_typography.scss */
 ul, ol {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1477,13 +1497,13 @@ ul, ol {
   margin-top: 0;
 }
 
-/* line 100, ../sass/lib/_typography.scss */
+/* line 101, ../sass/lib/_typography.scss */
 dl {
   font-size: 0.875em;
   line-height: 1.714em;
   margin-top: 0;
 }
-/* line 103, ../sass/lib/_typography.scss */
+/* line 104, ../sass/lib/_typography.scss */
 dl dt {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -1491,13 +1511,13 @@ dl dt {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 109, ../sass/lib/_typography.scss */
+/* line 110, ../sass/lib/_typography.scss */
 dl dd {
   margin: 0;
   margin-bottom: 1.5em;
 }
 
-/* line 117, ../sass/lib/_typography.scss */
+/* line 118, ../sass/lib/_typography.scss */
 code {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1508,13 +1528,14 @@ code {
   background: #ebebeb;
   padding: .25em;
 }
-/* line 122, ../sass/lib/_typography.scss */
+/* line 123, ../sass/lib/_typography.scss */
 code[lang] {
   font-size: 0.875em;
   line-height: 1.714em;
   border-style: solid;
   border-width: 0.071em;
   padding: 1.643em;
+  margin-bottom: 1.5em;
   overflow-x: scroll;
   overflow-y: auto;
   white-space: pre;
@@ -1522,7 +1543,7 @@ code[lang] {
   display: block;
 }
 
-/* line 135, ../sass/lib/_typography.scss */
+/* line 137, ../sass/lib/_typography.scss */
 abbr[title] {
   cursor: help;
 }
@@ -1609,7 +1630,7 @@ form > label .multi-input.two .input:last-child {
 /* line 53, ../sass/lib/_forms.scss */
 form > label .multi-input.three .input {
   margin-left: 0%;
-  width: 32%;
+  width: 31.5%;
   display: inline;
   float: left;
 }
@@ -1625,7 +1646,7 @@ form > label .multi-input.three .input:last-child {
 /* line 66, ../sass/lib/_forms.scss */
 form > label .multi-input.four .input {
   margin-left: 0%;
-  width: 24%;
+  width: 23.5%;
   display: inline;
   float: left;
 }
@@ -1655,25 +1676,26 @@ form .input-list ul li {
 form .input-list ul li label {
   display: inline;
   float: left;
+  line-height: 24px;
   margin: 0;
 }
-/* line 94, ../sass/lib/_forms.scss */
+/* line 95, ../sass/lib/_forms.scss */
 form .input-list ul li input {
   display: inline;
   float: left;
 }
-/* line 102, ../sass/lib/_forms.scss */
+/* line 103, ../sass/lib/_forms.scss */
 form .actions {
   margin-left: 21.053%;
   margin-top: 1.5em;
   overflow: hidden;
 }
-/* line 105, ../sass/lib/_forms.scss */
+/* line 106, ../sass/lib/_forms.scss */
 form .actions :first-child {
   display: inline;
   float: left;
 }
-/* line 109, ../sass/lib/_forms.scss */
+/* line 110, ../sass/lib/_forms.scss */
 form .actions .secondary {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -1683,33 +1705,42 @@ form .actions .secondary {
   display: inline;
   float: right;
 }
-/* line 113, ../sass/lib/_forms.scss */
+/* line 114, ../sass/lib/_forms.scss */
 form .actions .secondary.left {
   display: inline;
   float: left;
   margin-left: .25em;
 }
-/* line 122, ../sass/lib/_forms.scss */
+/* line 123, ../sass/lib/_forms.scss */
 form.stacked label span {
   text-align: left;
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 126, ../sass/lib/_forms.scss */
+/* line 127, ../sass/lib/_forms.scss */
 form.stacked label .input, form.stacked label .input-list {
   margin-left: 0%;
   padding: 0;
   clear: both;
 }
 /* line 132, ../sass/lib/_forms.scss */
+form.stacked label .multi-input {
+  margin-left: 0%;
+  clear: both;
+}
+/* line 135, ../sass/lib/_forms.scss */
+form.stacked label .multi-input .input {
+  clear: none;
+}
+/* line 140, ../sass/lib/_forms.scss */
 form.stacked .actions {
   margin-left: 0%;
 }
-/* line 138, ../sass/lib/_forms.scss */
+/* line 146, ../sass/lib/_forms.scss */
 form.single {
   position: relative;
 }
-/* line 140, ../sass/lib/_forms.scss */
+/* line 148, ../sass/lib/_forms.scss */
 form.single input[type="submit"] {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -1732,27 +1763,12 @@ form.single input[type="submit"] {
   right: 0;
 }
 
-/* line 157, ../sass/lib/_forms.scss */
+/* line 165, ../sass/lib/_forms.scss */
 input:focus, label:focus, select:focus {
   outline: none;
 }
 
-/* line 163, ../sass/lib/_forms.scss */
-select, input[type="file"] {
-  font-size: 0.875em;
-  line-height: 1.714em;
-  vertical-align: top;
-  line-height: 34px;
-  height: 34px;
-}
-
 /* line 171, ../sass/lib/_forms.scss */
-select {
-  border: 1px solid #a6a6a6;
-  -webkit-appearance: menulist-button;
-}
-
-/* line 177, ../sass/lib/_forms.scss */
 input, select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1760,12 +1776,12 @@ input, select {
   width: 100%;
 }
 
-/* line 183, ../sass/lib/_forms.scss */
+/* line 177, ../sass/lib/_forms.scss */
 input[type=search] {
   position: relative;
   text-indent: 1.5em;
 }
-/* line 188, ../sass/lib/_forms.scss */
+/* line 182, ../sass/lib/_forms.scss */
 input[type=search]:before {
   text-indent: 0em;
   display: block;
@@ -1776,14 +1792,14 @@ input[type=search]:before {
   left: .1em;
 }
 
-/* line 200, ../sass/lib/_forms.scss */
+/* line 194, ../sass/lib/_forms.scss */
 input[type="checkbox"], input[type="radio"] {
   display: block;
-  margin: 6px 4px 6px 1px;
+  margin: 6px 4px 0 1px;
   width: auto;
 }
 
-/* line 214, ../sass/lib/_forms.scss */
+/* line 209, ../sass/lib/_forms.scss */
 input[type="email"],
 input[type="password"],
 input[type="text"],
@@ -1791,12 +1807,14 @@ input[type="search"],
 input[type="number"],
 input[type="date"],
 input[type="url"],
-input[type="tel"] {
+input[type="tel"],
+select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 0.875em;
-  line-height: 1.714em;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
   border-style: solid;
   border-width: 0.071em;
   padding: 0.357em;
@@ -1805,12 +1823,12 @@ input[type="tel"] {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+  font-size: 0.875em;
+  line-height: 1.714em;
   border: 1px solid #a6a6a6;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
+  height: 2.571em;
 }
-/* line 221, ../sass/lib/_forms.scss */
+/* line 219, ../sass/lib/_forms.scss */
 input[type="email"]:focus,
 input[type="password"]:focus,
 input[type="text"]:focus,
@@ -1818,14 +1836,33 @@ input[type="search"]:focus,
 input[type="number"]:focus,
 input[type="date"]:focus,
 input[type="url"]:focus,
-input[type="tel"]:focus {
+input[type="tel"]:focus,
+select:focus {
   border-color: #55c8fe;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 228, ../sass/lib/_forms.scss */
+/* line 226, ../sass/lib/_forms.scss */
+select {
+  border-style: solid;
+  border-width: 0.071em;
+  padding: 0.614em;
+  border: 1px solid #a6a6a6;
+  -webkit-appearance: menulist-button;
+  line-height: 34px;
+  height: 34px;
+}
+
+/* line 236, ../sass/lib/_forms.scss */
+input[type="file"] {
+  font-size: 12px;
+  width: 90%;
+  margin: 8px 0;
+}
+
+/* line 244, ../sass/lib/_forms.scss */
 input[type="submit"] {
   width: auto;
 }
@@ -1925,9 +1962,9 @@ input[type="submit"], .btn, button {
   background: linear-gradient(#cccccc, #a6a6a6);
   border-color: #a6a6a6;
   text-shadow: 0 -1px 0 #a6a6a6;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
   border-width: 1px;
   padding-left: 1em;
   padding-right: 1em;
@@ -1942,9 +1979,15 @@ input[type="submit"]:hover, .btn:hover, button:hover {
 input[type="submit"]:hover, .btn:hover, button:hover {
   text-decoration: none;
   color: white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
-/* line 18, ../sass/lib/_button.scss */
+/* line 19, ../sass/lib/_button.scss */
 input[type="submit"]:hover:disabled:hover, input[type="submit"]:hover.disabled:hover, .btn:hover:disabled:hover, .btn:hover.disabled:hover, button:hover:disabled:hover, button:hover.disabled:hover {
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #a6a6a6));
   background: -webkit-linear-gradient(#cccccc, #a6a6a6);
   background: -moz-linear-gradient(#cccccc, #a6a6a6);
@@ -1952,32 +1995,32 @@ input[type="submit"]:hover:disabled:hover, input[type="submit"]:hover.disabled:h
   background: -ms-linear-gradient(#cccccc, #a6a6a6);
   background: linear-gradient(#cccccc, #a6a6a6);
 }
-/* line 24, ../sass/lib/_button.scss */
+/* line 26, ../sass/lib/_button.scss */
 input[type="submit"]:disabled, input[type="submit"].disabled, .btn:disabled, .btn.disabled, button:disabled, button.disabled {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 26, ../sass/lib/_button.scss */
+/* line 28, ../sass/lib/_button.scss */
 input[type="submit"]:disabled:hover, input[type="submit"].disabled:hover, .btn:disabled:hover, .btn.disabled:hover, button:disabled:hover, button.disabled:hover {
   cursor: default;
 }
-/* line 31, ../sass/lib/_button.scss */
+/* line 33, ../sass/lib/_button.scss */
 input[type="submit"].block, .btn.block, button.block {
   float: left;
   text-align: center;
   display: block;
 }
-/* line 35, ../sass/lib/_button.scss */
+/* line 37, ../sass/lib/_button.scss */
 input[type="submit"].block[class^="icon-"]::before, input[type="submit"].block[type=search]::before, input[type="submit"].block[class*=" icon-"]::before, .btn.block[class^="icon-"]::before, input.btn.block[type=search]::before, .btn.block[class*=" icon-"]::before, button.block[class^="icon-"]::before, button.block[class*=" icon-"]::before {
   padding: 0;
   display: block;
 }
-/* line 39, ../sass/lib/_button.scss */
+/* line 41, ../sass/lib/_button.scss */
 input[type="submit"].block[class^="icon-"], input[type="submit"].block[type=search], input[type="submit"].block[class*=" icon-"], .btn.block[class^="icon-"], input.btn.block[type=search], .btn.block[class*=" icon-"], button.block[class^="icon-"], button.block[class*=" icon-"] {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 46, ../sass/lib/_button.scss */
+/* line 48, ../sass/lib/_button.scss */
 input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue, button.primary, button.blue {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
   background: -webkit-linear-gradient(#55c8fe, #27adec);
@@ -1992,7 +2035,7 @@ input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue
 input[type="submit"].primary:hover, input[type="submit"].blue:hover, .btn.primary:hover, .btn.blue:hover, button.primary:hover, button.blue:hover {
   background: #27adec;
 }
-/* line 49, ../sass/lib/_button.scss */
+/* line 51, ../sass/lib/_button.scss */
 input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabled:hover, input[type="submit"].blue:disabled:hover, input[type="submit"].blue.disabled:hover, .btn.primary:disabled:hover, .btn.primary.disabled:hover, .btn.blue:disabled:hover, .btn.blue.disabled:hover, button.primary:disabled:hover, button.primary.disabled:hover, button.blue:disabled:hover, button.blue.disabled:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
   background: -webkit-linear-gradient(#55c8fe, #27adec);
@@ -2001,57 +2044,57 @@ input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabl
   background: -ms-linear-gradient(#55c8fe, #27adec);
   background: linear-gradient(#55c8fe, #27adec);
 }
-/* line 55, ../sass/lib/_button.scss */
+/* line 57, ../sass/lib/_button.scss */
 input[type="submit"].light, .btn.light, button.light {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 61, ../sass/lib/_button.scss */
+/* line 63, ../sass/lib/_button.scss */
 input[type="submit"].light:disabled:hover, input[type="submit"].light.disabled:hover, .btn.light:disabled:hover, .btn.light.disabled:hover, button.light:disabled:hover, button.light.disabled:hover {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 68, ../sass/lib/_button.scss */
+/* line 70, ../sass/lib/_button.scss */
 input[type="submit"].light:hover, .btn.light:hover, button.light:hover {
   background: #ebebeb;
 }
-/* line 71, ../sass/lib/_button.scss */
+/* line 73, ../sass/lib/_button.scss */
 input[type="submit"].light[class^="hover-"]:hover, input[type="submit"].light[class*=" hover-"]:hover, .btn.light[class^="hover-"]:hover, .btn.light[class*=" hover-"]:hover, button.light[class^="hover-"]:hover, button.light[class*=" hover-"]:hover {
   color: white;
 }
-/* line 74, ../sass/lib/_button.scss */
+/* line 76, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-blue:hover, .btn.light.hover-blue:hover, button.light.hover-blue:hover {
   background: #27adec;
 }
-/* line 77, ../sass/lib/_button.scss */
+/* line 79, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-green:hover, .btn.light.hover-green:hover, button.light.hover-green:hover {
   background: #79b335;
 }
-/* line 80, ../sass/lib/_button.scss */
+/* line 82, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-orange:hover, .btn.light.hover-orange:hover, button.light.hover-orange:hover {
   background: #e37b2f;
 }
-/* line 83, ../sass/lib/_button.scss */
+/* line 85, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-red:hover, .btn.light.hover-red:hover, button.light.hover-red:hover {
   background: #de2c2c;
 }
-/* line 86, ../sass/lib/_button.scss */
+/* line 88, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-yellow:hover, .btn.light.hover-yellow:hover, button.light.hover-yellow:hover {
   background: #d3c223;
 }
-/* line 89, ../sass/lib/_button.scss */
+/* line 91, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-pink:hover, .btn.light.hover-pink:hover, button.light.hover-pink:hover {
   background: #de3ea8;
 }
-/* line 92, ../sass/lib/_button.scss */
+/* line 94, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-purple:hover, .btn.light.hover-purple:hover, button.light.hover-purple:hover {
   background: #7641b0;
 }
-/* line 97, ../sass/lib/_button.scss */
+/* line 99, ../sass/lib/_button.scss */
 input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .btn.orange, button.secondary, button.orange {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
   background: -webkit-linear-gradient(#f59555, #e37b2f);
@@ -2066,7 +2109,7 @@ input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .bt
 input[type="submit"].secondary:hover, input[type="submit"].orange:hover, .btn.secondary:hover, .btn.orange:hover, button.secondary:hover, button.orange:hover {
   background: #e37b2f;
 }
-/* line 100, ../sass/lib/_button.scss */
+/* line 102, ../sass/lib/_button.scss */
 input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.disabled:hover, input[type="submit"].orange:disabled:hover, input[type="submit"].orange.disabled:hover, .btn.secondary:disabled:hover, .btn.secondary.disabled:hover, .btn.orange:disabled:hover, .btn.orange.disabled:hover, button.secondary:disabled:hover, button.secondary.disabled:hover, button.orange:disabled:hover, button.orange.disabled:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
   background: -webkit-linear-gradient(#f59555, #e37b2f);
@@ -2075,7 +2118,7 @@ input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.di
   background: -ms-linear-gradient(#f59555, #e37b2f);
   background: linear-gradient(#f59555, #e37b2f);
 }
-/* line 106, ../sass/lib/_button.scss */
+/* line 108, ../sass/lib/_button.scss */
 input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].cancel, input[type="submit"].red, .btn.danger, .btn.delete, .btn.cancel, .btn.red, button.danger, button.delete, button.cancel, button.red {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
   background: -webkit-linear-gradient(#ec5555, #de2c2c);
@@ -2090,7 +2133,7 @@ input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].c
 input[type="submit"].danger:hover, input[type="submit"].delete:hover, input[type="submit"].cancel:hover, input[type="submit"].red:hover, .btn.danger:hover, .btn.delete:hover, .btn.cancel:hover, .btn.red:hover, button.danger:hover, button.delete:hover, button.cancel:hover, button.red:hover {
   background: #de2c2c;
 }
-/* line 109, ../sass/lib/_button.scss */
+/* line 111, ../sass/lib/_button.scss */
 input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled:hover, input[type="submit"].delete:disabled:hover, input[type="submit"].delete.disabled:hover, input[type="submit"].cancel:disabled:hover, input[type="submit"].cancel.disabled:hover, input[type="submit"].red:disabled:hover, input[type="submit"].red.disabled:hover, .btn.danger:disabled:hover, .btn.danger.disabled:hover, .btn.delete:disabled:hover, .btn.delete.disabled:hover, .btn.cancel:disabled:hover, .btn.cancel.disabled:hover, .btn.red:disabled:hover, .btn.red.disabled:hover, button.danger:disabled:hover, button.danger.disabled:hover, button.delete:disabled:hover, button.delete.disabled:hover, button.cancel:disabled:hover, button.cancel.disabled:hover, button.red:disabled:hover, button.red.disabled:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
   background: -webkit-linear-gradient(#ec5555, #de2c2c);
@@ -2099,7 +2142,7 @@ input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled
   background: -ms-linear-gradient(#ec5555, #de2c2c);
   background: linear-gradient(#ec5555, #de2c2c);
 }
-/* line 115, ../sass/lib/_button.scss */
+/* line 117, ../sass/lib/_button.scss */
 input[type="submit"].green, .btn.green, button.green {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
   background: -webkit-linear-gradient(#89ce37, #79b335);
@@ -2114,7 +2157,7 @@ input[type="submit"].green, .btn.green, button.green {
 input[type="submit"].green:hover, .btn.green:hover, button.green:hover {
   background: #79b335;
 }
-/* line 118, ../sass/lib/_button.scss */
+/* line 120, ../sass/lib/_button.scss */
 input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:hover, .btn.green:disabled:hover, .btn.green.disabled:hover, button.green:disabled:hover, button.green.disabled:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
   background: -webkit-linear-gradient(#89ce37, #79b335);
@@ -2123,7 +2166,7 @@ input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:h
   background: -ms-linear-gradient(#89ce37, #79b335);
   background: linear-gradient(#89ce37, #79b335);
 }
-/* line 124, ../sass/lib/_button.scss */
+/* line 126, ../sass/lib/_button.scss */
 input[type="submit"].yellow, .btn.yellow, button.yellow {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2cf1b), color-stop(100%, #d3c223));
   background: -webkit-linear-gradient(#e2cf1b, #d3c223);
@@ -2138,7 +2181,7 @@ input[type="submit"].yellow, .btn.yellow, button.yellow {
 input[type="submit"].yellow:hover, .btn.yellow:hover, button.yellow:hover {
   background: #d3c223;
 }
-/* line 127, ../sass/lib/_button.scss */
+/* line 129, ../sass/lib/_button.scss */
 input[type="submit"].yellow:disabled:hover, input[type="submit"].yellow.disabled:hover, .btn.yellow:disabled:hover, .btn.yellow.disabled:hover, button.yellow:disabled:hover, button.yellow.disabled:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2cf1b), color-stop(100%, #d3c223));
   background: -webkit-linear-gradient(#e2cf1b, #d3c223);
@@ -2147,7 +2190,7 @@ input[type="submit"].yellow:disabled:hover, input[type="submit"].yellow.disabled
   background: -ms-linear-gradient(#e2cf1b, #d3c223);
   background: linear-gradient(#e2cf1b, #d3c223);
 }
-/* line 133, ../sass/lib/_button.scss */
+/* line 135, ../sass/lib/_button.scss */
 input[type="submit"].pink, .btn.pink, button.pink {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed54ba), color-stop(100%, #de3ea8));
   background: -webkit-linear-gradient(#ed54ba, #de3ea8);
@@ -2162,7 +2205,7 @@ input[type="submit"].pink, .btn.pink, button.pink {
 input[type="submit"].pink:hover, .btn.pink:hover, button.pink:hover {
   background: #de3ea8;
 }
-/* line 136, ../sass/lib/_button.scss */
+/* line 138, ../sass/lib/_button.scss */
 input[type="submit"].pink:disabled:hover, input[type="submit"].pink.disabled:hover, .btn.pink:disabled:hover, .btn.pink.disabled:hover, button.pink:disabled:hover, button.pink.disabled:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed54ba), color-stop(100%, #de3ea8));
   background: -webkit-linear-gradient(#ed54ba, #de3ea8);
@@ -2171,7 +2214,7 @@ input[type="submit"].pink:disabled:hover, input[type="submit"].pink.disabled:hov
   background: -ms-linear-gradient(#ed54ba, #de3ea8);
   background: linear-gradient(#ed54ba, #de3ea8);
 }
-/* line 142, ../sass/lib/_button.scss */
+/* line 144, ../sass/lib/_button.scss */
 input[type="submit"].purple, .btn.purple, button.purple {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9253d5), color-stop(100%, #7641b0));
   background: -webkit-linear-gradient(#9253d5, #7641b0);
@@ -2186,7 +2229,7 @@ input[type="submit"].purple, .btn.purple, button.purple {
 input[type="submit"].purple:hover, .btn.purple:hover, button.purple:hover {
   background: #7641b0;
 }
-/* line 145, ../sass/lib/_button.scss */
+/* line 147, ../sass/lib/_button.scss */
 input[type="submit"].purple:disabled:hover, input[type="submit"].purple.disabled:hover, .btn.purple:disabled:hover, .btn.purple.disabled:hover, button.purple:disabled:hover, button.purple.disabled:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9253d5), color-stop(100%, #7641b0));
   background: -webkit-linear-gradient(#9253d5, #7641b0);
@@ -2195,29 +2238,29 @@ input[type="submit"].purple:disabled:hover, input[type="submit"].purple.disabled
   background: -ms-linear-gradient(#9253d5, #7641b0);
   background: linear-gradient(#9253d5, #7641b0);
 }
-/* line 152, ../sass/lib/_button.scss */
+/* line 154, ../sass/lib/_button.scss */
 input[type="submit"].small, .btn.small, button.small {
   font-size: 0.875em;
   line-height: 1.714em;
   border-width: 1px;
 }
-/* line 157, ../sass/lib/_button.scss */
+/* line 159, ../sass/lib/_button.scss */
 input[type="submit"].large, .btn.large, button.large {
   font-size: 1.125em;
   line-height: 1.333em;
 }
-/* line 161, ../sass/lib/_button.scss */
+/* line 163, ../sass/lib/_button.scss */
 input[type="submit"].x-large, .btn.x-large, button.x-large {
   font-weight: 700;
   font-size: 1.5em;
   line-height: 2em;
 }
-/* line 167, ../sass/lib/_button.scss */
+/* line 169, ../sass/lib/_button.scss */
 input[type="submit"][class^="icon-"], input[type="submit"][type=search], input[type="submit"][class*=" icon-"], .btn[class^="icon-"], input.btn[type=search], .btn[class*=" icon-"], button[class^="icon-"], button[class*=" icon-"] {
   padidng-left: .8em;
   padding-right: 1.2em;
 }
-/* line 171, ../sass/lib/_button.scss */
+/* line 173, ../sass/lib/_button.scss */
 input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]::before, input[type="submit"][class*=" icon-"]::before, .btn[class^="icon-"]::before, input.btn[type=search]::before, .btn[class*=" icon-"]::before, button[class^="icon-"]::before, button[class*=" icon-"]::before {
   padding-right: .25em;
   position: relative;
@@ -2225,11 +2268,11 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   font-weight: normal !important;
 }
 
-/* line 180, ../sass/lib/_button.scss */
+/* line 182, ../sass/lib/_button.scss */
 .btn-group {
   overflow: hidden;
 }
-/* line 182, ../sass/lib/_button.scss */
+/* line 184, ../sass/lib/_button.scss */
 .btn-group .btn {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2240,7 +2283,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   display: block;
   float: left;
 }
-/* line 189, ../sass/lib/_button.scss */
+/* line 191, ../sass/lib/_button.scss */
 .btn-group .btn:first-of-type {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -2250,7 +2293,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   border-bottom-left-radius: 4px;
   border-left-width: 1px;
 }
-/* line 195, ../sass/lib/_button.scss */
+/* line 197, ../sass/lib/_button.scss */
 .btn-group .btn:last-of-type {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -2267,17 +2310,16 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
-  background: -webkit-linear-gradient(#ffffff, #f2f2f2);
-  background: -moz-linear-gradient(#ffffff, #f2f2f2);
-  background: -o-linear-gradient(#ffffff, #f2f2f2);
-  background: -ms-linear-gradient(#ffffff, #f2f2f2);
-  background: linear-gradient(#ffffff, #f2f2f2);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
+  background: -moz-linear-gradient(#ffffff, #ffffff);
+  background: -o-linear-gradient(#ffffff, #ffffff);
+  background: -ms-linear-gradient(#ffffff, #ffffff);
+  background: linear-gradient(#ffffff, #ffffff);
   border-color: #a6a6a6;
-  text-shadow: 0 -1px 0 #f2f2f2;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5em;
   position: relative;
 }
@@ -2318,47 +2360,43 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
 }
 /* line 32, ../sass/lib/_patterns.scss */
 .alert.success {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c5e79d), color-stop(100%, #b7dd8b));
-  background: -webkit-linear-gradient(#c5e79d, #b7dd8b);
-  background: -moz-linear-gradient(#c5e79d, #b7dd8b);
-  background: -o-linear-gradient(#c5e79d, #b7dd8b);
-  background: -ms-linear-gradient(#c5e79d, #b7dd8b);
-  background: linear-gradient(#c5e79d, #b7dd8b);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d2ecb2), color-stop(100%, #d2ecb2));
+  background: -webkit-linear-gradient(#d2ecb2, #d2ecb2);
+  background: -moz-linear-gradient(#d2ecb2, #d2ecb2);
+  background: -o-linear-gradient(#d2ecb2, #d2ecb2);
+  background: -ms-linear-gradient(#d2ecb2, #d2ecb2);
+  background: linear-gradient(#d2ecb2, #d2ecb2);
   border-color: #79b335;
-  text-shadow: 0 -1px 0 #b7dd8b;
 }
 /* line 35, ../sass/lib/_patterns.scss */
 .alert.error {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9c8c8), color-stop(100%, #ef9a9a));
-  background: -webkit-linear-gradient(#f9c8c8, #ef9a9a);
-  background: -moz-linear-gradient(#f9c8c8, #ef9a9a);
-  background: -o-linear-gradient(#f9c8c8, #ef9a9a);
-  background: -ms-linear-gradient(#f9c8c8, #ef9a9a);
-  background: linear-gradient(#f9c8c8, #ef9a9a);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbdfdf), color-stop(100%, #fbdfdf));
+  background: -webkit-linear-gradient(#fbdfdf, #fbdfdf);
+  background: -moz-linear-gradient(#fbdfdf, #fbdfdf);
+  background: -o-linear-gradient(#fbdfdf, #fbdfdf);
+  background: -ms-linear-gradient(#fbdfdf, #fbdfdf);
+  background: linear-gradient(#fbdfdf, #fbdfdf);
   border-color: #de2c2c;
-  text-shadow: 0 -1px 0 #ef9a9a;
 }
 /* line 38, ../sass/lib/_patterns.scss */
 .alert.info {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d4f1ff), color-stop(100%, #9cd9f6));
-  background: -webkit-linear-gradient(#d4f1ff, #9cd9f6);
-  background: -moz-linear-gradient(#d4f1ff, #9cd9f6);
-  background: -o-linear-gradient(#d4f1ff, #9cd9f6);
-  background: -ms-linear-gradient(#d4f1ff, #9cd9f6);
-  background: linear-gradient(#d4f1ff, #9cd9f6);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bae9ff), color-stop(100%, #bae9ff));
+  background: -webkit-linear-gradient(#bae9ff, #bae9ff);
+  background: -moz-linear-gradient(#bae9ff, #bae9ff);
+  background: -o-linear-gradient(#bae9ff, #bae9ff);
+  background: -ms-linear-gradient(#bae9ff, #bae9ff);
+  background: linear-gradient(#bae9ff, #bae9ff);
   border-color: #27adec;
-  text-shadow: 0 -1px 0 #9cd9f6;
 }
 /* line 41, ../sass/lib/_patterns.scss */
 .alert.notice {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fce0cd), color-stop(100%, #f2c29f));
-  background: -webkit-linear-gradient(#fce0cd, #f2c29f);
-  background: -moz-linear-gradient(#fce0cd, #f2c29f);
-  background: -o-linear-gradient(#fce0cd, #f2c29f);
-  background: -ms-linear-gradient(#fce0cd, #f2c29f);
-  background: linear-gradient(#fce0cd, #f2c29f);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbd1b5), color-stop(100%, #fbd1b5));
+  background: -webkit-linear-gradient(#fbd1b5, #fbd1b5);
+  background: -moz-linear-gradient(#fbd1b5, #fbd1b5);
+  background: -o-linear-gradient(#fbd1b5, #fbd1b5);
+  background: -ms-linear-gradient(#fbd1b5, #fbd1b5);
+  background: linear-gradient(#fbd1b5, #fbd1b5);
   border-color: #e37b2f;
-  text-shadow: 0 -1px 0 #f2c29f;
 }
 /* line 44, ../sass/lib/_patterns.scss */
 .alert .btn {
@@ -2376,36 +2414,36 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   background: -ms-linear-gradient(#cccccc, #a6a6a6);
   background: linear-gradient(#cccccc, #a6a6a6);
   border-color: #a6a6a6;
-  text-shadow: 0 -1px 0 #a6a6a6;
   border-style: solid;
   border-width: 0.063em;
   padding: -0.063em;
   color: white;
   text-align: center;
+  text-shadow: 0 -1px 0 #a6a6a6;
 }
-/* line 54, ../sass/lib/_patterns.scss */
+/* line 55, ../sass/lib/_patterns.scss */
 .flash .icon-close {
   top: 25%;
   color: white;
 }
-/* line 58, ../sass/lib/_patterns.scss */
+/* line 59, ../sass/lib/_patterns.scss */
 .flash a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 61, ../sass/lib/_patterns.scss */
+/* line 62, ../sass/lib/_patterns.scss */
 .flash a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   border-bottom: none;
   text-decoration: none;
 }
-/* line 67, ../sass/lib/_patterns.scss */
+/* line 68, ../sass/lib/_patterns.scss */
 .flash p {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-/* line 71, ../sass/lib/_patterns.scss */
+/* line 72, ../sass/lib/_patterns.scss */
 .flash.success {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
   background: -webkit-linear-gradient(#89ce37, #79b335);
@@ -2416,7 +2454,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   border-color: #79b335;
   text-shadow: 0 -1px 0 #79b335;
 }
-/* line 74, ../sass/lib/_patterns.scss */
+/* line 76, ../sass/lib/_patterns.scss */
 .flash.error {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
   background: -webkit-linear-gradient(#ec5555, #de2c2c);
@@ -2427,7 +2465,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   border-color: #de2c2c;
   text-shadow: 0 -1px 0 #de2c2c;
 }
-/* line 77, ../sass/lib/_patterns.scss */
+/* line 80, ../sass/lib/_patterns.scss */
 .flash.info {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
   background: -webkit-linear-gradient(#55c8fe, #27adec);
@@ -2438,7 +2476,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   border-color: #27adec;
   text-shadow: 0 -1px 0 #27adec;
 }
-/* line 80, ../sass/lib/_patterns.scss */
+/* line 84, ../sass/lib/_patterns.scss */
 .flash.notice {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
   background: -webkit-linear-gradient(#f59555, #e37b2f);
@@ -2450,7 +2488,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   text-shadow: 0 -1px 0 #e37b2f;
 }
 
-/* line 89, ../sass/lib/_patterns.scss */
+/* line 94, ../sass/lib/_patterns.scss */
 .box, .well {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2460,24 +2498,88 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
   border-style: solid;
   border-width: 0.063em;
   padding: 1.438em;
+  border-color: #cccccc;
+}
+/* line 99, ../sass/lib/_patterns.scss */
+.box form label:first-of-type, .well form label:first-of-type {
+  margin-top: 0em;
+}
+/* line 103, ../sass/lib/_patterns.scss */
+.box.clip-bottom, .well.clip-bottom {
+  padding-bottom: 0;
+}
+/* line 106, ../sass/lib/_patterns.scss */
+.box.clip-top, .well.clip-top {
+  padding-top: 0;
+}
+/* line 109, ../sass/lib/_patterns.scss */
+.box.edge-to-edge, .well.edge-to-edge {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 113, ../sass/lib/_patterns.scss */
+.box.no-padding, .box.list, .box.articles, .well.no-padding, .well.list, .well.articles {
+  padding: 0;
+}
+/* line 118, ../sass/lib/_patterns.scss */
+.box.list ul, .well.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 122, ../sass/lib/_patterns.scss */
+.box.list ul li, .well.list ul li {
+  border-style: solid;
+  border-width: 0em;
+  padding: 1.5em;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 125, ../sass/lib/_patterns.scss */
+.box.list ul li:last-of-type, .well.list ul li:last-of-type {
+  border-bottom: none;
+}
+/* line 128, ../sass/lib/_patterns.scss */
+.box.list ul li *:first-child, .well.list ul li *:first-child {
+  margin-top: 0em;
+}
+/* line 131, ../sass/lib/_patterns.scss */
+.box.list ul li *:last-child, .well.list ul li *:last-child {
+  margin-bottom: 0em;
+}
+/* line 139, ../sass/lib/_patterns.scss */
+.box.articles article, .well.articles article {
+  border-style: solid;
+  border-width: 0em;
+  padding: 1.5em;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 142, ../sass/lib/_patterns.scss */
+.box.articles article:last-of-type, .well.articles article:last-of-type {
+  border-bottom: none;
+}
+/* line 145, ../sass/lib/_patterns.scss */
+.box.articles article *:first-child, .well.articles article *:first-child {
+  margin-top: 0em;
+}
+/* line 148, ../sass/lib/_patterns.scss */
+.box.articles article *:last-child, .well.articles article *:last-child {
+  margin-bottom: 0em;
 }
 
-/* line 94, ../sass/lib/_patterns.scss */
+/* line 155, ../sass/lib/_patterns.scss */
 .box {
   -webkit-box-shadow: 0 1px 1px #a6a6a6;
   -moz-box-shadow: 0 1px 1px #a6a6a6;
   box-shadow: 0 1px 1px #a6a6a6;
   background: white;
-  border-color: #cccccc;
 }
 
-/* line 100, ../sass/lib/_patterns.scss */
+/* line 160, ../sass/lib/_patterns.scss */
 .well {
   -webkit-box-shadow: inset 0 1px 1px #a6a6a6, 0 1px 1px white;
   -moz-box-shadow: inset 0 1px 1px #a6a6a6, 0 1px 1px white;
   box-shadow: inset 0 1px 1px #a6a6a6, 0 1px 1px white;
   background: #ebebeb;
-  border-color: #cccccc;
 }
 
 /* line 1, ../sass/demo.scss */
@@ -2537,13 +2639,32 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][type=search]:
 }
 
 /* line 33, ../sass/demo.scss */
+.blocked-list {
+  width: 100%;
+  float: left;
+  margin-right: 1.053%;
+}
+/* line 35, ../sass/demo.scss */
+.blocked-list .articles-list {
+  width: 49.474%;
+  float: left;
+  margin-right: 1.053%;
+}
+/* line 39, ../sass/demo.scss */
+.blocked-list .box-list {
+  width: 49.474%;
+  float: right;
+  margin-right: 0;
+}
+
+/* line 44, ../sass/demo.scss */
 .form-misc {
   width: 28.421%;
   float: right;
   margin-right: 0;
 }
 
-/* line 37, ../sass/demo.scss */
+/* line 48, ../sass/demo.scss */
 .btn-group {
   float: left;
   margin-left: 2.632%;

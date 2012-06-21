@@ -1,7 +1,7 @@
 .flash, .alert {
 	@include border-radius(4px);
-	@include box-color(lighten($lighterGray, 30), lighten($lightGray, 30), $lightGray);
-	@include box-shadow(0 2px 2px rgba(0,0,0,0.1));
+	@include box-color(lighten($lighterGray, 30), lighten($lighterGray, 30), $lightGray);
+	@include box-shadow(inset 0 1px 0 rgba(255,255,255,0.25), 0 2px 2px rgba(0,0,0,0.1));
 	@include trailer(1);
 	position: relative;
 	h1, h2, h3, h4, h5, h6 {
@@ -30,16 +30,16 @@
 		color: $gray;
 	}
 	&.success {
-		@include box-color(lighten($lightGreen, 25), lighten($darkGreen, 25), $darkGreen);
+		@include box-color(lighten($lightGreen, 30), lighten($lightGreen, 30), $darkGreen);
 	}
 	&.error, {
-		@include box-color(lighten($lightRed, 25), lighten($darkRed, 25), $darkRed);
+		@include box-color(lighten($lightRed, 30), lighten($lightRed, 30), $darkRed);
 	}
 	&.info, {
-		@include box-color(lighten($lightBlue, 25), lighten($darkBlue, 25), $darkBlue);
+		@include box-color(lighten($lightBlue, 20), lighten($lightBlue, 20), $darkBlue);
 	}
 	&.notice, {
-		@include box-color(lighten($lightOrange, 25), lighten($darkOrange, 25), $darkOrange);
+		@include box-color(lighten($lightOrange, 20), lighten($lightOrange, 20), $darkOrange);
 	}
 	.btn {
 		@include box-shadow(none);
@@ -51,6 +51,7 @@
 	@include rhythm-borders(1px, 0, 16px, solid);
 	color: $white;
 	text-align: center;
+	text-shadow: 0 -1px 0 $lightGray;
 	.icon-close {
 		top: 25%;
 		color: $white;
@@ -70,15 +71,19 @@
 	}
 	&.success {
 		@include box-color($lightGreen, $darkGreen, $darkGreen);
+		text-shadow: 0 -1px 0 $darkGreen;
 	}
 	&.error, {
 		@include box-color($lightRed, $darkRed, $darkRed);
+		text-shadow: 0 -1px 0 $darkRed;
 	}
 	&.info, {
 		@include box-color($lightBlue, $darkBlue, $darkBlue);
+		text-shadow: 0 -1px 0 $darkBlue;
 	}
 	&.notice, {
 		@include box-color($lightOrange, $darkOrange, $darkOrange);
+		text-shadow: 0 -1px 0 $darkOrange;
 	}
 }
 
@@ -89,16 +94,70 @@
 .box, .well {
 	@include border-radius(4px);
 	@include rhythm-borders(1px, 1);
+	border-color: $lighterGray;
+	form {
+		label:first-of-type {
+			@include leader(0);
+		}
+	}
+	&.clip-bottom {
+		padding-bottom:0;
+	}
+	&.clip-top {
+		padding-top:0;
+	}
+	&.edge-to-edge {
+		padding-left:0;
+		padding-right:0;
+	}
+	&.no-padding {
+		padding:0;
+	}
+	&.list {
+		@extend .no-padding;
+		ul {
+			list-style:none;
+			padding:0;
+			margin:0;
+			li {
+				@include rhythm-borders(0px, 1);
+				border-bottom:1px solid $lighterGray;
+				&:last-of-type {
+					border-bottom:none;
+				}
+				*:first-child {
+					@include leader(0);
+				}
+				*:last-child {
+					@include trailer(0);
+				}
+			}
+		}
+	}
+	&.articles {
+		@extend .no-padding;
+		article {
+			@include rhythm-borders(0px, 1);
+			border-bottom:1px solid $lighterGray;
+			&:last-of-type {
+				border-bottom:none;
+			}
+			*:first-child {
+				@include leader(0);
+			}
+			*:last-child {
+				@include trailer(0);
+			}
+		}
+	}
 }
 
 .box {
 	@include box-shadow(0 1px 1px $lightGray);
 	background: $white;
-	border-color: $lighterGray;
 }
 
 .well {
 	@include box-shadow(inset 0 1px 1px $lightGray, 0 1px 1px $white);
 	background: $lightestGray;
-	border-color: $lighterGray;
 }

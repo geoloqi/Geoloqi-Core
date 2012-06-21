@@ -14,7 +14,6 @@
 @mixin box-color($light, $dark, $border-color) {
   @include background(linear-gradient($light, $dark));
   border-color: $border-color;
-  text-shadow: 0 -1px 0 $dark;
 }
 
 @mixin image-replace($url, $width, $height, $background-color:transparent){

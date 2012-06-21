@@ -30,6 +30,17 @@
 	@include span-columns(7, 24);			
 }
 
+.blocked-list {
+	@include span-columns(24, 24);
+	.articles-list {
+		@include span-columns(12, 24);
+	}
+
+	.box-list {
+		@include span-columns(12 omega, 24);
+	}
+}
+
 .form-misc {
 	@include span-columns(7 omega, 24);			
 }
