@@ -40,6 +40,8 @@ $header-height: 3.5em;
 #header {
 	nav {
 		@include float(left);
+		position: relative;
+		z-index:100;
 		&.secondary {
 			@include float(right);
 			ul {
