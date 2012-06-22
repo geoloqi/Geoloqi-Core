@@ -100,6 +100,12 @@
 			@include leader(0);
 		}
 	}
+	*:first-child {
+		@include leader(0);
+	}
+	*:last-child {
+		@include trailer(0);
+	}
 	&.clip-bottom {
 		padding-bottom:0;
 	}

@@ -10,7 +10,16 @@ $footer-height: 250px;
 #page {
 	@include margin-leader(4);
 	@include margin-trailer(2);
-	@include container;
+	@if $enable-grids {
+		@include susy-grid-background;
+	}
+	&.no-top {
+		margin-top:3.5em;
+	}
+}
+
+.container {
+	@include container();
 	@if $enable-grids {
 		@include susy-grid-background;
 	}
@@ -153,7 +162,7 @@ $header-height: 3.5em;
 // logo ------------------------------------------------------------------------
 
 #logo {
-	@include image-replace("/img/logo-block.png", 30px, 33px, #222);
+	@include image-replace("#{$base-url}/img/logo-block.png", 30px, 33px, #222);
 	background-origin:content-box;
 	padding:.65em .5em .8em;
 	float: left;
@@ -163,14 +172,14 @@ $header-height: 3.5em;
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
 			 only screen and (min-device-pixel-ratio : 1.5) {
 	#logo {
-		@include image-replace("/img/logo-block@2x.png", 60px, 72px, #222);
+		@include image-replace("#{$base-url}/img/logo-block@2x.png", 60px, 72px, #222);
 		background-size:50% auto;
 	}
 }
 
 #logo-footer {
 	@include span-columns(5);
-	background: url("/img/logo-footer.png") no-repeat 0 0;
+	background: url("#{$base-url}/img/logo-footer.png") no-repeat 0 0;
 	height: 38px;
 	margin-top: 1.25em;
 	text-indent:-9999em;
@@ -185,7 +194,7 @@ $header-height: 3.5em;
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
 			 only screen and (min-device-pixel-ratio : 1.5) {
 	#logo-footer {
-		background: url("/img/logo-footer@2x.png" no-repeat 0 0);
+		background: url("#{$base-url}/img/logo-footer@2x.png" no-repeat 0 0);
 		background-size:50% auto;
 	}
 }
@@ -314,7 +323,7 @@ $common-footer-height: 72px;
 
 // responsive layout -----------------------------------------------------------
 @include	at-breakpoint($screen-large){
-	#page {
+	.container {
 		@include container; 
 		@if $enable-grids {
 			@include susy-grid-background;
@@ -322,7 +331,7 @@ $common-footer-height: 72px;
 	}
 }
 @include	at-breakpoint($screen-normal){
-	#page {
+	.container {
 		@include container; 
 		@if $enable-grids {
 			@include susy-grid-background;
@@ -330,7 +339,7 @@ $common-footer-height: 72px;
 	}
 }
 @include	at-breakpoint($screen-tablet-landscape){
-	#page {
+	.container {
 		@include container; 
 		@if $enable-grids {
 			@include susy-grid-background;
@@ -338,7 +347,7 @@ $common-footer-height: 72px;
 	}
 }
 @include	at-breakpoint($screen-tablet-portrait){
-	#page {
+	.container {
 		@include container; 
 		@if $enable-grids {
 			@include susy-grid-background;
@@ -346,7 +355,7 @@ $common-footer-height: 72px;
 	}
 }
 @include	at-breakpoint($screen-smartphone){
-	#page {
+	.container {
 		@include container; 
 		@if $enable-grids {
 			@include susy-grid-background;

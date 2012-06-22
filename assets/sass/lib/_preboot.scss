@@ -1,3 +1,5 @@
+$base-url: "/core/assets";
+
 // Font Stacks
 $bodyFont: "Lucida Grande", "Segoe UI", Arial, Verdana, sans-serif;
 $PTSans: "PTSans";
@@ -45,9 +47,3 @@ $darkGreen: 					#79b335;
 // Links
 $linkColor:           $darkBlue;
 $linkHover:           $lightBlue;
-
-body {
-	@include establish-baseline(16px);
-	background: #f2f2f2;
-	color: #2e2e2e;
-}
