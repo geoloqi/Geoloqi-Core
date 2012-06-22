@@ -9,7 +9,7 @@
 
 body {
 	@include establish-baseline(16px);
-	background: #f2f2f2;
+	background: #f2f2f2 url("#{$base-url}/img/background-pattern-3.png");
 	color: #2e2e2e;
 }
 
