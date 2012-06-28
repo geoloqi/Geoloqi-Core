@@ -44,6 +44,7 @@
 
 // Add arrows to an element
 @mixin arrow-base ($size, $color, $background: transparent){
+  background: $background;
   position:relative;
   &:after {
     @include square(0);

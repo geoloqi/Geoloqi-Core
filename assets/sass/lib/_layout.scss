@@ -86,7 +86,7 @@ $header-height: 3.5em;
 				&.dropdown {
 					position: relative;
 					padding-right:.5em;
-					> a{
+					> a {
 						@include arrow-down(4px, $darkGray);
 						&:after {
 							position:absolute;

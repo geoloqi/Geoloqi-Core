@@ -9,7 +9,7 @@
 
 body {
 	@include establish-baseline(16px);
-	background: #f2f2f2 url("#{$base-url}/img/background-pattern-3.png");
+	background: $white url("#{$base-url}/img/background-pattern-active.png");
 	color: #2e2e2e;
 }
 
@@ -26,4 +26,5 @@ body {
 @import "lib/_button.scss";
 @import "lib/_header.scss";
 @import "lib/_patterns.scss";
+@import "lib/_leaflet.scss";
 @import "demo.scss"
