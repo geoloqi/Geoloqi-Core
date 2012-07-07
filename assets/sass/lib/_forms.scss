@@ -2,20 +2,23 @@
 $labelSpan : 5;
 
 form {
-	> label {
+	label {
 		@include leader(1);
 		@include clearfix();
 		clear:both;
 		display:block;
+		&.collapse {
+			@include leader(0);
+		}
 		&.hide-text {
-			span {
+			> span {
 				@include visuallyhidden;
 			}
 			.input, .input-list {
 				@include pre(0);
 			}
 		}
-		span {
+		> span {
 			@include span-columns($labelSpan);
 			@include adjust-font-size-to(14px);
 			@include apply-side-rhythm-border(top, 0px, .25, 14px, solid);
@@ -75,6 +78,50 @@ form {
 		}
 	}
 	
+	//adjacent fields --------------------------------------------------------------
+	.adjacent-fields {
+		@include clearfix();
+		label {
+			@include pre(0);
+			@include leader(0);
+			clear: none;
+		}
+			&.two {
+				label {
+					@include pre(0);
+					width:49%;
+				}
+				label:first-child {
+					@include float(left);
+				}
+				label:last-child {
+					@include float(right);
+				}
+			}
+			&.three {
+				label {
+					@include pre(0);
+					width:31.5%;
+					@include float-left;
+				}
+				label:nth-child(2){
+					margin:0 2.5%;
+				}
+				label:last-child {
+					@include float(right);
+				}
+			}
+			&.four {
+				label {
+					@include pre(0);
+					width:23.5%;
+					@include float-left;
+				}
+				label:nth-child(1),.input:nth-child(2),.input:nth-child(3){
+					margin:0 1.75% 0 0;
+				}
+			}
+	}
 	// input list -------------------------------------------------------------------
 
 	.input-list {
@@ -120,9 +167,10 @@ form {
 	// stacked -------------------------------------------------------------------
 	&.stacked {
 		label {
-			span {
-				text-align:left;
+			> span {
 				@include adjust-font-size-to(16px);
+				text-align:left;
+				width:auto;
 			}
 			.input, .input-list {
 				@include pre(0);
@@ -145,7 +193,10 @@ form {
 	// single --------------------------------------------------------------------
 	&.single {
 		position: relative;
-		input[type="submit"] {
+		label {
+			@include leader(0);
+		}
+		.btn, button, input[type="submit"] {
 			@include adjust-font-size-to(18px);
 			@include rhythm-borders(1px, .25, 18px, solid);
 			@include box-shadow(none);
@@ -168,13 +219,23 @@ input, label, select {
 }
 
 // full width inputs -----------------------------------------------------------
-input, select {
+input, select, textarea {
 	@include box-sizing(border-box);
 	width:100%;
 }
 
 // search inputs ---------------------------------------------------------------
-input[type=search]{
+/*
+input[type="search"]{
+	&:after {
+		content: "\003f";
+		font-family: 'IcoMoon';
+		font-style: normal;
+		speak: none;
+	};
+}
+
+input[type="search"]{
 	position:relative;
 	text-indent:1.5em;
 	@extend [class^="icon-"];
@@ -189,6 +250,7 @@ input[type=search]{
 		left:.1em;
 	}
 }
+*/
 
 // checkboxes and radio buttons ------------------------------------------------
 input[type="checkbox"], input[type="radio"] {
@@ -206,20 +268,24 @@ input[type="number"],
 input[type="date"],
 input[type="url"],
 input[type="tel"],
-select{
+select,
+textarea {
 	@include box-sizing(border-box);
 	@include box-shadow(0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0,0,0,0.15));
 	@include rhythm-borders(1px, .25, 14px, solid);
 	@include border-radius(3px);
 	@include adjust-font-size-to(14px);
-	
-	
 	border:1px solid $lightGray;
 	height: rhythm(1.5, 14px);
 	&:focus {
-		border-color: $lightBlue;
 		@include box-shadow(none);
+		border-color: $lightBlue;
+		outline: none;
 	}
+}
+
+textarea {
+	height: auto;
 }
 
 // select ----------------------------------------------------------------------

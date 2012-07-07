@@ -1,3 +1,19 @@
+.clearfix {
+	@include clearfix;
+}
+
+.left {
+	@include float(left);
+}
+
+.right {
+	@include float(right);
+}
+
+.clear {
+	clear: both;
+}
+
 /* Hide from both screenreaders and browsers: h5bp.com/u */
 @mixin hide {
   display: none !important;

@@ -1,3 +1,3 @@
-jQuery.fn.switchSelector = function(obj){
+jQuery.fn.switchContext = function(obj){
   return $(obj);
 };

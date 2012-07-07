@@ -69,6 +69,13 @@
 		@include leader(.5);
 		@include trailer(.5);
 	}
+	&.fixed {
+		position:fixed;
+		left: 50%;
+		margin-left:-25%;
+		width:50%;
+		z-index:100;
+	}
 	&.success {
 		@include box-color($lightGreen, $darkGreen, $darkGreen);
 		text-shadow: 0 -1px 0 $darkGreen;
@@ -119,6 +126,9 @@
 	&.no-padding {
 		padding:0;
 	}
+	&.push-bottom {
+		@include margin-trailer(1);
+	}
 	&.list {
 		@extend .no-padding;
 		ul {
@@ -161,6 +171,14 @@
 .box {
 	@include box-shadow(0 2px 2px rgba(0,0,0,0.1));
 	background: $white;
+	> header {
+
+	}
+	> footer {
+		@include rhythm-borders(0px, 1);
+		background: $lightestGray;
+		border-top:1px solid $lighterGray;
+	}
 }
 
 .well {

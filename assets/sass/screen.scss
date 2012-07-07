@@ -5,11 +5,11 @@
 
 // Common Geoloqi Core ---------------------------------------------------------
 
-@import "geoloqi-core.scss";
+@import "import.scss";
 
 body {
 	@include establish-baseline(16px);
-	background: $white url("#{$base-url}/img/background-pattern-active.png");
+	background: $white;
 	color: #2e2e2e;
 }
 
@@ -27,4 +27,3 @@ body {
 @import "lib/_header.scss";
 @import "lib/_patterns.scss";
 @import "lib/_leaflet.scss";
-@import "demo.scss"

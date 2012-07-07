@@ -12,6 +12,9 @@ h1 {
 	&.divider {
 		@include apply-side-rhythm-border(bottom ,1px, 0, 48px);
 	}
+	&.small {
+		@extend h4;
+	}
 }
 
 h2 {
@@ -47,6 +50,19 @@ h6 {
 	color: $darkerGray;
 	&.divider {
 		@include apply-side-rhythm-border(bottom ,1px, 0, 16px);
+	}
+}
+
+h1,h2,h3,h4,h5,h6 {
+	&.compress {
+		@include leader(0);
+		@include trailer(0);
+	}
+	&.compress-top {
+		@include leader(0);
+	}
+	&.compress-bottom {
+		@include trailer(0);
 	}
 }
 
@@ -89,6 +105,12 @@ a {
 
 // lists -----------------------------------------------------------------------
 
+nav {
+	ul, ol {
+		padding-left:0;		
+	}	
+}
+
 ul, ol {
 	@include adjust-font-size-to(14px);
 	@include trailer(1);
@@ -110,6 +132,20 @@ dl {
 	dd {
 		margin: 0;
 		@include trailer(1);
+	}
+	&.horizontal {
+		@include clearfix;
+		dt, dd {
+			@include adjust-font-size-to(16px);
+			@include trailer(0);
+			float:left;
+		}
+		dt {
+			clear:left;
+		}
+		dd {
+			padding-left:.5em;
+		}
 	}
 }
 
@@ -136,4 +172,10 @@ code {
 
 abbr[title] {
 	cursor: help;
+}
+
+// text-helpers ------------------------------------------------------------------------
+
+.center-text {
+	text-align: center;
 }

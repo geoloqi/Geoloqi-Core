@@ -30,11 +30,23 @@ input[type="submit"], .btn, button {
 		}
 	}
 
+	&.fill {
+		@include box-sizing(border-box);
+		display: block;
+		width: 100%;
+		text-align: center;
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
 	&.block {
 		float: left;
 		text-align: center;
-		display:block;
+		display: block;
 		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			position: static;
 			padding: 0;
 			display: block;
 		}
@@ -167,13 +179,14 @@ input[type="submit"], .btn, button {
 	
 	// icons ---------------------------------------------------------------------
 	&[class^="icon-"], &[class*=" icon-"] {
-		padidng-left:.8em;
-		padding-right:1.2em;
+		padding-left: 2.5em;
+		position:relative;
 	}
 	&[class^="icon-"]::before, &[class*=" icon-"]::before {
-		padding-right:.25em;
-		position:relative;
-		top:.1em;
+		font-size:125%;
+		position:absolute;
+		top: .25em;
+		left: 0.5em;
 		font-weight:normal !important;
 	}
 }
@@ -181,21 +194,19 @@ input[type="submit"], .btn, button {
 // block icons -----------------------------------------------------------------
 .btn-group {
 	@include clearfix();
-	.btn {
+	input[type="submit"], .btn, button {
 		@include border-radius(0px);
 		border-left-width:0px;
 		display:block;
 		float:left;
-	}
-
-	.btn:first-of-type {
-		@include border-top-left-radius(4px);
-		@include border-bottom-left-radius(4px);
-		border-left-width:1px;
-	}
-	
-	.btn:last-of-type {
-		@include border-top-right-radius(4px);
-		@include border-bottom-right-radius(4px);
+		&:first-child {
+			@include border-top-left-radius(4px);
+			@include border-bottom-left-radius(4px);
+			border-left-width:1px;
+		}	
+		&:last-child {
+			@include border-top-right-radius(4px);
+			@include border-bottom-right-radius(4px);
+		}
 	}
 }
