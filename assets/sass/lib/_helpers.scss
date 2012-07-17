@@ -3,11 +3,11 @@
 }
 
 .left {
-	@include float(left);
+	float: left;
 }
 
 .right {
-	@include float(right);
+	float: right;
 }
 
 .clear {

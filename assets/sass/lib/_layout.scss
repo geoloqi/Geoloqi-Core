@@ -31,6 +31,7 @@ $header-height: 3.5em;
 
 #header {
 	@include clearfix();
+	background: $darkestGray;
 	@include background(linear-gradient($darkerGray, $offBlack));
 	@include box-shadow(0 1px 3px rgba(0,0,0,0.10));	
 	@include position(fixed, 0, 0, auto, 0);
@@ -48,7 +49,7 @@ $header-height: 3.5em;
 
 #header {
 	nav {
-		@include float(left);
+		float: left;
 		position: relative;
 		z-index:100;
 		&.secondary {
@@ -67,8 +68,9 @@ $header-height: 3.5em;
 			@include adjust-font-size-to(16px);
 			margin: 0;
 			padding: 0;
+			list-style: none;
 			li {
-				@include float(left);
+				float:left;
 				text-shadow:0 1px 0 $darkestGray;
 				a {					
 					color: $white;
@@ -165,18 +167,10 @@ $header-height: 3.5em;
 
 #logo {
 	@include image-replace("#{$base-url}/img/logo-block.png", 30px, 33px, #222);
-	background-origin:content-box;
+	background-position: 8px;
 	padding:.65em .5em .8em;
 	float: left;
 	border-right:1px solid $darkerGray;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
-			 only screen and (min-device-pixel-ratio : 1.5) {
-	#logo {
-		@include image-replace("#{$base-url}/img/logo-block@2x.png", 60px, 72px, #222);
-		background-size:50% auto;
-	}
 }
 
 #logo-footer {
@@ -185,19 +179,14 @@ $header-height: 3.5em;
 	height: 38px;
 	margin-top: 1.25em;
 	text-indent:-9999em;
+	@include at-breakpoint($screen-tablet-landscape){
+		@include hide();
+	}
 	@include at-breakpoint($screen-tablet-portrait){
 		@include hide();
 	}
 	@include at-breakpoint($screen-smartphone){
 		@include hide();	
-	}
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
-			 only screen and (min-device-pixel-ratio : 1.5) {
-	#logo-footer {
-		background: url("#{$base-url}/img/logo-footer@2x.png" no-repeat 0 0);
-		background-size:50% auto;
 	}
 }
 
@@ -257,6 +246,7 @@ $header-height: 3.5em;
 $common-footer-height: 72px;
 
 #site-footer {
+	background: $darkestGray;
 	@include background(linear-gradient($offBlack, $darkestGray));
 	@include box-shadow(0 -1px 3px rgba(0,0,0,0.10));
 	border-top:1px solid $darkerGray;
@@ -277,6 +267,7 @@ $common-footer-height: 72px;
 
 #footer-menu {
 	@include span-columns(13);
+	@include clearfix;
 	margin-top:1em;
 	color: $lightGray;
 	nav {
@@ -285,10 +276,11 @@ $common-footer-height: 72px;
 		ul {
 			@include clearfix();
 			@include adjust-font-size-to(12px);
+			list-style:none;
 			margin: 0;
 			padding: 0;
 			li {
-				@include float(left);
+				float: left;
 				margin-right: 1em;
 				a {
 					color: $gray;
@@ -306,10 +298,36 @@ $common-footer-height: 72px;
 			}
 		}
 	}
+	@include at-breakpoint($screen-tablet-landscape){
+		@include span-columns(15);
+	}
+	@include at-breakpoint($screen-tablet-portrait){
+		@include span-columns(16);
+		margin-top: .5em;
+	}
+	@include at-breakpoint($screen-smartphone){
+		@include span-columns(6);
+		margin-top: 0;
+		nav {
+			ul {
+				li {
+					float: none;
+					width:100%;
+					border-bottom:1px solid $lightGray;
+					a {
+						display:block;
+						padding:.75em 0;
+						width:100%;
+					}
+				}		
+			}
+		}
+	}
 }
 
 #social-links {
 	@include span-columns(6 omega);
+	@include clearfix;
 	padding-top: .85em;
 	text-align: right;
 	a {
@@ -321,9 +339,40 @@ $common-footer-height: 72px;
 			text-decoration: none;
 		}
 	}
+	@include at-breakpoint($screen-tablet-portrait){
+		@include span-columns(16);
+		text-align:left;
+		border-bottom: 1px solid $lightGray;
+		padding:.25em 0;
+	}
+	@include at-breakpoint($screen-smartphone){
+		@include span-columns(6);
+		text-align:center;
+		border-bottom: 1px solid $lightGray;
+		padding:.25em 0;
+		a {
+			@include span-columns(2, 6);
+			padding: 0;
+			&:last-of-type {
+				@include omega;
+			}
+		}
+	}
 }
 
 // responsive layout -----------------------------------------------------------
+@include at-breakpoint($screen-tablet-portrait){
+	#footer, #site-footer, #common-footer {
+		height:auto;
+	}
+}
+
+@include at-breakpoint($screen-smartphone){
+	#footer, #site-footer, #common-footer {
+		height:auto;
+	}
+}
+
 @include	at-breakpoint($screen-large){
 	.container {
 		@include container; 

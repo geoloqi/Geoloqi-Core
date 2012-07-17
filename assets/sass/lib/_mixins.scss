@@ -1,4 +1,5 @@
 @mixin button-color($light, $dark) {
+  background: mix($light, $dark, 50);
   @include background(linear-gradient($light, $dark));
   border-color: $dark;
   text-shadow: 0 -1px 0 $dark;
@@ -8,12 +9,34 @@
 }
 
 @mixin button-color-disabled($light, $dark) {
+  background: mix($light, $dark, 50);
   @include background(linear-gradient($light, $dark));
 }
 
 @mixin box-color($light, $dark, $border-color) {
+  background: mix($light, $dark, 50);
   @include background(linear-gradient($light, $dark));
   border-color: $border-color;
+}
+
+@mixin old-clearfix(){
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin clip-text($width:100%){
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: $width;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 @mixin image-replace($url, $width, $height, $background-color:transparent){

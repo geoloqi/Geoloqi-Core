@@ -1,4 +1,8 @@
 // Reset --------------------------------------------------------------
+//$legacy-support-for-ie: false;
+$legacy-support-for-mozilla: false;
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
 
 @import "normalize";
 @include normalize;
@@ -11,6 +15,7 @@ body {
 	@include establish-baseline(16px);
 	background: $white;
 	color: #2e2e2e;
+  margin:0;
 }
 
 // Includes --------------------------------------------------------------
@@ -27,3 +32,4 @@ body {
 @import "lib/_header.scss";
 @import "lib/_patterns.scss";
 @import "lib/_leaflet.scss";
+@import "lib/_retina.scss";

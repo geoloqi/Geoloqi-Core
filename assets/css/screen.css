@@ -35,7 +35,6 @@ audio:not([controls]) {
 
 /* line 2, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_base.scss */
 html {
-  font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -47,11 +46,6 @@ input,
 select,
 textarea {
   font-family: sans-serif;
-}
-
-/* line 26, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_base.scss */
-body {
-  margin: 0;
 }
 
 /* line 4, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_links.scss */
@@ -126,12 +120,6 @@ mark {
   color: #000;
 }
 
-/* line 63, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
-p,
-pre {
-  margin: 1em 0;
-}
-
 /* line 73, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 pre,
 code,
@@ -147,11 +135,6 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
-}
-
-/* line 88, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
-q {
-  quotes: none;
 }
 
 /* line 95, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
@@ -185,37 +168,9 @@ sub {
   bottom: -0.25em;
 }
 
-/* line 7, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_lists.scss */
-dl,
-menu,
-ol,
-ul {
-  margin: 1em 0;
-}
-
-/* line 11, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_lists.scss */
-dd {
-  margin: 0 0 0 40px;
-}
-
-/* line 18, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_lists.scss */
-menu,
-ol,
-ul {
-  padding: 0 0 0 40px;
-}
-
-/* line 27, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_lists.scss */
-nav ul,
-nav ol {
-  list-style: none;
-  list-style-image: none;
-}
-
 /* line 2, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_embedded.scss */
 img {
   border: 0;
-  -ms-interpolation-mode: bicubic;
 }
 
 /* line 14, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_embedded.scss */
@@ -225,11 +180,6 @@ svg:not(:root) {
 
 /* line 3, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_figures.scss */
 figure {
-  margin: 0;
-}
-
-/* line 4, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
-form {
   margin: 0;
 }
 
@@ -245,7 +195,6 @@ legend {
   border: 0;
   padding: 0;
   white-space: normal;
-  *margin-left: -7px;
 }
 
 /* line 34, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
@@ -272,7 +221,6 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
-  *overflow: visible;
 }
 
 /* line 71, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
@@ -286,8 +234,6 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
-  *height: 13px;
-  *width: 13px;
 }
 
 /* line 91, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
@@ -327,10 +273,11 @@ table {
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 10, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 body {
   background: white;
   color: #2e2e2e;
+  margin: 0;
 }
 /* line 61, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 body * html {
@@ -349,13 +296,11 @@ body html {
 
 /* line 5, ../sass/lib/_helpers.scss */
 .left {
-  display: inline;
   float: left;
 }
 
 /* line 9, ../sass/lib/_helpers.scss */
 .right {
-  display: inline;
   float: right;
 }
 
@@ -911,6 +856,7 @@ html, body {
 /* line 32, ../sass/lib/_layout.scss */
 #header {
   overflow: hidden;
+  background: #1f1f1f;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(100%, #050505));
   background: -webkit-linear-gradient(#333333, #050505);
   background: -moz-linear-gradient(#333333, #050505);
@@ -933,7 +879,7 @@ html, body {
   overflow: visible;
   z-index: 100;
 }
-/* line 42, ../sass/lib/_layout.scss */
+/* line 43, ../sass/lib/_layout.scss */
 #header .inner {
   max-width: 59.375em;
   margin-left: auto;
@@ -948,36 +894,35 @@ html, body {
   clear: both;
 }
 
-/* line 50, ../sass/lib/_layout.scss */
+/* line 51, ../sass/lib/_layout.scss */
 #header nav {
-  display: inline;
   float: left;
   position: relative;
   z-index: 100;
 }
-/* line 54, ../sass/lib/_layout.scss */
+/* line 55, ../sass/lib/_layout.scss */
 #header nav.secondary {
   display: inline;
   float: right;
 }
-/* line 59, ../sass/lib/_layout.scss */
+/* line 60, ../sass/lib/_layout.scss */
 #header nav.secondary ul li.dropdown .dropdown-menu {
   right: 0;
 }
-/* line 66, ../sass/lib/_layout.scss */
+/* line 67, ../sass/lib/_layout.scss */
 #header nav ul {
   font-size: 1em;
   line-height: 1.5em;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
-/* line 70, ../sass/lib/_layout.scss */
+/* line 72, ../sass/lib/_layout.scss */
 #header nav ul li {
-  display: inline;
   float: left;
   text-shadow: 0 1px 0 #1f1f1f;
 }
-/* line 73, ../sass/lib/_layout.scss */
+/* line 75, ../sass/lib/_layout.scss */
 #header nav ul li a {
   color: white;
   padding: 0 1em;
@@ -987,24 +932,24 @@ html, body {
   color: #ebebeb;
   text-shadow: 0 1px 0 #1f1f1f;
 }
-/* line 82, ../sass/lib/_layout.scss */
+/* line 84, ../sass/lib/_layout.scss */
 #header nav ul li:hover, #header nav ul li:focus {
   -webkit-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   -moz-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   background: #1f1f1f;
 }
-/* line 86, ../sass/lib/_layout.scss */
+/* line 88, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown {
   position: relative;
   padding-right: .5em;
 }
-/* line 89, ../sass/lib/_layout.scss */
+/* line 91, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown > a {
   background: transparent;
   position: relative;
 }
-/* line 49, ../sass/lib/_mixins.scss */
+/* line 72, ../sass/lib/_mixins.scss */
 #header nav ul li.dropdown > a:after {
   width: 0;
   height: 0;
@@ -1012,20 +957,20 @@ html, body {
   text-indent: -9999em;
   display: block;
 }
-/* line 69, ../sass/lib/_mixins.scss */
+/* line 92, ../sass/lib/_mixins.scss */
 #header nav ul li.dropdown > a:after {
   margin-left: -4px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid #595959;
 }
-/* line 91, ../sass/lib/_layout.scss */
+/* line 93, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown > a:after {
   position: absolute;
   top: 49%;
   right: .25em;
 }
-/* line 97, ../sass/lib/_layout.scss */
+/* line 99, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu {
   overflow: hidden;
   position: absolute;
@@ -1039,11 +984,11 @@ html, body {
   float: left;
   clear: both;
 }
-/* line 105, ../sass/lib/_layout.scss */
+/* line 107, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu > :nth-child(1) {
   margin-top: 0.75em;
 }
-/* line 108, ../sass/lib/_layout.scss */
+/* line 110, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu h3 {
   font-size: 1em;
   line-height: 1.5em;
@@ -1054,11 +999,11 @@ html, body {
   padding-right: .75em;
   color: #ebebeb;
 }
-/* line 117, ../sass/lib/_layout.scss */
+/* line 119, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu h3:first-of-type {
   margin-top: 0.75em;
 }
-/* line 120, ../sass/lib/_layout.scss */
+/* line 122, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu hr {
   border-top: 1px solid black;
   border-bottom: 1px solid #333333;
@@ -1067,13 +1012,13 @@ html, body {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-/* line 128, ../sass/lib/_layout.scss */
+/* line 130, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul {
   margin: 0;
   padding: 0;
   width: 160px;
 }
-/* line 132, ../sass/lib/_layout.scss */
+/* line 134, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li {
   display: inline;
   float: none;
@@ -1081,7 +1026,7 @@ html, body {
   clear: both;
   padding: 0;
 }
-/* line 137, ../sass/lib/_layout.scss */
+/* line 139, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li a {
   border: none;
   font-size: 0.813em;
@@ -1089,21 +1034,21 @@ html, body {
   line-height: 2.25em;
   color: #a6a6a6;
 }
-/* line 142, ../sass/lib/_layout.scss */
+/* line 144, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li a:hover {
   color: white;
   background: black;
 }
-/* line 149, ../sass/lib/_layout.scss */
+/* line 151, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul:last-of-type {
   margin-bottom: 0.75em;
 }
-/* line 154, ../sass/lib/_layout.scss */
+/* line 156, ../sass/lib/_layout.scss */
 #header nav ul li.dropdown:hover .dropdown-menu {
   display: block;
 }
 
-/* line 166, ../sass/lib/_layout.scss */
+/* line 168, ../sass/lib/_layout.scss */
 #logo {
   display: block;
   width: 30px;
@@ -1111,25 +1056,13 @@ html, body {
   text-indent: -9999em;
   background: #222222 url("/geoloqi-core/assets/img/logo-block.png") no-repeat 0 0;
   overflow: hidden;
-  background-origin: content-box;
+  background-position: 8px;
   padding: .65em .5em .8em;
   float: left;
   border-right: 1px solid #333333;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 176, ../sass/lib/_layout.scss */
-  #logo {
-    display: block;
-    width: 60px;
-    height: 72px;
-    text-indent: -9999em;
-    background: #222222 url("/geoloqi-core/assets/img/logo-block@2x.png") no-repeat 0 0;
-    overflow: hidden;
-    background-size: 50% auto;
-  }
-}
-/* line 182, ../sass/lib/_layout.scss */
+/* line 176, ../sass/lib/_layout.scss */
 #logo-footer {
   width: 20%;
   float: left;
@@ -1139,38 +1072,38 @@ html, body {
   margin-top: 1.25em;
   text-indent: -9999em;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* line 176, ../sass/lib/_layout.scss */
+  #logo-footer {
+    display: none !important;
+    visibility: hidden;
+  }
+}
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 182, ../sass/lib/_layout.scss */
+  /* line 176, ../sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
     visibility: hidden;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 182, ../sass/lib/_layout.scss */
+  /* line 176, ../sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
     visibility: hidden;
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 198, ../sass/lib/_layout.scss */
-  #logo-footer {
-    background: url("/geoloqi-core/assets/img/logo-footer@2x.png" no-repeat 0 0);
-    background-size: 50% auto;
-  }
-}
-/* line 206, ../sass/lib/_layout.scss */
+/* line 195, ../sass/lib/_layout.scss */
 #header #site-selector {
   background: #222;
   border-right: 1px solid #333333;
 }
-/* line 210, ../sass/lib/_layout.scss */
+/* line 199, ../sass/lib/_layout.scss */
 #header #site-selector ul li {
   padding-right: 0;
 }
-/* line 212, ../sass/lib/_layout.scss */
+/* line 201, ../sass/lib/_layout.scss */
 #header #site-selector ul li a {
   font-size: 1.5em;
   line-height: 2.35em;
@@ -1179,21 +1112,21 @@ html, body {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 219, ../sass/lib/_layout.scss */
+/* line 208, ../sass/lib/_layout.scss */
 #header #site-selector ul li a:hover {
   text-decoration: none;
 }
-/* line 225, ../sass/lib/_layout.scss */
+/* line 214, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul {
   width: 250px;
 }
-/* line 228, ../sass/lib/_layout.scss */
+/* line 217, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a {
   font-size: 1.25em;
   line-height: 1em;
   padding: .5em;
 }
-/* line 232, ../sass/lib/_layout.scss */
+/* line 221, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a h6 {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1202,7 +1135,7 @@ html, body {
   margin-bottom: 0em;
   color: white;
 }
-/* line 239, ../sass/lib/_layout.scss */
+/* line 228, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a small, #header #site-selector ul li.dropdown .dropdown-menu ul li a table caption, table #header #site-selector ul li.dropdown .dropdown-menu ul li a caption {
   display: block;
   color: gray;
@@ -1211,8 +1144,9 @@ html, body {
   font-weight: 500;
 }
 
-/* line 259, ../sass/lib/_layout.scss */
+/* line 248, ../sass/lib/_layout.scss */
 #site-footer {
+  background: #1f1f1f;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #050505), color-stop(100%, #1f1f1f));
   background: -webkit-linear-gradient(#050505, #1f1f1f);
   background: -moz-linear-gradient(#050505, #1f1f1f);
@@ -1226,14 +1160,14 @@ html, body {
   height: 177px;
 }
 
-/* line 266, ../sass/lib/_layout.scss */
+/* line 256, ../sass/lib/_layout.scss */
 #common-footer {
   background: #ebebeb;
   border-top: 1px solid #1f1f1f;
   height: 72px;
 }
 
-/* line 273, ../sass/lib/_layout.scss */
+/* line 263, ../sass/lib/_layout.scss */
 #common-footer .inner, #site-footer .inner {
   max-width: 59.375em;
   margin-left: auto;
@@ -1248,75 +1182,161 @@ html, body {
   clear: both;
 }
 
-/* line 278, ../sass/lib/_layout.scss */
+/* line 268, ../sass/lib/_layout.scss */
 #footer-menu {
   width: 53.684%;
   float: left;
   margin-right: 1.053%;
+  overflow: hidden;
   margin-top: 1em;
   color: #a6a6a6;
 }
-/* line 282, ../sass/lib/_layout.scss */
+/* line 273, ../sass/lib/_layout.scss */
 #footer-menu nav {
   margin: 0;
   padding: 0;
 }
-/* line 285, ../sass/lib/_layout.scss */
+/* line 276, ../sass/lib/_layout.scss */
 #footer-menu nav ul {
   overflow: hidden;
   font-size: 0.75em;
   line-height: 2em;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 290, ../sass/lib/_layout.scss */
+/* line 282, ../sass/lib/_layout.scss */
 #footer-menu nav ul li {
-  display: inline;
   float: left;
   margin-right: 1em;
 }
-/* line 293, ../sass/lib/_layout.scss */
+/* line 285, ../sass/lib/_layout.scss */
 #footer-menu nav ul li a {
   color: gray;
 }
-/* line 299, ../sass/lib/_layout.scss */
+/* line 291, ../sass/lib/_layout.scss */
 #footer-menu small, #footer-menu table caption, table #footer-menu caption {
   font-size: 0.625em;
   line-height: 2.4em;
   display: block;
 }
-/* line 302, ../sass/lib/_layout.scss */
+/* line 294, ../sass/lib/_layout.scss */
 #footer-menu small a, #footer-menu table caption a, table #footer-menu caption a {
   color: #a6a6a6;
 }
-/* line 304, ../sass/lib/_layout.scss */
+/* line 296, ../sass/lib/_layout.scss */
 #footer-menu small a:hover, #footer-menu table caption a:hover, table #footer-menu caption a:hover {
   color: #a6a6a6;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* line 268, ../sass/lib/_layout.scss */
+  #footer-menu {
+    width: 62.105%;
+    float: left;
+    margin-right: 1.053%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 268, ../sass/lib/_layout.scss */
+  #footer-menu {
+    width: 100%;
+    float: left;
+    margin-right: 1.587%;
+    margin-top: .5em;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 268, ../sass/lib/_layout.scss */
+  #footer-menu {
+    width: 100%;
+    float: left;
+    margin-right: 4.348%;
+    margin-top: 0;
+  }
+  /* line 313, ../sass/lib/_layout.scss */
+  #footer-menu nav ul li {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid #a6a6a6;
+  }
+  /* line 317, ../sass/lib/_layout.scss */
+  #footer-menu nav ul li a {
+    display: block;
+    padding: .75em 0;
+    width: 100%;
+  }
+}
 
-/* line 311, ../sass/lib/_layout.scss */
+/* line 328, ../sass/lib/_layout.scss */
 #social-links {
   width: 24.211%;
   float: right;
   margin-right: 0;
+  overflow: hidden;
   padding-top: .85em;
   text-align: right;
 }
-/* line 315, ../sass/lib/_layout.scss */
+/* line 333, ../sass/lib/_layout.scss */
 #social-links a {
   font-size: 2.25em;
   line-height: 1.333em;
   padding: 0 0 0 .5em;
   color: #a6a6a6;
 }
-/* line 319, ../sass/lib/_layout.scss */
+/* line 337, ../sass/lib/_layout.scss */
 #social-links a:hover {
   color: gray;
   text-decoration: none;
 }
-
-@media (min-width: 1367px) {
+@media (min-width: 481px) and (max-width: 768px) {
   /* line 328, ../sass/lib/_layout.scss */
+  #social-links {
+    width: 100%;
+    float: left;
+    margin-right: 1.587%;
+    text-align: left;
+    border-bottom: 1px solid #a6a6a6;
+    padding: .25em 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 328, ../sass/lib/_layout.scss */
+  #social-links {
+    width: 100%;
+    float: left;
+    margin-right: 4.348%;
+    text-align: center;
+    border-bottom: 1px solid #a6a6a6;
+    padding: .25em 0;
+  }
+  /* line 353, ../sass/lib/_layout.scss */
+  #social-links a {
+    width: 30.435%;
+    float: left;
+    margin-right: 4.348%;
+    padding: 0;
+  }
+  /* line 356, ../sass/lib/_layout.scss */
+  #social-links a:last-of-type {
+    float: right;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 365, ../sass/lib/_layout.scss */
+  #footer, #site-footer, #common-footer {
+    height: auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 371, ../sass/lib/_layout.scss */
+  #footer, #site-footer, #common-footer {
+    height: auto;
+  }
+}
+@media (min-width: 1367px) {
+  /* line 377, ../sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1332,7 +1352,7 @@ html, body {
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
-  /* line 336, ../sass/lib/_layout.scss */
+  /* line 385, ../sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1348,7 +1368,7 @@ html, body {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 344, ../sass/lib/_layout.scss */
+  /* line 393, ../sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1364,7 +1384,7 @@ html, body {
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 352, ../sass/lib/_layout.scss */
+  /* line 401, ../sass/lib/_layout.scss */
   .container {
     max-width: 39.375em;
     margin-left: auto;
@@ -1380,7 +1400,7 @@ html, body {
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 360, ../sass/lib/_layout.scss */
+  /* line 409, ../sass/lib/_layout.scss */
   .container {
     max-width: 14.375em;
     margin-left: auto;
@@ -1526,21 +1546,25 @@ p.small {
 /* line 96, ../sass/lib/_typography.scss */
 a {
   color: #27adec;
+  outline: none;
   text-decoration: none;
 }
-/* line 99, ../sass/lib/_typography.scss */
+/* line 100, ../sass/lib/_typography.scss */
+a:hover {
+  text-decoration: underline;
+}
+/* line 103, ../sass/lib/_typography.scss */
 a:hover, a:focus {
   color: #55c8fe;
-  text-decoration: underline;
   cursor: pointer;
 }
 
-/* line 109, ../sass/lib/_typography.scss */
+/* line 112, ../sass/lib/_typography.scss */
 nav ul, nav ol {
   padding-left: 0;
 }
 
-/* line 114, ../sass/lib/_typography.scss */
+/* line 117, ../sass/lib/_typography.scss */
 ul, ol {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1549,13 +1573,13 @@ ul, ol {
   margin-top: 0;
 }
 
-/* line 123, ../sass/lib/_typography.scss */
+/* line 126, ../sass/lib/_typography.scss */
 dl {
   font-size: 0.875em;
   line-height: 1.714em;
   margin-top: 0;
 }
-/* line 126, ../sass/lib/_typography.scss */
+/* line 129, ../sass/lib/_typography.scss */
 dl dt {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -1563,32 +1587,32 @@ dl dt {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 132, ../sass/lib/_typography.scss */
+/* line 135, ../sass/lib/_typography.scss */
 dl dd {
   margin: 0;
   margin-bottom: 1.5em;
 }
-/* line 136, ../sass/lib/_typography.scss */
+/* line 139, ../sass/lib/_typography.scss */
 dl.horizontal {
   overflow: hidden;
 }
-/* line 138, ../sass/lib/_typography.scss */
+/* line 141, ../sass/lib/_typography.scss */
 dl.horizontal dt, dl.horizontal dd {
   font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 0em;
   float: left;
 }
-/* line 143, ../sass/lib/_typography.scss */
+/* line 146, ../sass/lib/_typography.scss */
 dl.horizontal dt {
   clear: left;
 }
-/* line 146, ../sass/lib/_typography.scss */
+/* line 149, ../sass/lib/_typography.scss */
 dl.horizontal dd {
   padding-left: .5em;
 }
 
-/* line 154, ../sass/lib/_typography.scss */
+/* line 157, ../sass/lib/_typography.scss */
 code {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1599,7 +1623,7 @@ code {
   background: #ebebeb;
   padding: .25em;
 }
-/* line 159, ../sass/lib/_typography.scss */
+/* line 162, ../sass/lib/_typography.scss */
 code[lang] {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1614,12 +1638,12 @@ code[lang] {
   display: block;
 }
 
-/* line 173, ../sass/lib/_typography.scss */
+/* line 176, ../sass/lib/_typography.scss */
 abbr[title] {
   cursor: help;
 }
 
-/* line 179, ../sass/lib/_typography.scss */
+/* line 182, ../sass/lib/_typography.scss */
 .center-text {
   text-align: center;
 }
@@ -1806,28 +1830,27 @@ form .input-list ul li {
 }
 /* line 137, ../sass/lib/_forms.scss */
 form .input-list ul li label {
-  display: inline;
+  margin-top: 0em;
   float: left;
   line-height: 24px;
   margin: 0;
 }
 /* line 142, ../sass/lib/_forms.scss */
-form .input-list ul li input {
-  display: inline;
+form .input-list ul li label input {
   float: left;
 }
-/* line 150, ../sass/lib/_forms.scss */
+/* line 152, ../sass/lib/_forms.scss */
 form .actions {
   margin-left: 21.053%;
   margin-top: 1.5em;
   overflow: hidden;
 }
-/* line 153, ../sass/lib/_forms.scss */
+/* line 155, ../sass/lib/_forms.scss */
 form .actions :first-child {
   display: inline;
   float: left;
 }
-/* line 157, ../sass/lib/_forms.scss */
+/* line 159, ../sass/lib/_forms.scss */
 form .actions .secondary {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -1837,75 +1860,84 @@ form .actions .secondary {
   display: inline;
   float: right;
 }
-/* line 161, ../sass/lib/_forms.scss */
+/* line 163, ../sass/lib/_forms.scss */
 form .actions .secondary.left {
   display: inline;
   float: left;
   margin-left: .25em;
 }
-/* line 170, ../sass/lib/_forms.scss */
+/* line 172, ../sass/lib/_forms.scss */
 form.stacked label > span {
   font-size: 1em;
   line-height: 1.5em;
   text-align: left;
   width: auto;
 }
-/* line 175, ../sass/lib/_forms.scss */
+/* line 177, ../sass/lib/_forms.scss */
 form.stacked label .input, form.stacked label .input-list {
   margin-left: 0%;
   padding: 0;
   clear: both;
 }
-/* line 180, ../sass/lib/_forms.scss */
+/* line 182, ../sass/lib/_forms.scss */
 form.stacked label .multi-input {
   margin-left: 0%;
   clear: both;
 }
-/* line 183, ../sass/lib/_forms.scss */
+/* line 185, ../sass/lib/_forms.scss */
 form.stacked label .multi-input .input {
   clear: none;
 }
-/* line 188, ../sass/lib/_forms.scss */
+/* line 190, ../sass/lib/_forms.scss */
 form.stacked .actions {
   margin-left: 0%;
 }
-/* line 194, ../sass/lib/_forms.scss */
+/* line 196, ../sass/lib/_forms.scss */
 form.single {
   position: relative;
 }
-/* line 196, ../sass/lib/_forms.scss */
+/* line 198, ../sass/lib/_forms.scss */
 form.single label {
   margin-top: 0em;
 }
-/* line 199, ../sass/lib/_forms.scss */
+/* line 201, ../sass/lib/_forms.scss */
 form.single .btn, form.single button, form.single input[type="submit"] {
-  font-size: 1.125em;
-  line-height: 1.333em;
+  font-size: 0.875em;
+  line-height: 1.714em;
   border-style: solid;
-  border-width: 0.056em;
-  padding: 0.278em;
+  border-width: 0.071em;
+  padding: 0.357em;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -moz-border-radius-topleft: 0;
   -webkit-border-top-left-radius: 0;
   border-top-left-radius: 0;
   -moz-border-radius-bottomleft: 0;
   -webkit-border-bottom-left-radius: 0;
   border-bottom-left-radius: 0;
+  height: 2.571em;
+  border-width: 1px;
   padding-left: .75em;
   padding-right: .75em;
   position: absolute;
   top: 0;
   right: 0;
 }
-
 /* line 216, ../sass/lib/_forms.scss */
+form.single .actions {
+  margin-top: 0em;
+}
+
+/* line 224, ../sass/lib/_forms.scss */
 input:focus, label:focus, select:focus {
   outline: none;
 }
 
-/* line 222, ../sass/lib/_forms.scss */
+/* line 230, ../sass/lib/_forms.scss */
 input, select, textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1939,14 +1971,14 @@ input[type="search"]{
 	}
 }
 */
-/* line 256, ../sass/lib/_forms.scss */
+/* line 264, ../sass/lib/_forms.scss */
 input[type="checkbox"], input[type="radio"] {
   display: block;
-  margin: 6px 4px 0 1px;
+  margin: 5px 4px 0 1px;
   width: auto;
 }
 
-/* line 272, ../sass/lib/_forms.scss */
+/* line 280, ../sass/lib/_forms.scss */
 input[type="email"],
 input[type="password"],
 input[type="text"],
@@ -1957,26 +1989,26 @@ input[type="url"],
 input[type="tel"],
 select,
 textarea {
+  font-size: 0.875em;
+  line-height: 1.714em;
+  border-style: solid;
+  border-width: 0.071em;
+  padding: 0.357em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0, 0, 0, 0.15);
-  border-style: solid;
-  border-width: 0.071em;
-  padding: 0.357em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  font-size: 0.875em;
-  line-height: 1.714em;
   border: 1px solid #a6a6a6;
   height: 2.571em;
 }
-/* line 280, ../sass/lib/_forms.scss */
+/* line 288, ../sass/lib/_forms.scss */
 input[type="email"]:focus,
 input[type="password"]:focus,
 input[type="text"]:focus,
@@ -1994,12 +2026,12 @@ textarea:focus {
   outline: none;
 }
 
-/* line 287, ../sass/lib/_forms.scss */
+/* line 295, ../sass/lib/_forms.scss */
 textarea {
   height: auto;
 }
 
-/* line 292, ../sass/lib/_forms.scss */
+/* line 300, ../sass/lib/_forms.scss */
 select {
   border-style: solid;
   border-width: 0.071em;
@@ -2010,14 +2042,14 @@ select {
   height: 34px;
 }
 
-/* line 302, ../sass/lib/_forms.scss */
+/* line 310, ../sass/lib/_forms.scss */
 input[type="file"] {
   font-size: 12px;
   width: 90%;
   margin: 8px 0;
 }
 
-/* line 310, ../sass/lib/_forms.scss */
+/* line 318, ../sass/lib/_forms.scss */
 input[type="submit"] {
   width: auto;
 }
@@ -2101,14 +2133,15 @@ table.hover-rows tbody tr:hover {
 input[type="submit"], .btn, button {
   font-size: 1em;
   line-height: 1.5em;
+  border-style: solid;
+  border-width: 0.063em;
+  padding: 0.462em;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  border-style: solid;
-  border-width: 0.056em;
-  padding: 0.411em;
+  background: #b9b9b9;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #a6a6a6));
   background: -webkit-linear-gradient(#cccccc, #a6a6a6);
   background: -moz-linear-gradient(#cccccc, #a6a6a6);
@@ -2123,10 +2156,9 @@ input[type="submit"], .btn, button {
   border-width: 1px;
   padding-left: 1em;
   padding-right: 1em;
-  font-family: "PTSans";
   color: white;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"]:hover, .btn:hover, button:hover {
   background: #a6a6a6;
 }
@@ -2143,6 +2175,7 @@ input[type="submit"]:hover:disabled:hover, input[type="submit"]:hover.disabled:h
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
+  background: #b9b9b9;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #a6a6a6));
   background: -webkit-linear-gradient(#cccccc, #a6a6a6);
   background: -moz-linear-gradient(#cccccc, #a6a6a6);
@@ -2175,23 +2208,23 @@ input[type="submit"].fill[class^="icon-"], input[type="submit"].fill[class*=" ic
 }
 /* line 44, ../sass/lib/_button.scss */
 input[type="submit"].block, .btn.block, button.block {
-  float: left;
   text-align: center;
   display: block;
 }
-/* line 48, ../sass/lib/_button.scss */
+/* line 47, ../sass/lib/_button.scss */
 input[type="submit"].block[class^="icon-"]::before, input[type="submit"].block[class*=" icon-"]::before, .btn.block[class^="icon-"]::before, .btn.block[class*=" icon-"]::before, button.block[class^="icon-"]::before, button.block[class*=" icon-"]::before {
   position: static;
   padding: 0;
   display: block;
 }
-/* line 53, ../sass/lib/_button.scss */
+/* line 52, ../sass/lib/_button.scss */
 input[type="submit"].block[class^="icon-"], input[type="submit"].block[class*=" icon-"], .btn.block[class^="icon-"], .btn.block[class*=" icon-"], button.block[class^="icon-"], button.block[class*=" icon-"] {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 60, ../sass/lib/_button.scss */
+/* line 59, ../sass/lib/_button.scss */
 input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue, button.primary, button.blue {
+  background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
   background: -webkit-linear-gradient(#55c8fe, #27adec);
   background: -moz-linear-gradient(#55c8fe, #27adec);
@@ -2201,12 +2234,13 @@ input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue
   border-color: #27adec;
   text-shadow: 0 -1px 0 #27adec;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"].primary:hover, input[type="submit"].blue:hover, .btn.primary:hover, .btn.blue:hover, button.primary:hover, button.blue:hover {
   background: #27adec;
 }
-/* line 63, ../sass/lib/_button.scss */
+/* line 62, ../sass/lib/_button.scss */
 input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabled:hover, input[type="submit"].blue:disabled:hover, input[type="submit"].blue.disabled:hover, .btn.primary:disabled:hover, .btn.primary.disabled:hover, .btn.blue:disabled:hover, .btn.blue.disabled:hover, button.primary:disabled:hover, button.primary.disabled:hover, button.blue:disabled:hover, button.blue.disabled:hover {
+  background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
   background: -webkit-linear-gradient(#55c8fe, #27adec);
   background: -moz-linear-gradient(#55c8fe, #27adec);
@@ -2214,58 +2248,59 @@ input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabl
   background: -ms-linear-gradient(#55c8fe, #27adec);
   background: linear-gradient(#55c8fe, #27adec);
 }
-/* line 69, ../sass/lib/_button.scss */
+/* line 68, ../sass/lib/_button.scss */
 input[type="submit"].light, .btn.light, button.light {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 75, ../sass/lib/_button.scss */
+/* line 74, ../sass/lib/_button.scss */
 input[type="submit"].light:disabled:hover, input[type="submit"].light.disabled:hover, .btn.light:disabled:hover, .btn.light.disabled:hover, button.light:disabled:hover, button.light.disabled:hover {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 82, ../sass/lib/_button.scss */
+/* line 81, ../sass/lib/_button.scss */
 input[type="submit"].light:hover, .btn.light:hover, button.light:hover {
   background: #ebebeb;
 }
-/* line 85, ../sass/lib/_button.scss */
+/* line 84, ../sass/lib/_button.scss */
 input[type="submit"].light[class^="hover-"]:hover, input[type="submit"].light[class*=" hover-"]:hover, .btn.light[class^="hover-"]:hover, .btn.light[class*=" hover-"]:hover, button.light[class^="hover-"]:hover, button.light[class*=" hover-"]:hover {
   color: white;
 }
-/* line 88, ../sass/lib/_button.scss */
+/* line 87, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-blue:hover, .btn.light.hover-blue:hover, button.light.hover-blue:hover {
   background: #27adec;
 }
-/* line 91, ../sass/lib/_button.scss */
+/* line 90, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-green:hover, .btn.light.hover-green:hover, button.light.hover-green:hover {
   background: #79b335;
 }
-/* line 94, ../sass/lib/_button.scss */
+/* line 93, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-orange:hover, .btn.light.hover-orange:hover, button.light.hover-orange:hover {
   background: #e37b2f;
 }
-/* line 97, ../sass/lib/_button.scss */
+/* line 96, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-red:hover, .btn.light.hover-red:hover, button.light.hover-red:hover {
   background: #de2c2c;
 }
-/* line 100, ../sass/lib/_button.scss */
+/* line 99, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-yellow:hover, .btn.light.hover-yellow:hover, button.light.hover-yellow:hover {
   background: #d3c223;
 }
-/* line 103, ../sass/lib/_button.scss */
+/* line 102, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-pink:hover, .btn.light.hover-pink:hover, button.light.hover-pink:hover {
   background: #de3ea8;
 }
-/* line 106, ../sass/lib/_button.scss */
+/* line 105, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-purple:hover, .btn.light.hover-purple:hover, button.light.hover-purple:hover {
   background: #7641b0;
 }
-/* line 111, ../sass/lib/_button.scss */
+/* line 110, ../sass/lib/_button.scss */
 input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .btn.orange, button.secondary, button.orange {
+  background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
   background: -webkit-linear-gradient(#f59555, #e37b2f);
   background: -moz-linear-gradient(#f59555, #e37b2f);
@@ -2275,12 +2310,13 @@ input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .bt
   border-color: #e37b2f;
   text-shadow: 0 -1px 0 #e37b2f;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"].secondary:hover, input[type="submit"].orange:hover, .btn.secondary:hover, .btn.orange:hover, button.secondary:hover, button.orange:hover {
   background: #e37b2f;
 }
-/* line 114, ../sass/lib/_button.scss */
+/* line 113, ../sass/lib/_button.scss */
 input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.disabled:hover, input[type="submit"].orange:disabled:hover, input[type="submit"].orange.disabled:hover, .btn.secondary:disabled:hover, .btn.secondary.disabled:hover, .btn.orange:disabled:hover, .btn.orange.disabled:hover, button.secondary:disabled:hover, button.secondary.disabled:hover, button.orange:disabled:hover, button.orange.disabled:hover {
+  background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
   background: -webkit-linear-gradient(#f59555, #e37b2f);
   background: -moz-linear-gradient(#f59555, #e37b2f);
@@ -2288,8 +2324,9 @@ input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.di
   background: -ms-linear-gradient(#f59555, #e37b2f);
   background: linear-gradient(#f59555, #e37b2f);
 }
-/* line 120, ../sass/lib/_button.scss */
+/* line 119, ../sass/lib/_button.scss */
 input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].cancel, input[type="submit"].red, .btn.danger, .btn.delete, .btn.cancel, .btn.red, button.danger, button.delete, button.cancel, button.red {
+  background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
   background: -webkit-linear-gradient(#ec5555, #de2c2c);
   background: -moz-linear-gradient(#ec5555, #de2c2c);
@@ -2299,12 +2336,13 @@ input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].c
   border-color: #de2c2c;
   text-shadow: 0 -1px 0 #de2c2c;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"].danger:hover, input[type="submit"].delete:hover, input[type="submit"].cancel:hover, input[type="submit"].red:hover, .btn.danger:hover, .btn.delete:hover, .btn.cancel:hover, .btn.red:hover, button.danger:hover, button.delete:hover, button.cancel:hover, button.red:hover {
   background: #de2c2c;
 }
-/* line 123, ../sass/lib/_button.scss */
+/* line 122, ../sass/lib/_button.scss */
 input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled:hover, input[type="submit"].delete:disabled:hover, input[type="submit"].delete.disabled:hover, input[type="submit"].cancel:disabled:hover, input[type="submit"].cancel.disabled:hover, input[type="submit"].red:disabled:hover, input[type="submit"].red.disabled:hover, .btn.danger:disabled:hover, .btn.danger.disabled:hover, .btn.delete:disabled:hover, .btn.delete.disabled:hover, .btn.cancel:disabled:hover, .btn.cancel.disabled:hover, .btn.red:disabled:hover, .btn.red.disabled:hover, button.danger:disabled:hover, button.danger.disabled:hover, button.delete:disabled:hover, button.delete.disabled:hover, button.cancel:disabled:hover, button.cancel.disabled:hover, button.red:disabled:hover, button.red.disabled:hover {
+  background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
   background: -webkit-linear-gradient(#ec5555, #de2c2c);
   background: -moz-linear-gradient(#ec5555, #de2c2c);
@@ -2312,8 +2350,9 @@ input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled
   background: -ms-linear-gradient(#ec5555, #de2c2c);
   background: linear-gradient(#ec5555, #de2c2c);
 }
-/* line 129, ../sass/lib/_button.scss */
+/* line 128, ../sass/lib/_button.scss */
 input[type="submit"].green, .btn.green, button.green {
+  background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
   background: -webkit-linear-gradient(#89ce37, #79b335);
   background: -moz-linear-gradient(#89ce37, #79b335);
@@ -2323,12 +2362,13 @@ input[type="submit"].green, .btn.green, button.green {
   border-color: #79b335;
   text-shadow: 0 -1px 0 #79b335;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"].green:hover, .btn.green:hover, button.green:hover {
   background: #79b335;
 }
-/* line 132, ../sass/lib/_button.scss */
+/* line 131, ../sass/lib/_button.scss */
 input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:hover, .btn.green:disabled:hover, .btn.green.disabled:hover, button.green:disabled:hover, button.green.disabled:hover {
+  background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
   background: -webkit-linear-gradient(#89ce37, #79b335);
   background: -moz-linear-gradient(#89ce37, #79b335);
@@ -2336,8 +2376,9 @@ input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:h
   background: -ms-linear-gradient(#89ce37, #79b335);
   background: linear-gradient(#89ce37, #79b335);
 }
-/* line 138, ../sass/lib/_button.scss */
+/* line 137, ../sass/lib/_button.scss */
 input[type="submit"].yellow, .btn.yellow, button.yellow {
+  background: #dac81f;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2cf1b), color-stop(100%, #d3c223));
   background: -webkit-linear-gradient(#e2cf1b, #d3c223);
   background: -moz-linear-gradient(#e2cf1b, #d3c223);
@@ -2347,12 +2388,13 @@ input[type="submit"].yellow, .btn.yellow, button.yellow {
   border-color: #d3c223;
   text-shadow: 0 -1px 0 #d3c223;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"].yellow:hover, .btn.yellow:hover, button.yellow:hover {
   background: #d3c223;
 }
-/* line 141, ../sass/lib/_button.scss */
+/* line 140, ../sass/lib/_button.scss */
 input[type="submit"].yellow:disabled:hover, input[type="submit"].yellow.disabled:hover, .btn.yellow:disabled:hover, .btn.yellow.disabled:hover, button.yellow:disabled:hover, button.yellow.disabled:hover {
+  background: #dac81f;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2cf1b), color-stop(100%, #d3c223));
   background: -webkit-linear-gradient(#e2cf1b, #d3c223);
   background: -moz-linear-gradient(#e2cf1b, #d3c223);
@@ -2360,8 +2402,9 @@ input[type="submit"].yellow:disabled:hover, input[type="submit"].yellow.disabled
   background: -ms-linear-gradient(#e2cf1b, #d3c223);
   background: linear-gradient(#e2cf1b, #d3c223);
 }
-/* line 147, ../sass/lib/_button.scss */
+/* line 146, ../sass/lib/_button.scss */
 input[type="submit"].pink, .btn.pink, button.pink {
+  background: #e549b1;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed54ba), color-stop(100%, #de3ea8));
   background: -webkit-linear-gradient(#ed54ba, #de3ea8);
   background: -moz-linear-gradient(#ed54ba, #de3ea8);
@@ -2371,12 +2414,13 @@ input[type="submit"].pink, .btn.pink, button.pink {
   border-color: #de3ea8;
   text-shadow: 0 -1px 0 #de3ea8;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"].pink:hover, .btn.pink:hover, button.pink:hover {
   background: #de3ea8;
 }
-/* line 150, ../sass/lib/_button.scss */
+/* line 149, ../sass/lib/_button.scss */
 input[type="submit"].pink:disabled:hover, input[type="submit"].pink.disabled:hover, .btn.pink:disabled:hover, .btn.pink.disabled:hover, button.pink:disabled:hover, button.pink.disabled:hover {
+  background: #e549b1;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed54ba), color-stop(100%, #de3ea8));
   background: -webkit-linear-gradient(#ed54ba, #de3ea8);
   background: -moz-linear-gradient(#ed54ba, #de3ea8);
@@ -2384,8 +2428,9 @@ input[type="submit"].pink:disabled:hover, input[type="submit"].pink.disabled:hov
   background: -ms-linear-gradient(#ed54ba, #de3ea8);
   background: linear-gradient(#ed54ba, #de3ea8);
 }
-/* line 156, ../sass/lib/_button.scss */
+/* line 155, ../sass/lib/_button.scss */
 input[type="submit"].purple, .btn.purple, button.purple {
+  background: #844ac2;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9253d5), color-stop(100%, #7641b0));
   background: -webkit-linear-gradient(#9253d5, #7641b0);
   background: -moz-linear-gradient(#9253d5, #7641b0);
@@ -2395,12 +2440,13 @@ input[type="submit"].purple, .btn.purple, button.purple {
   border-color: #7641b0;
   text-shadow: 0 -1px 0 #7641b0;
 }
-/* line 5, ../sass/lib/_mixins.scss */
+/* line 6, ../sass/lib/_mixins.scss */
 input[type="submit"].purple:hover, .btn.purple:hover, button.purple:hover {
   background: #7641b0;
 }
-/* line 159, ../sass/lib/_button.scss */
+/* line 158, ../sass/lib/_button.scss */
 input[type="submit"].purple:disabled:hover, input[type="submit"].purple.disabled:hover, .btn.purple:disabled:hover, .btn.purple.disabled:hover, button.purple:disabled:hover, button.purple.disabled:hover {
+  background: #844ac2;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9253d5), color-stop(100%, #7641b0));
   background: -webkit-linear-gradient(#9253d5, #7641b0);
   background: -moz-linear-gradient(#9253d5, #7641b0);
@@ -2408,29 +2454,29 @@ input[type="submit"].purple:disabled:hover, input[type="submit"].purple.disabled
   background: -ms-linear-gradient(#9253d5, #7641b0);
   background: linear-gradient(#9253d5, #7641b0);
 }
-/* line 166, ../sass/lib/_button.scss */
+/* line 165, ../sass/lib/_button.scss */
 input[type="submit"].small, .btn.small, button.small {
   font-size: 0.875em;
   line-height: 1.714em;
   border-width: 1px;
 }
-/* line 171, ../sass/lib/_button.scss */
+/* line 170, ../sass/lib/_button.scss */
 input[type="submit"].large, .btn.large, button.large {
   font-size: 1.125em;
   line-height: 1.333em;
 }
-/* line 175, ../sass/lib/_button.scss */
+/* line 174, ../sass/lib/_button.scss */
 input[type="submit"].x-large, .btn.x-large, button.x-large {
   font-weight: 700;
   font-size: 1.5em;
   line-height: 2em;
 }
-/* line 181, ../sass/lib/_button.scss */
+/* line 180, ../sass/lib/_button.scss */
 input[type="submit"][class^="icon-"], input[type="submit"][class*=" icon-"], .btn[class^="icon-"], .btn[class*=" icon-"], button[class^="icon-"], button[class*=" icon-"] {
   padding-left: 2.5em;
   position: relative;
 }
-/* line 185, ../sass/lib/_button.scss */
+/* line 184, ../sass/lib/_button.scss */
 input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon-"]::before, .btn[class^="icon-"]::before, .btn[class*=" icon-"]::before, button[class^="icon-"]::before, button[class*=" icon-"]::before {
   font-size: 125%;
   position: absolute;
@@ -2438,12 +2484,21 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   left: 0.5em;
   font-weight: normal !important;
 }
+/* line 191, ../sass/lib/_button.scss */
+input[type="submit"].icon-only, .btn.icon-only, button.icon-only {
+  width: 1em;
+  text-indent: -9999em;
+}
+/* line 194, ../sass/lib/_button.scss */
+input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only::before {
+  text-indent: 0;
+}
 
-/* line 195, ../sass/lib/_button.scss */
+/* line 201, ../sass/lib/_button.scss */
 .btn-group {
   overflow: hidden;
 }
-/* line 197, ../sass/lib/_button.scss */
+/* line 203, ../sass/lib/_button.scss */
 .btn-group input[type="submit"], .btn-group .btn, .btn-group button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2454,7 +2509,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   display: block;
   float: left;
 }
-/* line 202, ../sass/lib/_button.scss */
+/* line 208, ../sass/lib/_button.scss */
 .btn-group input[type="submit"]:first-child, .btn-group .btn:first-child, .btn-group button:first-child {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -2464,7 +2519,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   border-bottom-left-radius: 4px;
   border-left-width: 1px;
 }
-/* line 207, ../sass/lib/_button.scss */
+/* line 213, ../sass/lib/_button.scss */
 .btn-group input[type="submit"]:last-child, .btn-group .btn:last-child, .btn-group button:last-child {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -2474,6 +2529,11 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   border-bottom-right-radius: 4px;
 }
 
+/* line 222, ../sass/lib/_button.scss */
+html.ie8 .btn[class^="icon-"], html.ie8 .btn[class*=" icon-"], html.ie8 button[class^="icon-"], html.ie8 button[class*=" icon-"], html.ie8 input[type="submit"][class^="icon-"], html.ie8 input[type="submit"][class*=" icon-"] {
+  padding-left: 1em;
+}
+
 /* line 1, ../sass/lib/_patterns.scss */
 .flash, .alert {
   -webkit-border-radius: 4px;
@@ -2481,6 +2541,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  background: white;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
   background: -webkit-linear-gradient(#ffffff, #ffffff);
   background: -moz-linear-gradient(#ffffff, #ffffff);
@@ -2531,6 +2592,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 32, ../sass/lib/_patterns.scss */
 .alert.success {
+  background: #d2ecb2;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d2ecb2), color-stop(100%, #d2ecb2));
   background: -webkit-linear-gradient(#d2ecb2, #d2ecb2);
   background: -moz-linear-gradient(#d2ecb2, #d2ecb2);
@@ -2541,6 +2603,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 35, ../sass/lib/_patterns.scss */
 .alert.error {
+  background: #fbdfdf;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbdfdf), color-stop(100%, #fbdfdf));
   background: -webkit-linear-gradient(#fbdfdf, #fbdfdf);
   background: -moz-linear-gradient(#fbdfdf, #fbdfdf);
@@ -2551,6 +2614,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 38, ../sass/lib/_patterns.scss */
 .alert.info {
+  background: #bae9ff;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bae9ff), color-stop(100%, #bae9ff));
   background: -webkit-linear-gradient(#bae9ff, #bae9ff);
   background: -moz-linear-gradient(#bae9ff, #bae9ff);
@@ -2561,6 +2625,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 41, ../sass/lib/_patterns.scss */
 .alert.notice {
+  background: #fbd1b5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbd1b5), color-stop(100%, #fbd1b5));
   background: -webkit-linear-gradient(#fbd1b5, #fbd1b5);
   background: -moz-linear-gradient(#fbd1b5, #fbd1b5);
@@ -2578,6 +2643,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 
 /* line 49, ../sass/lib/_patterns.scss */
 .flash {
+  background: #b9b9b9;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #a6a6a6));
   background: -webkit-linear-gradient(#cccccc, #a6a6a6);
   background: -moz-linear-gradient(#cccccc, #a6a6a6);
@@ -2624,6 +2690,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 79, ../sass/lib/_patterns.scss */
 .flash.success {
+  background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
   background: -webkit-linear-gradient(#89ce37, #79b335);
   background: -moz-linear-gradient(#89ce37, #79b335);
@@ -2635,6 +2702,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 83, ../sass/lib/_patterns.scss */
 .flash.error {
+  background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
   background: -webkit-linear-gradient(#ec5555, #de2c2c);
   background: -moz-linear-gradient(#ec5555, #de2c2c);
@@ -2646,6 +2714,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 87, ../sass/lib/_patterns.scss */
 .flash.info {
+  background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
   background: -webkit-linear-gradient(#55c8fe, #27adec);
   background: -moz-linear-gradient(#55c8fe, #27adec);
@@ -2657,6 +2726,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 91, ../sass/lib/_patterns.scss */
 .flash.notice {
+  background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
   background: -webkit-linear-gradient(#f59555, #e37b2f);
   background: -moz-linear-gradient(#f59555, #e37b2f);
@@ -2680,15 +2750,15 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   border-color: #cccccc;
 }
 /* line 106, ../sass/lib/_patterns.scss */
-.box form label:first-of-type, .well form label:first-of-type {
+.box form label:first-child, .well form label:first-child {
   margin-top: 0em;
 }
 /* line 110, ../sass/lib/_patterns.scss */
-.box *:first-child, .well *:first-child {
+.box > *:first-child, .well > *:first-child {
   margin-top: 0em;
 }
 /* line 113, ../sass/lib/_patterns.scss */
-.box *:last-child, .well *:last-child {
+.box > *:last-child, .well > *:last-child {
   margin-bottom: 0em;
 }
 /* line 116, ../sass/lib/_patterns.scss */
@@ -2781,6 +2851,96 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   background: #ebebeb;
 }
 
+/* line 189, ../sass/lib/_patterns.scss */
+.tabs {
+  *zoom: 1;
+  list-style: none;
+  border-bottom: 1px solid #ebebeb;
+  padding-left: .5em;
+}
+/* line 25, ../sass/lib/_mixins.scss */
+.tabs:before, .tabs:after {
+  display: table;
+  content: "";
+}
+/* line 29, ../sass/lib/_mixins.scss */
+.tabs:after {
+  clear: both;
+}
+/* line 194, ../sass/lib/_patterns.scss */
+.tabs li {
+  float: left;
+  margin-bottom: -1px;
+}
+/* line 197, ../sass/lib/_patterns.scss */
+.tabs li a {
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: .5em 1em;
+  display: block;
+  background: white;
+}
+/* line 205, ../sass/lib/_patterns.scss */
+.tabs li.active a {
+  border: 1px solid #ebebeb;
+  border-bottom-color: transparent;
+}
+/* line 208, ../sass/lib/_patterns.scss */
+.tabs li.active a:hover, .tabs li.active a:focus {
+  text-decoration: none;
+}
+
+/* line 217, ../sass/lib/_patterns.scss */
+.tab-content .tab-pane {
+  padding: 0 .5em;
+  display: none;
+}
+/* line 220, ../sass/lib/_patterns.scss */
+.tab-content .tab-pane.active {
+  display: block;
+}
+
+/* line 226, ../sass/lib/_patterns.scss */
+.media-grid {
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+}
+/* line 231, ../sass/lib/_patterns.scss */
+.media-grid li a {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  display: block;
+  padding: 4px;
+}
+/* line 238, ../sass/lib/_patterns.scss */
+.media-grid li a img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* line 243, ../sass/lib/_patterns.scss */
+.media-grid li a:hover {
+  border-color: #27adec;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
 /* line 2, ../sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-close-button {
   background: none;
@@ -2843,4 +3003,23 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   border-bottom: 1px solid #a6a6a6;
   width: 10px;
   height: 10px;
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  /* line 2, ../sass/lib/_retina.scss */
+  #logo {
+    display: block;
+    width: 60px;
+    height: 72px;
+    text-indent: -9999em;
+    background: #222222 url("/geoloqi-core/assets/img/logo-block@2x.png") no-repeat 0 0;
+    overflow: hidden;
+    background-size: 50% auto;
+  }
+
+  /* line 6, ../sass/lib/_retina.scss */
+  #logo-footer {
+    background: url("/geoloqi-core/assets/img/logo-footer@2x.png" no-repeat 0 0);
+    background-size: 50% auto;
+  }
 }

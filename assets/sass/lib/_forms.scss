@@ -135,13 +135,15 @@ form {
 				@include clearfix();
 				margin:0;
 				label {
-					@include float(left);
-					line-height:24px;
+					@include leader(0);
+					float: left;
+					line-height: 24px;
 					margin: 0;
+					input {
+						float: left;
+					}
 				}
-				input {
-					@include float(left);
-				}
+
 			}
 		}
 	}
@@ -197,16 +199,22 @@ form {
 			@include leader(0);
 		}
 		.btn, button, input[type="submit"] {
-			@include adjust-font-size-to(18px);
-			@include rhythm-borders(1px, .25, 18px, solid);
+			@include adjust-font-size-to(14px);
+			@include rhythm-borders(1px, .25, 14px, solid);
 			@include box-shadow(none);
+			@include box-sizing(border-box);
 			@include border-top-left-radius(0);
 			@include border-bottom-left-radius(0);
+			height: rhythm(1.5, 14px);
+			border-width:1px;
 			padding-left: .75em;
 			padding-right: .75em;
 			position:absolute;
 			top: 0;
 			right: 0;
+		}
+		.actions {
+			@include leader(0);
 		}
 	}
 }
@@ -255,7 +263,7 @@ input[type="search"]{
 // checkboxes and radio buttons ------------------------------------------------
 input[type="checkbox"], input[type="radio"] {
 	display:block;
-	margin:6px 4px 0 1px;
+	margin:5px 4px 0 1px;
 	width:auto;
 }
 
@@ -270,11 +278,11 @@ input[type="url"],
 input[type="tel"],
 select,
 textarea {
+	@include adjust-font-size-to(14px);
+	@include rhythm-borders(1px, .25, 14px, solid);
 	@include box-sizing(border-box);
 	@include box-shadow(0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(0,0,0,0.15));
-	@include rhythm-borders(1px, .25, 14px, solid);
 	@include border-radius(3px);
-	@include adjust-font-size-to(14px);
 	border:1px solid $lightGray;
 	height: rhythm(1.5, 14px);
 	&:focus {
