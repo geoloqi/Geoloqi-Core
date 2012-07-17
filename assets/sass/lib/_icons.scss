@@ -11,201 +11,183 @@
 	font-style: normal;
 	speak: none;
 }
-.icon-database:before {
-	content: "\0021";
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'IcoMoon';
+	content: attr(data-icon);
+	speak: none;
 }
-.icon-github:before {
-	content: "\0022";
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'IcoMoon';
+	font-style: normal;
+	speak: none;
 }
-.icon-info:before {
-	content: "\0023";
-}
-.icon-facebook:before {
-	content: "\0024";
-}
-.icon-pencil:before {
-	content: "\0025";
-}
-.icon-google-plus:before {
-	content: "\0026";
-}
-.icon-android:before {
-	content: "\0027";
-}
-.icon-apple:before {
-	content: "\0028";
-}
-.icon-linkedin:before {
-	content: "\0029";
-}
-.icon-star:before {
-	content: "\002a";
-}
-.icon-star-2:before {
-	content: "\002b";
-}
-.icon-star-3:before {
-	content: "\002c";
-}
-.icon-cancel:before {
-	content: "\002d";
-}
-.icon-minus:before {
-	content: "\002e";
-}
-.icon-link:before {
-	content: "\002f";
-}
-.icon-plus:before {
-	content: "\0030";
-}
-.icon-link-2:before {
-	content: "\0031";
-}
-.icon-eye:before, .icon-watch:before {
-	content: "\0034";
-}
-.icon-locked:before {
-	content: "\0035";
-}
-.icon-camera:before {
-	content: "\0037";
-}
+
 .icon-clock:before {
-	content: "\0038";
-}
-.icon-book-2:before {
-	content: "\0039";
-}
-.icon-book:before {
-	content: "\003a";
-}
-.icon-phone:before {
-	content: "\003b";
-}
-.icon-lightbulb:before {
-	content: "\003c";
-}
-.icon-zoom-out:before {
-	content: "\003d";
-}
-.icon-zoom-in:before {
-	content: "\003e";
-}
-.icon-search:before {
-	content: "\003f";
-}
-.icon-pie-chart:before {
-	content: "\0041";
-}
-.icon-stats-up:before {
-	content: "\0042";
-}
-.icon-bars:before {
-	content: "\0043";
-}
-.icon-user:before {
-	content: "\0044";
-}
-.icon-map-2:before {
-	content: "\0045";
-}
-.icon-battery:before {
-	content: "\0046";
-}
-.icon-globe:before {
-	content: "\0047";
-}
-.icon-comments:before {
-	content: "\0048";
-}
-.icon-map:before {
-	content: "\004a";
-}
-.icon-geonote:before {
-	content: "\004b";
-}
-.icon-tag:before {
-	content: "\004c";
-}
-.icon-dashboard:before {
-	content: "\004d";
-}
-.icon-refresh:before {
-	content: "\004e";
-}
-.icon-help:before {
-	content: "\004f";
-}
-.icon-destroy:before {
-	content: "\0050";
-}
-.icon-settings:before {
-	content: "\0051";
-}
-.icon-vimeo:before {
-	content: "\0055";
-}
-.icon-play:before {
-	content: "\0056";
-}
-.icon-help-2:before {
-	content: "\0058";
-}
-.icon-info-circle:before {
-	content: "\0059";
-}
-.icon-heart:before {
-	content: "\005a";
-}
-.icon-heart-2:before {
-	content: "\005b";
-}
-.icon-checkmark:before {
-	content: "\005c";
-}
-.icon-youtube:before {
-	content: "\005d";
-}
-.icon-youtube-2:before {
-	content: "\005e";
-}
-.icon-feed:before {
-	content: "\005f";
+	content: "\21";
 }
 .icon-home:before {
-	content: "\0049";
+	content: "\22";
 }
-.icon-direction:before {
-	content: "\0060";
+.icon-google-plus:before {
+	content: "\23";
+}
+.icon-linked-in:before {
+	content: "\24";
+}
+.icon-link:before {
+	content: "\25";
+}
+.icon-play:before {
+	content: "\26";
+}
+.icon-info:before {
+	content: "\27";
 }
 .icon-email:before {
-	content: "\0061";
+	content: "\28";
 }
-.icon-write:before {
-	content: "\0053";
+.icon-unlink:before {
+	content: "\29";
 }
-.icon-target:before {
-	content: "\0057";
+.icon-help:before {
+	content: "\2a";
 }
-.icon-bookmark:before {
-	content: "\0062";
+.icon-close:before {
+	content: "\2b";
 }
-.icon-bookmark-2:before {
-	content: "\0063";
+.icon-minus:before {
+	content: "\2c";
+}
+.icon-plus:before {
+	content: "\2d";
 }
 .icon-twitter:before {
-	content: "\0054";
+	content: "\2e";
+}
+.icon-rss:before {
+	content: "\2f";
 }
 .icon-code:before {
-	content: "\0032";
+	content: "\30";
 }
-.icon-unlocked:before {
-	content: "\0033";
+.icon-eye-closed:before {
+	content: "\31";
 }
-.icon-graph-data:before {
-	content: "\0052";
+.icon-analytics:before {
+	content: "\32";
+}
+.icon-phone:before {
+	content: "\33";
+}
+.icon-check:before, .icon-checkmark:before {
+	content: "\34";
+}
+.icon-book:before {
+	content: "\35";
+}
+.icon-camera:before {
+	content: "\36";
+}
+.icon-bookmark:before {
+	content: "\37";
+}
+.icon-locked:before {
+	content: "\38";
+}
+.icon-apple:before {
+	content: "\39";
+}
+.icon-target:before, .icon-locate:before {
+	content: "\3a";
+}
+.icon-data:before {
+	content: "\3b";
+}
+.icon-eye-open:before {
+	content: "\3c";
+}
+.icon-heart:before {
+	content: "\3d";
+}
+.icon-android:before {
+	content: "\3e";
+}
+.icon-star:before {
+	content: "\3f";
+}
+.icon-comments:before {
+	content: "\40";
+}
+.icon-globe:before {
+	content: "\41";
+}
+.icon-battery:before {
+	content: "\42";
+}
+.icon-lightbulb:before {
+	content: "\43";
+}
+.icon-zoom-in:before {
+	content: "\44";
+}
+.icon-zoom-out:before {
+	content: "\45";
 }
 .icon-delete:before {
-	content: "\0040";
+	content: "\46";
+}
+.icon-storage:before {
+	content: "\47";
+}
+.icon-map-trail:before {
+	content: "\48";
+}
+.icon-geonote:before {
+	content: "\49";
+}
+.icon-unlocked:before {
+	content: "\4a";
+}
+.icon-tag:before {
+	content: "\4b";
+}
+.icon-dashboard:before {
+	content: "\4c";
+}
+.icon-refresh:before {
+	content: "\4d";
+}
+.icon-settings-1:before {
+	content: "\4e";
+}
+.icon-edit:before, .icon-pencil:before {
+	content: "\4f";
+}
+.icon-facebook:before {
+	content: "\50";
+}
+.icon-graph:before {
+	content: "\51";
+}
+.icon-map-pin:before {
+	content: "\52";
+}
+.icon-user:before {
+	content: "\53";
+}
+.icon-graph-pie:before {
+	content: "\54";
+}
+.icon-settings:before {
+	content: "\55";
+}
+.icon-search:before {
+	content: "\56";
+}
+.icon-github:before {
+	content: "\57";
 }

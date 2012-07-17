@@ -473,334 +473,295 @@ body html {
   speak: none;
 }
 
-/* line 14, ../sass/lib/_icons.scss */
-.icon-database:before {
-  content: "\0021";
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 16, ../sass/lib/_icons.scss */
+[data-icon]:before {
+  font-family: 'IcoMoon';
+  content: attr(data-icon);
+  speak: none;
 }
 
-/* line 17, ../sass/lib/_icons.scss */
-.icon-github:before {
-  content: "\0022";
-}
-
-/* line 20, ../sass/lib/_icons.scss */
-.icon-info:before {
-  content: "\0023";
-}
-
+/* Use the following CSS code if you want to have a class per icon */
 /* line 23, ../sass/lib/_icons.scss */
-.icon-facebook:before {
-  content: "\0024";
-}
-
-/* line 26, ../sass/lib/_icons.scss */
-.icon-pencil:before {
-  content: "\0025";
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: 'IcoMoon';
+  font-style: normal;
+  speak: none;
 }
 
 /* line 29, ../sass/lib/_icons.scss */
-.icon-google-plus:before {
-  content: "\0026";
+.icon-clock:before {
+  content: "\21";
 }
 
 /* line 32, ../sass/lib/_icons.scss */
-.icon-android:before {
-  content: "\0027";
+.icon-home:before {
+  content: "\22";
 }
 
 /* line 35, ../sass/lib/_icons.scss */
-.icon-apple:before {
-  content: "\0028";
+.icon-google-plus:before {
+  content: "\23";
 }
 
 /* line 38, ../sass/lib/_icons.scss */
-.icon-linkedin:before {
-  content: "\0029";
+.icon-linked-in:before {
+  content: "\24";
 }
 
 /* line 41, ../sass/lib/_icons.scss */
-.icon-star:before {
-  content: "\002a";
+.icon-link:before {
+  content: "\25";
 }
 
 /* line 44, ../sass/lib/_icons.scss */
-.icon-star-2:before {
-  content: "\002b";
+.icon-play:before {
+  content: "\26";
 }
 
 /* line 47, ../sass/lib/_icons.scss */
-.icon-star-3:before {
-  content: "\002c";
+.icon-info:before {
+  content: "\27";
 }
 
 /* line 50, ../sass/lib/_icons.scss */
-.icon-cancel:before, .icon-close:before, .leaflet-popup .leaflet-popup-close-button:before {
-  content: "\002d";
+.icon-email:before {
+  content: "\28";
 }
 
 /* line 53, ../sass/lib/_icons.scss */
-.icon-minus:before {
-  content: "\002e";
+.icon-unlink:before {
+  content: "\29";
 }
 
 /* line 56, ../sass/lib/_icons.scss */
-.icon-link:before {
-  content: "\002f";
+.icon-help:before {
+  content: "\2a";
 }
 
 /* line 59, ../sass/lib/_icons.scss */
-.icon-plus:before {
-  content: "\0030";
+.icon-close:before {
+  content: "\2b";
 }
 
 /* line 62, ../sass/lib/_icons.scss */
-.icon-link-2:before {
-  content: "\0031";
+.icon-minus:before {
+  content: "\2c";
 }
 
 /* line 65, ../sass/lib/_icons.scss */
-.icon-eye:before, .icon-watch:before {
-  content: "\0034";
+.icon-plus:before {
+  content: "\2d";
 }
 
 /* line 68, ../sass/lib/_icons.scss */
-.icon-locked:before {
-  content: "\0035";
+.icon-twitter:before {
+  content: "\2e";
 }
 
 /* line 71, ../sass/lib/_icons.scss */
-.icon-camera:before {
-  content: "\0037";
+.icon-rss:before {
+  content: "\2f";
 }
 
 /* line 74, ../sass/lib/_icons.scss */
-.icon-clock:before {
-  content: "\0038";
+.icon-code:before {
+  content: "\30";
 }
 
 /* line 77, ../sass/lib/_icons.scss */
-.icon-book-2:before {
-  content: "\0039";
+.icon-eye-closed:before {
+  content: "\31";
 }
 
 /* line 80, ../sass/lib/_icons.scss */
-.icon-book:before {
-  content: "\003a";
+.icon-analytics:before {
+  content: "\32";
 }
 
 /* line 83, ../sass/lib/_icons.scss */
 .icon-phone:before {
-  content: "\003b";
+  content: "\33";
 }
 
 /* line 86, ../sass/lib/_icons.scss */
-.icon-lightbulb:before {
-  content: "\003c";
+.icon-check:before, .icon-checkmark:before {
+  content: "\34";
 }
 
 /* line 89, ../sass/lib/_icons.scss */
-.icon-zoom-out:before {
-  content: "\003d";
+.icon-book:before {
+  content: "\35";
 }
 
 /* line 92, ../sass/lib/_icons.scss */
-.icon-zoom-in:before {
-  content: "\003e";
+.icon-camera:before {
+  content: "\36";
 }
 
 /* line 95, ../sass/lib/_icons.scss */
-.icon-search:before {
-  content: "\003f";
+.icon-bookmark:before {
+  content: "\37";
 }
 
 /* line 98, ../sass/lib/_icons.scss */
-.icon-pie-chart:before {
-  content: "\0041";
+.icon-locked:before {
+  content: "\38";
 }
 
 /* line 101, ../sass/lib/_icons.scss */
-.icon-stats-up:before {
-  content: "\0042";
+.icon-apple:before {
+  content: "\39";
 }
 
 /* line 104, ../sass/lib/_icons.scss */
-.icon-bars:before {
-  content: "\0043";
+.icon-target:before, .icon-locate:before {
+  content: "\3a";
 }
 
 /* line 107, ../sass/lib/_icons.scss */
-.icon-user:before {
-  content: "\0044";
+.icon-data:before {
+  content: "\3b";
 }
 
 /* line 110, ../sass/lib/_icons.scss */
-.icon-map-2:before {
-  content: "\0045";
+.icon-eye-open:before {
+  content: "\3c";
 }
 
 /* line 113, ../sass/lib/_icons.scss */
-.icon-battery:before {
-  content: "\0046";
+.icon-heart:before {
+  content: "\3d";
 }
 
 /* line 116, ../sass/lib/_icons.scss */
-.icon-globe:before {
-  content: "\0047";
+.icon-android:before {
+  content: "\3e";
 }
 
 /* line 119, ../sass/lib/_icons.scss */
-.icon-comments:before {
-  content: "\0048";
+.icon-star:before {
+  content: "\3f";
 }
 
 /* line 122, ../sass/lib/_icons.scss */
-.icon-map:before {
-  content: "\004a";
+.icon-comments:before {
+  content: "\40";
 }
 
 /* line 125, ../sass/lib/_icons.scss */
-.icon-geonote:before {
-  content: "\004b";
+.icon-globe:before {
+  content: "\41";
 }
 
 /* line 128, ../sass/lib/_icons.scss */
-.icon-tag:before {
-  content: "\004c";
+.icon-battery:before {
+  content: "\42";
 }
 
 /* line 131, ../sass/lib/_icons.scss */
-.icon-dashboard:before {
-  content: "\004d";
+.icon-lightbulb:before {
+  content: "\43";
 }
 
 /* line 134, ../sass/lib/_icons.scss */
-.icon-refresh:before {
-  content: "\004e";
+.icon-zoom-in:before {
+  content: "\44";
 }
 
 /* line 137, ../sass/lib/_icons.scss */
-.icon-help:before {
-  content: "\004f";
+.icon-zoom-out:before {
+  content: "\45";
 }
 
 /* line 140, ../sass/lib/_icons.scss */
-.icon-destroy:before {
-  content: "\0050";
+.icon-delete:before {
+  content: "\46";
 }
 
 /* line 143, ../sass/lib/_icons.scss */
-.icon-settings:before {
-  content: "\0051";
+.icon-storage:before {
+  content: "\47";
 }
 
 /* line 146, ../sass/lib/_icons.scss */
-.icon-vimeo:before {
-  content: "\0055";
+.icon-map-trail:before {
+  content: "\48";
 }
 
 /* line 149, ../sass/lib/_icons.scss */
-.icon-play:before {
-  content: "\0056";
+.icon-geonote:before {
+  content: "\49";
 }
 
 /* line 152, ../sass/lib/_icons.scss */
-.icon-help-2:before {
-  content: "\0058";
+.icon-unlocked:before {
+  content: "\4a";
 }
 
 /* line 155, ../sass/lib/_icons.scss */
-.icon-info-circle:before {
-  content: "\0059";
+.icon-tag:before {
+  content: "\4b";
 }
 
 /* line 158, ../sass/lib/_icons.scss */
-.icon-heart:before {
-  content: "\005a";
+.icon-dashboard:before {
+  content: "\4c";
 }
 
 /* line 161, ../sass/lib/_icons.scss */
-.icon-heart-2:before {
-  content: "\005b";
+.icon-refresh:before {
+  content: "\4d";
 }
 
 /* line 164, ../sass/lib/_icons.scss */
-.icon-checkmark:before {
-  content: "\005c";
+.icon-settings-1:before {
+  content: "\4e";
 }
 
 /* line 167, ../sass/lib/_icons.scss */
-.icon-youtube:before {
-  content: "\005d";
+.icon-edit:before, .icon-pencil:before {
+  content: "\4f";
 }
 
 /* line 170, ../sass/lib/_icons.scss */
-.icon-youtube-2:before {
-  content: "\005e";
+.icon-facebook:before {
+  content: "\50";
 }
 
 /* line 173, ../sass/lib/_icons.scss */
-.icon-feed:before {
-  content: "\005f";
+.icon-graph:before {
+  content: "\51";
 }
 
 /* line 176, ../sass/lib/_icons.scss */
-.icon-home:before {
-  content: "\0049";
+.icon-map-pin:before {
+  content: "\52";
 }
 
 /* line 179, ../sass/lib/_icons.scss */
-.icon-direction:before {
-  content: "\0060";
+.icon-user:before {
+  content: "\53";
 }
 
 /* line 182, ../sass/lib/_icons.scss */
-.icon-email:before {
-  content: "\0061";
+.icon-graph-pie:before {
+  content: "\54";
 }
 
 /* line 185, ../sass/lib/_icons.scss */
-.icon-write:before {
-  content: "\0053";
+.icon-settings:before {
+  content: "\55";
 }
 
 /* line 188, ../sass/lib/_icons.scss */
-.icon-target:before {
-  content: "\0057";
+.icon-search:before {
+  content: "\56";
 }
 
 /* line 191, ../sass/lib/_icons.scss */
-.icon-bookmark:before {
-  content: "\0062";
-}
-
-/* line 194, ../sass/lib/_icons.scss */
-.icon-bookmark-2:before {
-  content: "\0063";
-}
-
-/* line 197, ../sass/lib/_icons.scss */
-.icon-twitter:before {
-  content: "\0054";
-}
-
-/* line 200, ../sass/lib/_icons.scss */
-.icon-code:before {
-  content: "\0032";
-}
-
-/* line 203, ../sass/lib/_icons.scss */
-.icon-unlocked:before {
-  content: "\0033";
-}
-
-/* line 206, ../sass/lib/_icons.scss */
-.icon-graph-data:before {
-  content: "\0052";
-}
-
-/* line 209, ../sass/lib/_icons.scss */
-.icon-delete:before {
-  content: "\0040";
+.icon-github:before {
+  content: "\57";
 }
 
 /* line 10, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -2486,7 +2447,7 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
 }
 /* line 191, ../sass/lib/_button.scss */
 input[type="submit"].icon-only, .btn.icon-only, button.icon-only {
-  width: 1em;
+  width: 2.5em;
   text-indent: -9999em;
 }
 /* line 194, ../sass/lib/_button.scss */
