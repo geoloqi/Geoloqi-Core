@@ -2999,7 +2999,7 @@ html.ie8 .btn[class^="icon-"], html.ie8 .btn[class*=" icon-"], html.ie8 button[c
 
   /* line 6, ../sass/lib/_retina.scss */
   #logo-footer {
-    background: url("/geoloqi-core/assets/img/logo-footer@2x.png" no-repeat 0 0);
+    background: url("/geoloqi-core/assets/img/logo-footer@2x.png") no-repeat 0 0;
     background-size: 50% auto;
   }
 }
