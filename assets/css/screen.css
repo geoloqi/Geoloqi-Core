@@ -764,12 +764,12 @@ body html {
   content: "\57";
 }
 
-/* line 10, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #wrapper {
   clear: both;
   min-height: 100%;
@@ -777,12 +777,12 @@ html, body {
   height: 100%;
   margin-bottom: -250px;
 }
-/* line 18, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #wrapper #push {
   height: 250px;
 }
 
-/* line 20, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
