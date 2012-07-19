@@ -1472,8 +1472,21 @@ h1.compress-top, h2.compress-top, h3.compress-top, h4.compress-top, h1.compress-
 h1.compress-bottom, h2.compress-bottom, h3.compress-bottom, h4.compress-bottom, h1.compress-bottom.small, h5.compress-bottom, h6.compress-bottom {
   margin-bottom: 0em;
 }
-
+/* line 67, ../sass/lib/_typography.scss */
+h1.compress-half, h2.compress-half, h3.compress-half, h4.compress-half, h1.compress-half.small, h5.compress-half, h6.compress-half {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
 /* line 71, ../sass/lib/_typography.scss */
+h1.compress-top-half, h2.compress-top-half, h3.compress-top-half, h4.compress-top-half, h1.compress-top-half.small, h5.compress-top-half, h6.compress-top-half {
+  margin-top: 0.75em;
+}
+/* line 74, ../sass/lib/_typography.scss */
+h1.compress-bottom-half, h2.compress-bottom-half, h3.compress-bottom-half, h4.compress-bottom-half, h1.compress-bottom-half.small, h5.compress-bottom-half, h6.compress-bottom-half {
+  margin-bottom: 0.75em;
+}
+
+/* line 81, ../sass/lib/_typography.scss */
 blockquote {
   margin-left: 0;
   border-color: #cccccc;
@@ -1486,46 +1499,46 @@ blockquote {
   margin-bottom: 1.5em;
 }
 
-/* line 82, ../sass/lib/_typography.scss */
+/* line 92, ../sass/lib/_typography.scss */
 p {
   margin-bottom: 1.5em;
   font-size: 0.875em;
   line-height: 1.714em;
   margin-top: 0;
 }
-/* line 86, ../sass/lib/_typography.scss */
+/* line 96, ../sass/lib/_typography.scss */
 p.large {
   font-size: 1.125em;
   line-height: 1.333em;
 }
-/* line 89, ../sass/lib/_typography.scss */
+/* line 99, ../sass/lib/_typography.scss */
 p.small {
   font-size: 0.813em;
   line-height: 1.846em;
 }
 
-/* line 96, ../sass/lib/_typography.scss */
+/* line 106, ../sass/lib/_typography.scss */
 a {
   color: #27adec;
   outline: none;
   text-decoration: none;
 }
-/* line 100, ../sass/lib/_typography.scss */
+/* line 110, ../sass/lib/_typography.scss */
 a:hover {
   text-decoration: underline;
 }
-/* line 103, ../sass/lib/_typography.scss */
+/* line 113, ../sass/lib/_typography.scss */
 a:hover, a:focus {
   color: #55c8fe;
   cursor: pointer;
 }
 
-/* line 112, ../sass/lib/_typography.scss */
+/* line 122, ../sass/lib/_typography.scss */
 nav ul, nav ol {
   padding-left: 0;
 }
 
-/* line 117, ../sass/lib/_typography.scss */
+/* line 127, ../sass/lib/_typography.scss */
 ul, ol {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1534,13 +1547,13 @@ ul, ol {
   margin-top: 0;
 }
 
-/* line 126, ../sass/lib/_typography.scss */
+/* line 136, ../sass/lib/_typography.scss */
 dl {
   font-size: 0.875em;
   line-height: 1.714em;
   margin-top: 0;
 }
-/* line 129, ../sass/lib/_typography.scss */
+/* line 139, ../sass/lib/_typography.scss */
 dl dt {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -1548,32 +1561,32 @@ dl dt {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 135, ../sass/lib/_typography.scss */
+/* line 145, ../sass/lib/_typography.scss */
 dl dd {
   margin: 0;
   margin-bottom: 1.5em;
 }
-/* line 139, ../sass/lib/_typography.scss */
+/* line 149, ../sass/lib/_typography.scss */
 dl.horizontal {
   overflow: hidden;
 }
-/* line 141, ../sass/lib/_typography.scss */
+/* line 151, ../sass/lib/_typography.scss */
 dl.horizontal dt, dl.horizontal dd {
   font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 0em;
   float: left;
 }
-/* line 146, ../sass/lib/_typography.scss */
+/* line 156, ../sass/lib/_typography.scss */
 dl.horizontal dt {
   clear: left;
 }
-/* line 149, ../sass/lib/_typography.scss */
+/* line 159, ../sass/lib/_typography.scss */
 dl.horizontal dd {
   padding-left: .5em;
 }
 
-/* line 157, ../sass/lib/_typography.scss */
+/* line 167, ../sass/lib/_typography.scss */
 code {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1584,7 +1597,7 @@ code {
   background: #ebebeb;
   padding: .25em;
 }
-/* line 162, ../sass/lib/_typography.scss */
+/* line 172, ../sass/lib/_typography.scss */
 code[lang] {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1599,12 +1612,12 @@ code[lang] {
   display: block;
 }
 
-/* line 176, ../sass/lib/_typography.scss */
+/* line 186, ../sass/lib/_typography.scss */
 abbr[title] {
   cursor: help;
 }
 
-/* line 182, ../sass/lib/_typography.scss */
+/* line 192, ../sass/lib/_typography.scss */
 .center-text {
   text-align: center;
 }
@@ -2416,28 +2429,34 @@ input[type="submit"].purple:disabled:hover, input[type="submit"].purple.disabled
   background: linear-gradient(#9253d5, #7641b0);
 }
 /* line 165, ../sass/lib/_button.scss */
+input[type="submit"].x-small, .btn.x-small, button.x-small {
+  font-size: 0.75em;
+  line-height: 2em;
+  border-width: 1px;
+}
+/* line 171, ../sass/lib/_button.scss */
 input[type="submit"].small, .btn.small, button.small {
   font-size: 0.875em;
   line-height: 1.714em;
   border-width: 1px;
 }
-/* line 170, ../sass/lib/_button.scss */
+/* line 177, ../sass/lib/_button.scss */
 input[type="submit"].large, .btn.large, button.large {
   font-size: 1.125em;
   line-height: 1.333em;
 }
-/* line 174, ../sass/lib/_button.scss */
+/* line 182, ../sass/lib/_button.scss */
 input[type="submit"].x-large, .btn.x-large, button.x-large {
   font-weight: 700;
   font-size: 1.5em;
   line-height: 2em;
 }
-/* line 180, ../sass/lib/_button.scss */
+/* line 189, ../sass/lib/_button.scss */
 input[type="submit"][class^="icon-"], input[type="submit"][class*=" icon-"], .btn[class^="icon-"], .btn[class*=" icon-"], button[class^="icon-"], button[class*=" icon-"] {
   padding-left: 2.5em;
   position: relative;
 }
-/* line 184, ../sass/lib/_button.scss */
+/* line 193, ../sass/lib/_button.scss */
 input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon-"]::before, .btn[class^="icon-"]::before, .btn[class*=" icon-"]::before, button[class^="icon-"]::before, button[class*=" icon-"]::before {
   font-size: 125%;
   position: absolute;
@@ -2445,21 +2464,21 @@ input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon
   left: 0.5em;
   font-weight: normal !important;
 }
-/* line 191, ../sass/lib/_button.scss */
+/* line 200, ../sass/lib/_button.scss */
 input[type="submit"].icon-only, .btn.icon-only, button.icon-only {
   width: 2.5em;
   text-indent: -9999em;
 }
-/* line 194, ../sass/lib/_button.scss */
+/* line 203, ../sass/lib/_button.scss */
 input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only::before {
   text-indent: 0;
 }
 
-/* line 201, ../sass/lib/_button.scss */
+/* line 210, ../sass/lib/_button.scss */
 .btn-group {
   overflow: hidden;
 }
-/* line 203, ../sass/lib/_button.scss */
+/* line 212, ../sass/lib/_button.scss */
 .btn-group input[type="submit"], .btn-group .btn, .btn-group button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2470,7 +2489,7 @@ input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only
   display: block;
   float: left;
 }
-/* line 208, ../sass/lib/_button.scss */
+/* line 217, ../sass/lib/_button.scss */
 .btn-group input[type="submit"]:first-child, .btn-group .btn:first-child, .btn-group button:first-child {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -2480,7 +2499,7 @@ input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only
   border-bottom-left-radius: 4px;
   border-left-width: 1px;
 }
-/* line 213, ../sass/lib/_button.scss */
+/* line 222, ../sass/lib/_button.scss */
 .btn-group input[type="submit"]:last-child, .btn-group .btn:last-child, .btn-group button:last-child {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -2490,7 +2509,7 @@ input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only
   border-bottom-right-radius: 4px;
 }
 
-/* line 222, ../sass/lib/_button.scss */
+/* line 231, ../sass/lib/_button.scss */
 html.ie8 .btn[class^="icon-"], html.ie8 .btn[class*=" icon-"], html.ie8 button[class^="icon-"], html.ie8 button[class*=" icon-"], html.ie8 input[type="submit"][class^="icon-"], html.ie8 input[type="submit"][class*=" icon-"] {
   padding-left: 1em;
 }

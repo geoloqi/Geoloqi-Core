@@ -162,18 +162,27 @@ input[type="submit"], .btn, button {
 	}
 
 	// sizes ---------------------------------------------------------------------
+	&.x-small {
+		@include adjust-font-size-to(12px);
+	
+		border-width:1px;
+	}
+
 	&.small {
 		@include adjust-font-size-to(14px);
+	
 		border-width:1px;
 	}
 
 	&.large {
 		@include adjust-font-size-to(18px);	
+	
 	}
 
 	&.x-large {
 		font-weight:700;
-		@include adjust-font-size-to(24px);	
+		@include adjust-font-size-to(24px);
+	
 	}
 	
 	// icons ---------------------------------------------------------------------

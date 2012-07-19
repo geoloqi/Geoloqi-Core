@@ -64,6 +64,16 @@ h1,h2,h3,h4,h5,h6 {
 	&.compress-bottom {
 		@include trailer(0);
 	}
+	&.compress-half {
+		@include leader(.5);
+		@include trailer(.5);
+	}
+	&.compress-top-half {
+		@include leader(.5);
+	}
+	&.compress-bottom-half {
+		@include trailer(.5);
+	}
 }
 
 // blockquote ------------------------------------------------------------------
