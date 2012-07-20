@@ -30,31 +30,6 @@ input[type="submit"], .btn, button {
 		}
 	}
 
-	&.fill {
-		@include box-sizing(border-box);
-		display: block;
-		width: 100%;
-		text-align: center;
-		&[class^="icon-"], &[class*=" icon-"] {
-			padding-left: 0;
-			padding-right: 0;
-		}
-	}
-
-	&.block {
-		text-align: center;
-		display: block;
-		&[class^="icon-"]::before, &[class*=" icon-"]::before {
-			position: static;
-			padding: 0;
-			display: block;
-		}
-		&[class^="icon-"], &[class*=" icon-"] {
-			padding-left: 1em;
-			padding-right: 1em;	
-		}
-	}
-
 	// colors --------------------------------------------------------------------
 	&.primary, &.blue {
 		@include button-color($lightBlue, $darkBlue);
@@ -96,15 +71,6 @@ input[type="submit"], .btn, button {
 		&.hover-red:hover{
 			background: $darkRed;
 		}
-		&.hover-yellow:hover{
-			background: $darkYellow;
-		}
-		&.hover-pink:hover{
-			background: $darkPink;
-		}
-		&.hover-purple:hover{
-			background: $darkPurple;
-		}
 	}
 
 	&.secondary, &.orange {
@@ -134,67 +100,16 @@ input[type="submit"], .btn, button {
 		}
 	}
 
-	&.yellow {
-		@include button-color($lightYellow, $darkYellow);
-		&:disabled, &.disabled {
-			&:hover {
-				@include button-color-disabled($lightYellow, $darkYellow);
-			}
-		}
-	}
-
-	&.pink {
-		@include button-color($lightPink, $darkPink);
-		&:disabled, &.disabled {
-			&:hover {
-				@include button-color-disabled($lightPink, $darkPink);
-			}
-		}
-	}
-
-	&.purple {
-		@include button-color($lightPurple, $darkPurple);
-		&:disabled, &.disabled {
-			&:hover {
-				@include button-color-disabled($lightPurple, $darkPurple);
-			}
-		}
-	}
-
-	// sizes ---------------------------------------------------------------------
-	&.x-small {
-		@include adjust-font-size-to(12px);
-	
-		border-width:1px;
-	}
-
-	&.small {
-		@include adjust-font-size-to(14px);
-	
-		border-width:1px;
-	}
-
-	&.large {
-		@include adjust-font-size-to(18px);	
-	
-	}
-
-	&.x-large {
-		font-weight:700;
-		@include adjust-font-size-to(24px);
-	
-	}
-	
 	// icons ---------------------------------------------------------------------
 	&[class^="icon-"], &[class*=" icon-"] {
-		padding-left: 2.5em;
+		padding-left: 2em;
 		position:relative;
 	}
 	&[class^="icon-"]::before, &[class*=" icon-"]::before {
-		font-size:125%;
+		font-size:100%;
 		position:absolute;
-		top: .25em;
-		left: 0.5em;
+		top: 0.2em;
+		left: 0.6em;
 		font-weight:normal !important;
 	}
 	&.icon-only {
@@ -204,9 +119,119 @@ input[type="submit"], .btn, button {
 			text-indent:0;
 		}
 	}
+
+	// sizes ---------------------------------------------------------------------
+	&.x-small {
+		@include adjust-font-size-to(12px);
+		@include apply-side-rhythm-border(top, 1px, .25, 12px, solid);
+		@include apply-side-rhythm-border(bottom, 1px, .25, 12px, solid);
+		@include apply-side-rhythm-border(left, 1px, .75, 12px, solid);
+		@include apply-side-rhythm-border(right, 1px, .75, 12px, solid);
+		border-width:1px;
+	}
+
+	&.x-small {
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 2em;
+		}
+		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			font-size:100%;
+			top: 0em;
+			left: 0.6em;
+		}
+	}
+
+	&.small {
+		@include adjust-font-size-to(14px);
+		@include apply-side-rhythm-border(top, 1px, .25, 14px, solid);
+		@include apply-side-rhythm-border(bottom, 1px, .25, 14px, solid);
+		@include apply-side-rhythm-border(left, 1px, .5, 14px, solid);
+		@include apply-side-rhythm-border(right, 1px, .5, 14px, solid);
+		border-width:1px;
+	}
+
+	&.small {
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 2em;
+		}
+		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			font-size:100%;
+			top: 0.1em;
+			left: 0.6em;
+		}
+	}
+
+	&.large {
+		@include adjust-font-size-to(18px);
+	}
+
+	&.large {
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 2em;
+		}
+		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			font-size:100%;
+			top: 0.4em;
+			left: 0.6em;
+		}
+	}
+
+	&.x-large {
+		font-weight:700;
+		@include adjust-font-size-to(24px);
+	}
+
+	&.x-large {
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 2em;
+		}
+		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			font-size:100%;
+			top: 0.1em;
+			left: 0.6em;
+		}
+	}
+
+	// block icon ----------------------------------------------------------------s
+	&.block {
+		text-align: center;
+		display: block;
+		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			font-size: 150%;
+			position: static;
+			padding: 0;
+			display: block;
+		}
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 1em;
+			padding-right: 1em;	
+		}
+		&.small, &.x-small {
+			&[class^="icon-"]::before, &[class*=" icon-"]::before {
+				font-size:125%;
+			}
+		}
+	}
+
+	&.fill {
+		@include box-sizing(border-box);
+		display: block;
+		width: 100%;
+		text-align: center;
+		&[class^="icon-"], &[class*=" icon-"] {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		&[class^="icon-"]::before, &[class*=" icon-"]::before {
+			position: relative;
+			top: 1px;
+			left: auto;
+			padding-right:.25em;
+		}
+	}
 }
 
-// block icons -----------------------------------------------------------------
+// button group ----------------------------------------------------------------
 .btn-group {
 	@include clearfix();
 	input[type="submit"], .btn, button {

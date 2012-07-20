@@ -56,7 +56,7 @@
 .icon-help:before {
 	content: "\2a";
 }
-.icon-close:before {
+.icon-close:before, .icon-cancel:before {
 	content: "\2b";
 }
 .icon-minus:before {
@@ -190,4 +190,7 @@
 }
 .icon-github:before {
 	content: "\57";
+}
+.icon-new-geonote:before {
+	content: "\58";
 }

@@ -540,7 +540,7 @@ body html {
 }
 
 /* line 59, ../sass/lib/_icons.scss */
-.icon-close:before {
+.icon-close:before, .icon-cancel:before, .icon-close:before, .leaflet-popup .leaflet-popup-close-button:before {
   content: "\2b";
 }
 
@@ -764,12 +764,17 @@ body html {
   content: "\57";
 }
 
-/* line 10, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 194, ../sass/lib/_icons.scss */
+.icon-new-geonote:before {
+  content: "\58";
+}
+
+/* line 10, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #wrapper {
   clear: both;
   min-height: 100%;
@@ -777,12 +782,12 @@ html, body {
   height: 100%;
   margin-bottom: -250px;
 }
-/* line 18, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #wrapper #push {
   height: 250px;
 }
 
-/* line 20, /Users/patrickarlt/.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Website/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
@@ -2166,37 +2171,7 @@ input[type="submit"]:disabled, input[type="submit"].disabled, .btn:disabled, .bt
 input[type="submit"]:disabled:hover, input[type="submit"].disabled:hover, .btn:disabled:hover, .btn.disabled:hover, button:disabled:hover, button.disabled:hover {
   cursor: default;
 }
-/* line 33, ../sass/lib/_button.scss */
-input[type="submit"].fill, .btn.fill, button.fill {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-/* line 38, ../sass/lib/_button.scss */
-input[type="submit"].fill[class^="icon-"], input[type="submit"].fill[class*=" icon-"], .btn.fill[class^="icon-"], .btn.fill[class*=" icon-"], button.fill[class^="icon-"], button.fill[class*=" icon-"] {
-  padding-left: 0;
-  padding-right: 0;
-}
-/* line 44, ../sass/lib/_button.scss */
-input[type="submit"].block, .btn.block, button.block {
-  text-align: center;
-  display: block;
-}
-/* line 47, ../sass/lib/_button.scss */
-input[type="submit"].block[class^="icon-"]::before, input[type="submit"].block[class*=" icon-"]::before, .btn.block[class^="icon-"]::before, .btn.block[class*=" icon-"]::before, button.block[class^="icon-"]::before, button.block[class*=" icon-"]::before {
-  position: static;
-  padding: 0;
-  display: block;
-}
-/* line 52, ../sass/lib/_button.scss */
-input[type="submit"].block[class^="icon-"], input[type="submit"].block[class*=" icon-"], .btn.block[class^="icon-"], .btn.block[class*=" icon-"], button.block[class^="icon-"], button.block[class*=" icon-"] {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 59, ../sass/lib/_button.scss */
+/* line 34, ../sass/lib/_button.scss */
 input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue, button.primary, button.blue {
   background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
@@ -2212,7 +2187,7 @@ input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue
 input[type="submit"].primary:hover, input[type="submit"].blue:hover, .btn.primary:hover, .btn.blue:hover, button.primary:hover, button.blue:hover {
   background: #27adec;
 }
-/* line 62, ../sass/lib/_button.scss */
+/* line 37, ../sass/lib/_button.scss */
 input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabled:hover, input[type="submit"].blue:disabled:hover, input[type="submit"].blue.disabled:hover, .btn.primary:disabled:hover, .btn.primary.disabled:hover, .btn.blue:disabled:hover, .btn.blue.disabled:hover, button.primary:disabled:hover, button.primary.disabled:hover, button.blue:disabled:hover, button.blue.disabled:hover {
   background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
@@ -2222,57 +2197,45 @@ input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabl
   background: -ms-linear-gradient(#55c8fe, #27adec);
   background: linear-gradient(#55c8fe, #27adec);
 }
-/* line 68, ../sass/lib/_button.scss */
+/* line 43, ../sass/lib/_button.scss */
 input[type="submit"].light, .btn.light, button.light {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 74, ../sass/lib/_button.scss */
+/* line 49, ../sass/lib/_button.scss */
 input[type="submit"].light:disabled:hover, input[type="submit"].light.disabled:hover, .btn.light:disabled:hover, .btn.light.disabled:hover, button.light:disabled:hover, button.light.disabled:hover {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 81, ../sass/lib/_button.scss */
+/* line 56, ../sass/lib/_button.scss */
 input[type="submit"].light:hover, .btn.light:hover, button.light:hover {
   background: #ebebeb;
 }
-/* line 84, ../sass/lib/_button.scss */
+/* line 59, ../sass/lib/_button.scss */
 input[type="submit"].light[class^="hover-"]:hover, input[type="submit"].light[class*=" hover-"]:hover, .btn.light[class^="hover-"]:hover, .btn.light[class*=" hover-"]:hover, button.light[class^="hover-"]:hover, button.light[class*=" hover-"]:hover {
   color: white;
 }
-/* line 87, ../sass/lib/_button.scss */
+/* line 62, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-blue:hover, .btn.light.hover-blue:hover, button.light.hover-blue:hover {
   background: #27adec;
 }
-/* line 90, ../sass/lib/_button.scss */
+/* line 65, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-green:hover, .btn.light.hover-green:hover, button.light.hover-green:hover {
   background: #79b335;
 }
-/* line 93, ../sass/lib/_button.scss */
+/* line 68, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-orange:hover, .btn.light.hover-orange:hover, button.light.hover-orange:hover {
   background: #e37b2f;
 }
-/* line 96, ../sass/lib/_button.scss */
+/* line 71, ../sass/lib/_button.scss */
 input[type="submit"].light.hover-red:hover, .btn.light.hover-red:hover, button.light.hover-red:hover {
   background: #de2c2c;
 }
-/* line 99, ../sass/lib/_button.scss */
-input[type="submit"].light.hover-yellow:hover, .btn.light.hover-yellow:hover, button.light.hover-yellow:hover {
-  background: #d3c223;
-}
-/* line 102, ../sass/lib/_button.scss */
-input[type="submit"].light.hover-pink:hover, .btn.light.hover-pink:hover, button.light.hover-pink:hover {
-  background: #de3ea8;
-}
-/* line 105, ../sass/lib/_button.scss */
-input[type="submit"].light.hover-purple:hover, .btn.light.hover-purple:hover, button.light.hover-purple:hover {
-  background: #7641b0;
-}
-/* line 110, ../sass/lib/_button.scss */
+/* line 76, ../sass/lib/_button.scss */
 input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .btn.orange, button.secondary, button.orange {
   background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
@@ -2288,7 +2251,7 @@ input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .bt
 input[type="submit"].secondary:hover, input[type="submit"].orange:hover, .btn.secondary:hover, .btn.orange:hover, button.secondary:hover, button.orange:hover {
   background: #e37b2f;
 }
-/* line 113, ../sass/lib/_button.scss */
+/* line 79, ../sass/lib/_button.scss */
 input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.disabled:hover, input[type="submit"].orange:disabled:hover, input[type="submit"].orange.disabled:hover, .btn.secondary:disabled:hover, .btn.secondary.disabled:hover, .btn.orange:disabled:hover, .btn.orange.disabled:hover, button.secondary:disabled:hover, button.secondary.disabled:hover, button.orange:disabled:hover, button.orange.disabled:hover {
   background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
@@ -2298,7 +2261,7 @@ input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.di
   background: -ms-linear-gradient(#f59555, #e37b2f);
   background: linear-gradient(#f59555, #e37b2f);
 }
-/* line 119, ../sass/lib/_button.scss */
+/* line 85, ../sass/lib/_button.scss */
 input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].cancel, input[type="submit"].red, .btn.danger, .btn.delete, .btn.cancel, .btn.red, button.danger, button.delete, button.cancel, button.red {
   background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
@@ -2314,7 +2277,7 @@ input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].c
 input[type="submit"].danger:hover, input[type="submit"].delete:hover, input[type="submit"].cancel:hover, input[type="submit"].red:hover, .btn.danger:hover, .btn.delete:hover, .btn.cancel:hover, .btn.red:hover, button.danger:hover, button.delete:hover, button.cancel:hover, button.red:hover {
   background: #de2c2c;
 }
-/* line 122, ../sass/lib/_button.scss */
+/* line 88, ../sass/lib/_button.scss */
 input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled:hover, input[type="submit"].delete:disabled:hover, input[type="submit"].delete.disabled:hover, input[type="submit"].cancel:disabled:hover, input[type="submit"].cancel.disabled:hover, input[type="submit"].red:disabled:hover, input[type="submit"].red.disabled:hover, .btn.danger:disabled:hover, .btn.danger.disabled:hover, .btn.delete:disabled:hover, .btn.delete.disabled:hover, .btn.cancel:disabled:hover, .btn.cancel.disabled:hover, .btn.red:disabled:hover, .btn.red.disabled:hover, button.danger:disabled:hover, button.danger.disabled:hover, button.delete:disabled:hover, button.delete.disabled:hover, button.cancel:disabled:hover, button.cancel.disabled:hover, button.red:disabled:hover, button.red.disabled:hover {
   background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
@@ -2324,7 +2287,7 @@ input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled
   background: -ms-linear-gradient(#ec5555, #de2c2c);
   background: linear-gradient(#ec5555, #de2c2c);
 }
-/* line 128, ../sass/lib/_button.scss */
+/* line 94, ../sass/lib/_button.scss */
 input[type="submit"].green, .btn.green, button.green {
   background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
@@ -2340,7 +2303,7 @@ input[type="submit"].green, .btn.green, button.green {
 input[type="submit"].green:hover, .btn.green:hover, button.green:hover {
   background: #79b335;
 }
-/* line 131, ../sass/lib/_button.scss */
+/* line 97, ../sass/lib/_button.scss */
 input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:hover, .btn.green:disabled:hover, .btn.green.disabled:hover, button.green:disabled:hover, button.green.disabled:hover {
   background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
@@ -2350,135 +2313,163 @@ input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:h
   background: -ms-linear-gradient(#89ce37, #79b335);
   background: linear-gradient(#89ce37, #79b335);
 }
-/* line 137, ../sass/lib/_button.scss */
-input[type="submit"].yellow, .btn.yellow, button.yellow {
-  background: #dac81f;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2cf1b), color-stop(100%, #d3c223));
-  background: -webkit-linear-gradient(#e2cf1b, #d3c223);
-  background: -moz-linear-gradient(#e2cf1b, #d3c223);
-  background: -o-linear-gradient(#e2cf1b, #d3c223);
-  background: -ms-linear-gradient(#e2cf1b, #d3c223);
-  background: linear-gradient(#e2cf1b, #d3c223);
-  border-color: #d3c223;
-  text-shadow: 0 -1px 0 #d3c223;
+/* line 104, ../sass/lib/_button.scss */
+input[type="submit"][class^="icon-"], input[type="submit"][class*=" icon-"], .btn[class^="icon-"], .btn[class*=" icon-"], button[class^="icon-"], button[class*=" icon-"] {
+  padding-left: 2em;
+  position: relative;
 }
-/* line 6, ../sass/lib/_mixins.scss */
-input[type="submit"].yellow:hover, .btn.yellow:hover, button.yellow:hover {
-  background: #d3c223;
+/* line 108, ../sass/lib/_button.scss */
+input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon-"]::before, .btn[class^="icon-"]::before, .btn[class*=" icon-"]::before, button[class^="icon-"]::before, button[class*=" icon-"]::before {
+  font-size: 100%;
+  position: absolute;
+  top: 0.2em;
+  left: 0.6em;
+  font-weight: normal !important;
 }
-/* line 140, ../sass/lib/_button.scss */
-input[type="submit"].yellow:disabled:hover, input[type="submit"].yellow.disabled:hover, .btn.yellow:disabled:hover, .btn.yellow.disabled:hover, button.yellow:disabled:hover, button.yellow.disabled:hover {
-  background: #dac81f;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2cf1b), color-stop(100%, #d3c223));
-  background: -webkit-linear-gradient(#e2cf1b, #d3c223);
-  background: -moz-linear-gradient(#e2cf1b, #d3c223);
-  background: -o-linear-gradient(#e2cf1b, #d3c223);
-  background: -ms-linear-gradient(#e2cf1b, #d3c223);
-  background: linear-gradient(#e2cf1b, #d3c223);
+/* line 115, ../sass/lib/_button.scss */
+input[type="submit"].icon-only, .btn.icon-only, button.icon-only {
+  width: 2.5em;
+  text-indent: -9999em;
 }
-/* line 146, ../sass/lib/_button.scss */
-input[type="submit"].pink, .btn.pink, button.pink {
-  background: #e549b1;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed54ba), color-stop(100%, #de3ea8));
-  background: -webkit-linear-gradient(#ed54ba, #de3ea8);
-  background: -moz-linear-gradient(#ed54ba, #de3ea8);
-  background: -o-linear-gradient(#ed54ba, #de3ea8);
-  background: -ms-linear-gradient(#ed54ba, #de3ea8);
-  background: linear-gradient(#ed54ba, #de3ea8);
-  border-color: #de3ea8;
-  text-shadow: 0 -1px 0 #de3ea8;
+/* line 118, ../sass/lib/_button.scss */
+input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only::before {
+  text-indent: 0;
 }
-/* line 6, ../sass/lib/_mixins.scss */
-input[type="submit"].pink:hover, .btn.pink:hover, button.pink:hover {
-  background: #de3ea8;
-}
-/* line 149, ../sass/lib/_button.scss */
-input[type="submit"].pink:disabled:hover, input[type="submit"].pink.disabled:hover, .btn.pink:disabled:hover, .btn.pink.disabled:hover, button.pink:disabled:hover, button.pink.disabled:hover {
-  background: #e549b1;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed54ba), color-stop(100%, #de3ea8));
-  background: -webkit-linear-gradient(#ed54ba, #de3ea8);
-  background: -moz-linear-gradient(#ed54ba, #de3ea8);
-  background: -o-linear-gradient(#ed54ba, #de3ea8);
-  background: -ms-linear-gradient(#ed54ba, #de3ea8);
-  background: linear-gradient(#ed54ba, #de3ea8);
-}
-/* line 155, ../sass/lib/_button.scss */
-input[type="submit"].purple, .btn.purple, button.purple {
-  background: #844ac2;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9253d5), color-stop(100%, #7641b0));
-  background: -webkit-linear-gradient(#9253d5, #7641b0);
-  background: -moz-linear-gradient(#9253d5, #7641b0);
-  background: -o-linear-gradient(#9253d5, #7641b0);
-  background: -ms-linear-gradient(#9253d5, #7641b0);
-  background: linear-gradient(#9253d5, #7641b0);
-  border-color: #7641b0;
-  text-shadow: 0 -1px 0 #7641b0;
-}
-/* line 6, ../sass/lib/_mixins.scss */
-input[type="submit"].purple:hover, .btn.purple:hover, button.purple:hover {
-  background: #7641b0;
-}
-/* line 158, ../sass/lib/_button.scss */
-input[type="submit"].purple:disabled:hover, input[type="submit"].purple.disabled:hover, .btn.purple:disabled:hover, .btn.purple.disabled:hover, button.purple:disabled:hover, button.purple.disabled:hover {
-  background: #844ac2;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9253d5), color-stop(100%, #7641b0));
-  background: -webkit-linear-gradient(#9253d5, #7641b0);
-  background: -moz-linear-gradient(#9253d5, #7641b0);
-  background: -o-linear-gradient(#9253d5, #7641b0);
-  background: -ms-linear-gradient(#9253d5, #7641b0);
-  background: linear-gradient(#9253d5, #7641b0);
-}
-/* line 165, ../sass/lib/_button.scss */
+/* line 124, ../sass/lib/_button.scss */
 input[type="submit"].x-small, .btn.x-small, button.x-small {
   font-size: 0.75em;
   line-height: 2em;
+  border-top-style: solid;
+  border-top-width: 0.083em;
+  padding-top: 0.417em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.083em;
+  padding-bottom: 0.417em;
+  border-left-style: solid;
+  border-left-width: 0.083em;
+  padding-left: 1.417em;
+  border-right-style: solid;
+  border-right-width: 0.083em;
+  padding-right: 1.417em;
   border-width: 1px;
 }
-/* line 171, ../sass/lib/_button.scss */
+/* line 134, ../sass/lib/_button.scss */
+input[type="submit"].x-small[class^="icon-"], input[type="submit"].x-small[class*=" icon-"], .btn.x-small[class^="icon-"], .btn.x-small[class*=" icon-"], button.x-small[class^="icon-"], button.x-small[class*=" icon-"] {
+  padding-left: 2em;
+}
+/* line 137, ../sass/lib/_button.scss */
+input[type="submit"].x-small[class^="icon-"]::before, input[type="submit"].x-small[class*=" icon-"]::before, .btn.x-small[class^="icon-"]::before, .btn.x-small[class*=" icon-"]::before, button.x-small[class^="icon-"]::before, button.x-small[class*=" icon-"]::before {
+  font-size: 100%;
+  top: 0em;
+  left: 0.6em;
+}
+/* line 144, ../sass/lib/_button.scss */
 input[type="submit"].small, .btn.small, button.small {
   font-size: 0.875em;
   line-height: 1.714em;
+  border-top-style: solid;
+  border-top-width: 0.071em;
+  padding-top: 0.357em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.071em;
+  padding-bottom: 0.357em;
+  border-left-style: solid;
+  border-left-width: 0.071em;
+  padding-left: 0.786em;
+  border-right-style: solid;
+  border-right-width: 0.071em;
+  padding-right: 0.786em;
   border-width: 1px;
 }
-/* line 177, ../sass/lib/_button.scss */
+/* line 154, ../sass/lib/_button.scss */
+input[type="submit"].small[class^="icon-"], input[type="submit"].small[class*=" icon-"], .btn.small[class^="icon-"], .btn.small[class*=" icon-"], button.small[class^="icon-"], button.small[class*=" icon-"] {
+  padding-left: 2em;
+}
+/* line 157, ../sass/lib/_button.scss */
+input[type="submit"].small[class^="icon-"]::before, input[type="submit"].small[class*=" icon-"]::before, .btn.small[class^="icon-"]::before, .btn.small[class*=" icon-"]::before, button.small[class^="icon-"]::before, button.small[class*=" icon-"]::before {
+  font-size: 100%;
+  top: 0.1em;
+  left: 0.6em;
+}
+/* line 164, ../sass/lib/_button.scss */
 input[type="submit"].large, .btn.large, button.large {
   font-size: 1.125em;
   line-height: 1.333em;
 }
-/* line 182, ../sass/lib/_button.scss */
+/* line 169, ../sass/lib/_button.scss */
+input[type="submit"].large[class^="icon-"], input[type="submit"].large[class*=" icon-"], .btn.large[class^="icon-"], .btn.large[class*=" icon-"], button.large[class^="icon-"], button.large[class*=" icon-"] {
+  padding-left: 2em;
+}
+/* line 172, ../sass/lib/_button.scss */
+input[type="submit"].large[class^="icon-"]::before, input[type="submit"].large[class*=" icon-"]::before, .btn.large[class^="icon-"]::before, .btn.large[class*=" icon-"]::before, button.large[class^="icon-"]::before, button.large[class*=" icon-"]::before {
+  font-size: 100%;
+  top: 0.4em;
+  left: 0.6em;
+}
+/* line 179, ../sass/lib/_button.scss */
 input[type="submit"].x-large, .btn.x-large, button.x-large {
   font-weight: 700;
   font-size: 1.5em;
   line-height: 2em;
 }
-/* line 189, ../sass/lib/_button.scss */
-input[type="submit"][class^="icon-"], input[type="submit"][class*=" icon-"], .btn[class^="icon-"], .btn[class*=" icon-"], button[class^="icon-"], button[class*=" icon-"] {
-  padding-left: 2.5em;
-  position: relative;
+/* line 185, ../sass/lib/_button.scss */
+input[type="submit"].x-large[class^="icon-"], input[type="submit"].x-large[class*=" icon-"], .btn.x-large[class^="icon-"], .btn.x-large[class*=" icon-"], button.x-large[class^="icon-"], button.x-large[class*=" icon-"] {
+  padding-left: 2em;
 }
-/* line 193, ../sass/lib/_button.scss */
-input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon-"]::before, .btn[class^="icon-"]::before, .btn[class*=" icon-"]::before, button[class^="icon-"]::before, button[class*=" icon-"]::before {
+/* line 188, ../sass/lib/_button.scss */
+input[type="submit"].x-large[class^="icon-"]::before, input[type="submit"].x-large[class*=" icon-"]::before, .btn.x-large[class^="icon-"]::before, .btn.x-large[class*=" icon-"]::before, button.x-large[class^="icon-"]::before, button.x-large[class*=" icon-"]::before {
+  font-size: 100%;
+  top: 0.1em;
+  left: 0.6em;
+}
+/* line 196, ../sass/lib/_button.scss */
+input[type="submit"].block, .btn.block, button.block {
+  text-align: center;
+  display: block;
+}
+/* line 199, ../sass/lib/_button.scss */
+input[type="submit"].block[class^="icon-"]::before, input[type="submit"].block[class*=" icon-"]::before, .btn.block[class^="icon-"]::before, .btn.block[class*=" icon-"]::before, button.block[class^="icon-"]::before, button.block[class*=" icon-"]::before {
+  font-size: 150%;
+  position: static;
+  padding: 0;
+  display: block;
+}
+/* line 205, ../sass/lib/_button.scss */
+input[type="submit"].block[class^="icon-"], input[type="submit"].block[class*=" icon-"], .btn.block[class^="icon-"], .btn.block[class*=" icon-"], button.block[class^="icon-"], button.block[class*=" icon-"] {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 210, ../sass/lib/_button.scss */
+input[type="submit"].block.small[class^="icon-"]::before, input[type="submit"].block.small[class*=" icon-"]::before, input[type="submit"].block.x-small[class^="icon-"]::before, input[type="submit"].block.x-small[class*=" icon-"]::before, .btn.block.small[class^="icon-"]::before, .btn.block.small[class*=" icon-"]::before, .btn.block.x-small[class^="icon-"]::before, .btn.block.x-small[class*=" icon-"]::before, button.block.small[class^="icon-"]::before, button.block.small[class*=" icon-"]::before, button.block.x-small[class^="icon-"]::before, button.block.x-small[class*=" icon-"]::before {
   font-size: 125%;
-  position: absolute;
-  top: .25em;
-  left: 0.5em;
-  font-weight: normal !important;
 }
-/* line 200, ../sass/lib/_button.scss */
-input[type="submit"].icon-only, .btn.icon-only, button.icon-only {
-  width: 2.5em;
-  text-indent: -9999em;
+/* line 216, ../sass/lib/_button.scss */
+input[type="submit"].fill, .btn.fill, button.fill {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
-/* line 203, ../sass/lib/_button.scss */
-input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only::before {
-  text-indent: 0;
+/* line 221, ../sass/lib/_button.scss */
+input[type="submit"].fill[class^="icon-"], input[type="submit"].fill[class*=" icon-"], .btn.fill[class^="icon-"], .btn.fill[class*=" icon-"], button.fill[class^="icon-"], button.fill[class*=" icon-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 225, ../sass/lib/_button.scss */
+input[type="submit"].fill[class^="icon-"]::before, input[type="submit"].fill[class*=" icon-"]::before, .btn.fill[class^="icon-"]::before, .btn.fill[class*=" icon-"]::before, button.fill[class^="icon-"]::before, button.fill[class*=" icon-"]::before {
+  position: relative;
+  top: 1px;
+  left: auto;
+  padding-right: .25em;
 }
 
-/* line 210, ../sass/lib/_button.scss */
+/* line 235, ../sass/lib/_button.scss */
 .btn-group {
   overflow: hidden;
 }
-/* line 212, ../sass/lib/_button.scss */
+/* line 237, ../sass/lib/_button.scss */
 .btn-group input[type="submit"], .btn-group .btn, .btn-group button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2489,7 +2480,7 @@ input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only
   display: block;
   float: left;
 }
-/* line 217, ../sass/lib/_button.scss */
+/* line 242, ../sass/lib/_button.scss */
 .btn-group input[type="submit"]:first-child, .btn-group .btn:first-child, .btn-group button:first-child {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -2499,7 +2490,7 @@ input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only
   border-bottom-left-radius: 4px;
   border-left-width: 1px;
 }
-/* line 222, ../sass/lib/_button.scss */
+/* line 247, ../sass/lib/_button.scss */
 .btn-group input[type="submit"]:last-child, .btn-group .btn:last-child, .btn-group button:last-child {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -2509,7 +2500,7 @@ input[type="submit"].icon-only::before, .btn.icon-only::before, button.icon-only
   border-bottom-right-radius: 4px;
 }
 
-/* line 231, ../sass/lib/_button.scss */
+/* line 256, ../sass/lib/_button.scss */
 html.ie8 .btn[class^="icon-"], html.ie8 .btn[class*=" icon-"], html.ie8 button[class^="icon-"], html.ie8 button[class*=" icon-"], html.ie8 input[type="submit"][class^="icon-"], html.ie8 input[type="submit"][class*=" icon-"] {
   padding-left: 1em;
 }
