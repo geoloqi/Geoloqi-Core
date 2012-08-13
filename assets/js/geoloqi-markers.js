@@ -1,7 +1,7 @@
 Geoloqi.module("markers.style_for", function(){
 	exports = {};
 	normal = {
-		shadowUrl: '/core/assets/img/markers/shadow.png',
+		shadowUrl: '/geoloqi-core/assets/img/markers/shadow.png',
 		iconSize: new L.Point(27, 41),
 		shadowSize: new L.Point(29, 43),
 		iconAnchor: new L.Point(13, 41),
@@ -26,12 +26,12 @@ Geoloqi.module("markers.style_for", function(){
 	};
 
 	large = {
-		shadowUrl: '/core/assets/img/markers/large_shadow.png',
+		shadowUrl: '/geoloqi-core/assets/img/markers/large_shadow.png',
 		iconSize: new L.Point(33, 47),
 		shadowSize: new L.Point(35, 49),
 		iconAnchor: new L.Point(16, 47),
 		//popupAnchor: new L.Point(0, -49)
-		popupAnchor: new L.Point(0, -37)
+		popupAnchor: new L.Point(0, -42)
 	};
 
 	style_for = function(marker_type){
@@ -94,7 +94,7 @@ Geoloqi.module("markers.init", function(){
 			_.each(Geoloqi.markers.Types, function(marker_type){
 				Geoloqi.module("markers."+color+"."+marker_type, function(){
 					options = {
-						iconUrl: '/core/assets/img/markers/'+color+'_'+marker_type+'.png'
+						iconUrl: '/geoloqi-core/assets/img/markers/'+color+'_'+marker_type+'.png'
 					};
 					defaults = Geoloqi.markers.style_for(marker_type);
 					return L.Icon.extend(_.extend(options, defaults));

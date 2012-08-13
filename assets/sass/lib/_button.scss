@@ -108,7 +108,7 @@ input[type="submit"], .btn, button {
 	&[class^="icon-"]::before, &[class*=" icon-"]::before {
 		font-size:100%;
 		position:absolute;
-		top: 0.2em;
+		top: 0.4em;
 		left: 0.6em;
 		font-weight:normal !important;
 	}
@@ -156,7 +156,7 @@ input[type="submit"], .btn, button {
 		}
 		&[class^="icon-"]::before, &[class*=" icon-"]::before {
 			font-size:100%;
-			top: 0.1em;
+			top: 0.4em;
 			left: 0.6em;
 		}
 	}
@@ -177,8 +177,8 @@ input[type="submit"], .btn, button {
 	}
 
 	&.x-large {
-		font-weight:700;
 		@include adjust-font-size-to(24px);
+		font-family: $PTSans;
 	}
 
 	&.x-large {
@@ -229,6 +229,21 @@ input[type="submit"], .btn, button {
 			padding-right:.25em;
 		}
 	}
+
+	&.transparent {
+		background: none;
+		border-color: transparent;
+		color: $linkColor;
+		@include box-shadow(none);
+		text-shadow: none;
+		&:disabled, &.disabled {
+			&:hover {
+				background: none;
+				border-color: transparent;
+				color: $linkHover;
+			}
+		}
+	}
 }
 
 // button group ----------------------------------------------------------------
@@ -251,7 +266,7 @@ input[type="submit"], .btn, button {
 	}
 }
 
-html.ie8{
+html.ie8 {
 	.btn, button, input[type="submit"] {
 		&[class^="icon-"], &[class*=" icon-"]{
 			padding-left: 1em;

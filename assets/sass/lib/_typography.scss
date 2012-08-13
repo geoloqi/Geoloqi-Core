@@ -113,6 +113,14 @@ a {
 	&:hover, &:focus {
 		color: $linkHover;
 		cursor: pointer;
+		&[class^="icon-"], &[class*=" icon-"] {
+			text-decoration: none;
+		}
+	}
+	&[class^="icon-"]::before, &[class*=" icon-"]::before {
+		padding-right: .25em;
+		position: relative;
+		top:1px;
 	}
 }
 
@@ -191,4 +199,13 @@ abbr[title] {
 
 .center-text {
 	text-align: center;
+}
+
+// hr --------------------------------------------------------------------------
+hr {
+	@include margin-leader(1);
+	@include margin-trailer(1);
+	border: none;
+	border-top:1px solid $lighterGray;
+	border-bottom: 1px solid $white;
 }
