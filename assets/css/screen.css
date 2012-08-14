@@ -2410,7 +2410,7 @@ input[type="submit"][class^="icon-"], input[type="submit"][class*=" icon-"], .bt
 input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon-"]::before, .btn[class^="icon-"]::before, .btn[class*=" icon-"]::before, button[class^="icon-"]::before, button[class*=" icon-"]::before {
   font-size: 100%;
   position: absolute;
-  top: 0.4em;
+  top: 0.2em;
   left: 0.6em;
   font-weight: normal !important;
 }
