@@ -1,4 +1,13 @@
 // headers ---------------------------------------------------------------------
+hgroup {
+	> :first-child{
+		@include trailer(0);
+	}
+	> :last-child{
+		@include leader(0);
+	}
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: $PTSans;
 	color: $darkestGray;
@@ -129,6 +138,7 @@ a {
 nav {
 	ul, ol {
 		padding-left:0;		
+		list-style: none;
 	}	
 }
 
@@ -137,7 +147,8 @@ ul, ol {
 	@include trailer(1);
 	padding-left: 1.25em;
 	margin-top:0;
-	li {
+	&.unstyled {
+		list-style: none;
 	}
 }
 

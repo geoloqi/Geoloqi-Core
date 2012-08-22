@@ -81,47 +81,50 @@ form {
 	
 	//adjacent fields --------------------------------------------------------------
 	.adjacent-fields {
+		+ .adjacent-fields {
+			@include leader(1);
+		}
 		@include clearfix();
 		label {
 			@include pre(0);
 			@include leader(0);
 			clear: none;
 		}
-			&.two {
-				label {
-					@include pre(0);
-					width:49%;
-				}
-				label:first-child {
-					@include float(left);
-				}
-				label:last-child {
-					@include float(right);
-				}
+		&.two {
+			label {
+				@include pre(0);
+				width:49%;
 			}
-			&.three {
-				label {
-					@include pre(0);
-					width:31.5%;
-					@include float-left;
-				}
-				label:nth-child(2){
-					margin:0 2.5%;
-				}
-				label:last-child {
-					@include float(right);
-				}
+			label:first-child {
+				@include float(left);
 			}
-			&.four {
-				label {
-					@include pre(0);
-					width:23.5%;
-					@include float-left;
-				}
-				label:nth-child(1),.input:nth-child(2),.input:nth-child(3){
-					margin:0 1.75% 0 0;
-				}
+			label:last-child {
+				@include float(right);
 			}
+		}
+		&.three {
+			label {
+				@include pre(0);
+				width:31.5%;
+				@include float-left;
+			}
+			label:nth-child(2){
+				margin:0 2.5%;
+			}
+			label:last-child {
+				@include float(right);
+			}
+		}
+		&.four {
+			label {
+				@include pre(0);
+				width:23.5%;
+				@include float-left;
+			}
+			label:nth-child(1),.input:nth-child(2),.input:nth-child(3){
+				margin:0 1.75% 0 0;
+			}
+		}
 	}
 	// input list -------------------------------------------------------------------
 

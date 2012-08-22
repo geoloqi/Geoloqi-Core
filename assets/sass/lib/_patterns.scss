@@ -100,8 +100,19 @@
 
 .box, .well {
 	@include border-radius(4px);
+	@include box-shadow(0 2px 2px rgba(0,0,0,0.1));
 	@include rhythm-borders(1px, 1);
+	background: $white;
+	border-width: 1px;
 	border-color: $lighterGray;
+	> header {
+
+	}
+	> footer {
+		@include rhythm-borders(0px, 1);
+		background: $lightestGray;
+		border-top:1px solid $lighterGray;
+	}
 	form {
 		label:first-child {
 			@include leader(0);
@@ -141,10 +152,10 @@
 				&:last-of-type {
 					border-bottom:none;
 				}
-				*:first-child {
+				> *:first-child {
 					@include leader(0);
 				}
-				*:last-child {
+				> *:last-child {
 					@include trailer(0);
 				}
 			}
@@ -158,33 +169,16 @@
 			&:last-of-type {
 				border-bottom:none;
 			}
-			*:first-child {
+			> *:first-child {
 				@include leader(0);
 			}
-			*:last-child {
+			> *:last-child {
 				@include trailer(0);
 			}
 		}
 	}
 }
 
-.box {
-	@include box-shadow(0 2px 2px rgba(0,0,0,0.1));
-	background: $white;
-	> header {
-
-	}
-	> footer {
-		@include rhythm-borders(0px, 1);
-		background: $lightestGray;
-		border-top:1px solid $lighterGray;
-	}
-}
-
-.well {
-	@include box-shadow(inset 0 1px 1px $lightGray, 0 1px 1px $white);
-	background: $lightestGray;
-}
 
 .tabs {
 	@include old-clearfix();
