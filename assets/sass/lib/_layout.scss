@@ -83,7 +83,7 @@ $header-height: 3.5em;
 					color: $lightestGray;
 					text-shadow: 0 1px 0 $darkestGray;
 				}
-				&:hover, &:focus {
+				&:hover, &:focus, &.active {
 					@include box-shadow(inset -1px 0px 2px rgba(255,255,255,0.05), inset 1px 0px 2px rgba(255,255,255,0.05));
 					background: $darkestGray;
 				}

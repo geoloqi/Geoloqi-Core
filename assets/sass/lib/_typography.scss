@@ -126,11 +126,6 @@ a {
 			text-decoration: none;
 		}
 	}
-	&[class^="icon-"]::before, &[class*=" icon-"]::before {
-		padding-right: .25em;
-		position: relative;
-		top:1px;
-	}
 }
 
 // lists -----------------------------------------------------------------------
