@@ -389,7 +389,7 @@ body html {
     visibility: visible;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
   /* line 86, ../sass/lib/_helpers.scss */
   .hide-tablet-portrait {
     display: none !important;
@@ -1034,7 +1034,7 @@ html, body {
   text-indent: -9999em;
   background: #222222 url("/geoloqi-core/assets/img/logo-block.png") no-repeat 0 0;
   overflow: hidden;
-  background-position: 8px;
+  background-position: center center;
   padding: .65em .5em .8em;
   float: left;
   border-right: 1px solid #333333;
@@ -1057,7 +1057,7 @@ html, body {
     visibility: hidden;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
   /* line 178, ../sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
@@ -1270,7 +1270,7 @@ html, body {
     margin-right: 1.053%;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
   /* line 305, ../sass/lib/_layout.scss */
   #footer-menu {
     width: 100%;
@@ -1322,7 +1322,7 @@ html, body {
   color: gray;
   text-decoration: none;
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
   /* line 365, ../sass/lib/_layout.scss */
   #social-links {
     width: 100%;
@@ -1357,7 +1357,7 @@ html, body {
   }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
   /* line 402, ../sass/lib/_layout.scss */
   #footer, #site-footer, #common-footer {
     height: auto;
@@ -1417,7 +1417,7 @@ html, body {
     clear: both;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
   /* line 438, ../sass/lib/_layout.scss */
   .container {
     max-width: 39.375em;
@@ -3071,15 +3071,16 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   /* line 2, ../sass/lib/_retina.scss */
   #logo {
     display: block;
-    width: 60px;
-    height: 72px;
+    width: 30px;
+    height: 33px;
     text-indent: -9999em;
     background: #222222 url("/geoloqi-core/assets/img/logo-block@2x.png") no-repeat 0 0;
     overflow: hidden;
-    background-size: 50% auto;
+    background-size: 70% auto;
+    background-position: center center;
   }
 
-  /* line 6, ../sass/lib/_retina.scss */
+  /* line 7, ../sass/lib/_retina.scss */
   #logo-footer {
     background: url("/geoloqi-core/assets/img/logo-footer@2x.png") no-repeat 0 0;
     background-size: 50% auto;

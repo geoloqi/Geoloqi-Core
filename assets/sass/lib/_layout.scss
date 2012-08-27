@@ -169,7 +169,7 @@ $header-height: 3.5em;
 
 #logo {
 	@include image-replace("#{$base-url}/img/logo-block.png", 30px, 33px, #222);
-	background-position: 8px;
+	background-position: center center;
 	padding:.65em .5em .8em;
 	float: left;
 	border-right:1px solid $darkerGray;
