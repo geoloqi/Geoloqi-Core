@@ -137,6 +137,9 @@
 	&.no-padding {
 		padding:0;
 	}
+	&.half-padding {
+		@include rhythm-borders(1px, .5);
+	}
 	&.push-bottom {
 		@include margin-trailer(1);
 	}
