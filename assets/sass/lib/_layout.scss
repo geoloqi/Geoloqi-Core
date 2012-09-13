@@ -2,7 +2,7 @@
 
 @import "compass/layout/sticky-footer";
 
-$footer-height: 260px;
+$footer-height: 220px;
 
 @include sticky-footer($footer-height, "#wrapper", "#push", "#footer");
 
@@ -261,6 +261,7 @@ $common-footer-height: 72px;
 	}
 	h6 {
 		color: $white;
+		margin-top:1em;
 	}
 	a {
 		color: $lightGray;
@@ -281,12 +282,15 @@ $common-footer-height: 72px;
 	}
 	.box {
 		margin-top: 1.2em;
-		padding: 1em;
+		padding: .5em 1em;
 		@include clearfix();
 		@include background-clip(padding-box);
 		background: $offBlack;
 		@include box-shadow(inset 0 -2px 2px $black, 0 -1px 0 $darkerGray);
 		border-color: $darkerGray;
+		h6 {
+			margin:0;
+		}
 	}
 }
 
