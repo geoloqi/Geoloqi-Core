@@ -180,9 +180,9 @@ dl {
 
 code {
 	@include border-radius(4px);
-	border: 1px solid $lighterGray;
-	background: $lightestGray;
-	padding:.25em;
+	border: 1px solid $lightestGray;
+	background: $offWhite;
+	padding:.1em .25em;
 	&[lang] {
 		@include adjust-font-size-to(14px);
 		@include rhythm-borders(1px, 1, 14px);
