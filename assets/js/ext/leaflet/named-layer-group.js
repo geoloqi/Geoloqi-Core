@@ -41,3 +41,7 @@ L.NamedLayerGroup = L.LayerGroup.extend({
     return this;
   }
 });
+
+L.namedLayerGroup = function(layers){
+  return new L.NamedLayerGroup(layers);
+};

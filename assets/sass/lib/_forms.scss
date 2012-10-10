@@ -236,34 +236,6 @@ input, select, textarea {
 	width:100%;
 }
 
-// search inputs ---------------------------------------------------------------
-/*
-input[type="search"]{
-	&:after {
-		content: "\003f";
-		font-family: 'IcoMoon';
-		font-style: normal;
-		speak: none;
-	};
-}
-
-input[type="search"]{
-	position:relative;
-	text-indent:1.5em;
-	@extend [class^="icon-"];
-	@extend .icon-search;
-	&:before {
-		text-indent:0em;
-		display:block;
-		font-size: 24px;
-		color: $lightGray;
-		position:absolute;
-		top:.225em;
-		left:.1em;
-	}
-}
-*/
-
 // checkboxes and radio buttons ------------------------------------------------
 input[type="checkbox"], input[type="radio"] {
 	display:block;
