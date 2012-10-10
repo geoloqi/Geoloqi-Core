@@ -4,7 +4,7 @@ $labelSpan : 5;
 form {
 	label {
 		@include leader(1);
-		@include clearfix();
+		@include pie-clearfix();
 		clear:both;
 		display:block;
 		&.collapse {
@@ -37,7 +37,7 @@ form {
 		// multpile inputs --------------------------------------------------------
 		.multi-input {
 			@include pre($labelSpan);
-			@include clearfix();
+			@include pie-clearfix();
 			.input:last-child {
 				@include float(right);
 			}
@@ -84,7 +84,7 @@ form {
 		+ .adjacent-fields {
 			@include leader(1);
 		}
-		@include clearfix();
+		@include pie-clearfix();
 		label {
 			@include pre(0);
 			@include leader(0);
@@ -136,7 +136,7 @@ form {
 			padding:0;
 			list-style: none;
 			li {
-				@include clearfix();
+				@include pie-clearfix();
 				margin:0;
 				label {
 					@include leader(0);
@@ -159,7 +159,7 @@ form {
 		& :first-child {
 			@include float-left();
 		};
-		@include clearfix();
+		@include pie-clearfix();
 		.secondary {
 			@include adjust-font-size-to(18px);
 			@include rhythm-borders(0px, .5, 18px, solid);
