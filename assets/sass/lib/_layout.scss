@@ -70,6 +70,7 @@ $header-height: 3.5em;
 			margin: 0;
 			padding: 0;
 			list-style: none;
+			float: left;
 			li {
 				float:left;
 				text-shadow:0 1px 0 $darkestGray;
@@ -117,9 +118,6 @@ $header-height: 3.5em;
 							padding-right: .75em;
 							color: $lightestGray;
 						}
-						h3:first-of-type{
-							@include leader(.5);
-						}
 						hr {
 							border-top:1px solid $black;
 							border-bottom:1px solid $darkerGray;
@@ -132,6 +130,7 @@ $header-height: 3.5em;
 							margin: 0;
 							padding: 0;
 							width: 172px;
+							@include trailer(.5);
 							li {
 								@include float(none);
 								display: block;
@@ -148,9 +147,6 @@ $header-height: 3.5em;
 									}
 								}
 							}
-						}
-						ul:last-of-type{
-							@include trailer(.5);
 						}
 					}
 					&:hover {
