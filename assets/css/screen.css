@@ -1030,21 +1030,21 @@ html, body {
 #logo {
   display: block;
   width: 30px;
-  height: 33px;
+  height: 34px;
   text-indent: -9999em;
   background: #222222 url("/geoloqi-core/assets/img/logo-block.png") no-repeat 0 0;
   overflow: hidden;
   background-position: center center;
-  padding: .65em .5em .8em;
+  padding: .6em .5em .8em;
   float: left;
   border-right: 1px solid #333333;
 }
 
 /* line 178, ../sass/lib/_layout.scss */
 #logo-footer {
-  width: 20%;
   float: left;
-  margin-right: 1.053%;
+  width: 152px;
+  margin-right: 20px;
   background: url("/geoloqi-core/assets/img/logo-footer.png") no-repeat 0 0;
   height: 38px;
   margin-top: 1.25em;
@@ -1072,15 +1072,15 @@ html, body {
   }
 }
 
-/* line 197, ../sass/lib/_layout.scss */
+/* line 199, ../sass/lib/_layout.scss */
 #header #site-selector {
   background: #222;
 }
-/* line 200, ../sass/lib/_layout.scss */
+/* line 202, ../sass/lib/_layout.scss */
 #header #site-selector ul li {
   padding-right: 0;
 }
-/* line 202, ../sass/lib/_layout.scss */
+/* line 204, ../sass/lib/_layout.scss */
 #header #site-selector ul li a {
   font-size: 1.5em;
   line-height: 2.35em;
@@ -1089,21 +1089,21 @@ html, body {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 209, ../sass/lib/_layout.scss */
+/* line 211, ../sass/lib/_layout.scss */
 #header #site-selector ul li a:hover {
   text-decoration: none;
 }
-/* line 215, ../sass/lib/_layout.scss */
+/* line 217, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul {
   width: 250px;
 }
-/* line 218, ../sass/lib/_layout.scss */
+/* line 220, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a {
   font-size: 1.25em;
   line-height: 1em;
   padding: .5em;
 }
-/* line 222, ../sass/lib/_layout.scss */
+/* line 224, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a h6 {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1112,7 +1112,7 @@ html, body {
   margin-bottom: 0em;
   color: white;
 }
-/* line 229, ../sass/lib/_layout.scss */
+/* line 231, ../sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a small, #header #site-selector ul li.dropdown .dropdown-menu ul li a table caption, table #header #site-selector ul li.dropdown .dropdown-menu ul li a caption {
   display: block;
   color: gray;
@@ -1121,7 +1121,7 @@ html, body {
   font-weight: 500;
 }
 
-/* line 249, ../sass/lib/_layout.scss */
+/* line 251, ../sass/lib/_layout.scss */
 #site-footer {
   background: #1f1f1f;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #050505), color-stop(100%, #1f1f1f));
@@ -1136,31 +1136,31 @@ html, body {
   border-top: 1px solid #333333;
   height: 147px;
 }
-/* line 255, ../sass/lib/_layout.scss */
+/* line 257, ../sass/lib/_layout.scss */
 #site-footer nav {
   width: 20%;
   float: left;
   margin-right: 1.053%;
   color: #ebebeb;
 }
-/* line 258, ../sass/lib/_layout.scss */
+/* line 260, ../sass/lib/_layout.scss */
 #site-footer nav ul {
   margin-bottom: 0;
 }
-/* line 262, ../sass/lib/_layout.scss */
+/* line 264, ../sass/lib/_layout.scss */
 #site-footer h6 {
   color: white;
   margin-top: 1em;
 }
-/* line 266, ../sass/lib/_layout.scss */
+/* line 268, ../sass/lib/_layout.scss */
 #site-footer a {
   color: #a6a6a6;
 }
-/* line 268, ../sass/lib/_layout.scss */
+/* line 270, ../sass/lib/_layout.scss */
 #site-footer a:hover {
   color: #ebebeb;
 }
-/* line 272, ../sass/lib/_layout.scss */
+/* line 274, ../sass/lib/_layout.scss */
 #site-footer .apps {
   width: 36.842%;
   float: left;
@@ -1168,19 +1168,19 @@ html, body {
   float: right;
   margin-right: 0;
 }
-/* line 275, ../sass/lib/_layout.scss */
+/* line 277, ../sass/lib/_layout.scss */
 #site-footer .apps .ios, #site-footer .apps .android {
   width: 42.857%;
   float: left;
   margin-right: 2.857%;
 }
-/* line 278, ../sass/lib/_layout.scss */
+/* line 280, ../sass/lib/_layout.scss */
 #site-footer .apps .android {
   margin-left: 4.211%;
   float: right;
   margin-right: 0;
 }
-/* line 283, ../sass/lib/_layout.scss */
+/* line 285, ../sass/lib/_layout.scss */
 #site-footer .box {
   margin-top: 1.2em;
   padding: .5em 1em;
@@ -1194,19 +1194,19 @@ html, body {
   box-shadow: inset 0 -2px 2px black, 0 -1px 0 #333333;
   border-color: #333333;
 }
-/* line 291, ../sass/lib/_layout.scss */
+/* line 293, ../sass/lib/_layout.scss */
 #site-footer .box h6 {
   margin: 0;
 }
 
-/* line 297, ../sass/lib/_layout.scss */
+/* line 299, ../sass/lib/_layout.scss */
 #common-footer {
   background: #ebebeb;
   border-top: 1px solid #1f1f1f;
   height: 72px;
 }
 
-/* line 304, ../sass/lib/_layout.scss */
+/* line 306, ../sass/lib/_layout.scss */
 #common-footer .inner, #site-footer .inner {
   max-width: 59.375em;
   margin-left: auto;
@@ -1221,7 +1221,7 @@ html, body {
   clear: both;
 }
 
-/* line 309, ../sass/lib/_layout.scss */
+/* line 311, ../sass/lib/_layout.scss */
 #footer-menu {
   width: 57.895%;
   float: left;
@@ -1230,12 +1230,12 @@ html, body {
   margin-top: 1em;
   color: #a6a6a6;
 }
-/* line 314, ../sass/lib/_layout.scss */
+/* line 316, ../sass/lib/_layout.scss */
 #footer-menu nav {
   margin: 0;
   padding: 0;
 }
-/* line 317, ../sass/lib/_layout.scss */
+/* line 319, ../sass/lib/_layout.scss */
 #footer-menu nav ul {
   overflow: hidden;
   font-size: 0.75em;
@@ -1244,31 +1244,31 @@ html, body {
   margin: 0;
   padding: 0;
 }
-/* line 323, ../sass/lib/_layout.scss */
+/* line 325, ../sass/lib/_layout.scss */
 #footer-menu nav ul li {
   float: left;
   margin-right: 1em;
 }
-/* line 326, ../sass/lib/_layout.scss */
+/* line 328, ../sass/lib/_layout.scss */
 #footer-menu nav ul li a {
   color: gray;
 }
-/* line 332, ../sass/lib/_layout.scss */
+/* line 334, ../sass/lib/_layout.scss */
 #footer-menu small, #footer-menu table caption, table #footer-menu caption {
   font-size: 0.688em;
   line-height: 2.182em;
   display: block;
 }
-/* line 335, ../sass/lib/_layout.scss */
+/* line 337, ../sass/lib/_layout.scss */
 #footer-menu small a, #footer-menu table caption a, table #footer-menu caption a {
   color: #a6a6a6;
 }
-/* line 337, ../sass/lib/_layout.scss */
+/* line 339, ../sass/lib/_layout.scss */
 #footer-menu small a:hover, #footer-menu table caption a:hover, table #footer-menu caption a:hover {
   color: #a6a6a6;
 }
 @media (max-width: 1024px) {
-  /* line 309, ../sass/lib/_layout.scss */
+  /* line 311, ../sass/lib/_layout.scss */
   #footer-menu {
     width: 62.105%;
     float: left;
@@ -1276,7 +1276,7 @@ html, body {
   }
 }
 @media (max-width: 768px) {
-  /* line 309, ../sass/lib/_layout.scss */
+  /* line 311, ../sass/lib/_layout.scss */
   #footer-menu {
     width: 100%;
     float: left;
@@ -1285,20 +1285,20 @@ html, body {
   }
 }
 @media (max-width: 480px) {
-  /* line 309, ../sass/lib/_layout.scss */
+  /* line 311, ../sass/lib/_layout.scss */
   #footer-menu {
     width: 100%;
     float: left;
     margin-right: 4.348%;
     margin-top: 0;
   }
-  /* line 354, ../sass/lib/_layout.scss */
+  /* line 356, ../sass/lib/_layout.scss */
   #footer-menu nav ul li {
     float: none;
     width: 100%;
     border-bottom: 1px solid #a6a6a6;
   }
-  /* line 358, ../sass/lib/_layout.scss */
+  /* line 360, ../sass/lib/_layout.scss */
   #footer-menu nav ul li a {
     display: block;
     padding: .75em 0;
@@ -1306,7 +1306,7 @@ html, body {
   }
 }
 
-/* line 369, ../sass/lib/_layout.scss */
+/* line 371, ../sass/lib/_layout.scss */
 #social-links {
   width: 20%;
   float: right;
@@ -1315,20 +1315,20 @@ html, body {
   padding-top: .85em;
   text-align: right;
 }
-/* line 374, ../sass/lib/_layout.scss */
+/* line 376, ../sass/lib/_layout.scss */
 #social-links a {
   font-size: 2.25em;
   line-height: 1.333em;
   padding: 0 0 0 .25em;
   color: #a6a6a6;
 }
-/* line 378, ../sass/lib/_layout.scss */
+/* line 380, ../sass/lib/_layout.scss */
 #social-links a:hover {
   color: gray;
   text-decoration: none;
 }
 @media (max-width: 768px) {
-  /* line 369, ../sass/lib/_layout.scss */
+  /* line 371, ../sass/lib/_layout.scss */
   #social-links {
     width: 100%;
     float: left;
@@ -1339,7 +1339,7 @@ html, body {
   }
 }
 @media (max-width: 480px) {
-  /* line 369, ../sass/lib/_layout.scss */
+  /* line 371, ../sass/lib/_layout.scss */
   #social-links {
     width: 100%;
     float: left;
@@ -1348,14 +1348,14 @@ html, body {
     border-bottom: 1px solid #a6a6a6;
     padding: .25em 0;
   }
-  /* line 394, ../sass/lib/_layout.scss */
+  /* line 396, ../sass/lib/_layout.scss */
   #social-links a {
     width: 30.435%;
     float: left;
     margin-right: 4.348%;
     padding: 0;
   }
-  /* line 397, ../sass/lib/_layout.scss */
+  /* line 399, ../sass/lib/_layout.scss */
   #social-links a:last-of-type {
     float: right;
     margin-right: 0;
@@ -1363,19 +1363,19 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  /* line 406, ../sass/lib/_layout.scss */
+  /* line 408, ../sass/lib/_layout.scss */
   #footer, #site-footer, #common-footer {
     height: auto;
   }
 }
 @media (max-width: 480px) {
-  /* line 412, ../sass/lib/_layout.scss */
+  /* line 414, ../sass/lib/_layout.scss */
   #footer, #site-footer, #common-footer {
     height: auto;
   }
 }
 @media (min-width: 1367px) {
-  /* line 418, ../sass/lib/_layout.scss */
+  /* line 420, ../sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1391,7 +1391,7 @@ html, body {
   }
 }
 @media (max-width: 1366px) {
-  /* line 426, ../sass/lib/_layout.scss */
+  /* line 428, ../sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1407,7 +1407,7 @@ html, body {
   }
 }
 @media (max-width: 1024px) {
-  /* line 434, ../sass/lib/_layout.scss */
+  /* line 436, ../sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1423,7 +1423,7 @@ html, body {
   }
 }
 @media (max-width: 768px) {
-  /* line 442, ../sass/lib/_layout.scss */
+  /* line 444, ../sass/lib/_layout.scss */
   .container {
     max-width: 39.375em;
     margin-left: auto;
@@ -1439,7 +1439,7 @@ html, body {
   }
 }
 @media (max-width: 480px) {
-  /* line 450, ../sass/lib/_layout.scss */
+  /* line 452, ../sass/lib/_layout.scss */
   .container {
     max-width: 14.375em;
     margin-left: auto;
@@ -3079,7 +3079,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   #logo {
     display: block;
     width: 30px;
-    height: 33px;
+    height: 34px;
     text-indent: -9999em;
     background: #222222 url("/geoloqi-core/assets/img/logo-block@2x.png") no-repeat 0 0;
     overflow: hidden;
@@ -3090,6 +3090,6 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   /* line 7, ../sass/lib/_retina.scss */
   #logo-footer {
     background: url("/geoloqi-core/assets/img/logo-footer@2x.png") no-repeat 0 0;
-    background-size: 50% auto;
+    background-size: 100% auto;
   }
 }

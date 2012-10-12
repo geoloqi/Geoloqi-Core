@@ -41,7 +41,7 @@ $header-height: 3.5em;
 	overflow: visible;
 	z-index: 100;
 	.inner {
-		@include container();	
+		@include container();
 	}
 }
 
@@ -74,7 +74,7 @@ $header-height: 3.5em;
 			li {
 				float:left;
 				text-shadow:0 1px 0 $darkestGray;
-				a {					
+				a {
 					color: $white;
 					padding: 0 1em;
 					line-height: 4em;
@@ -162,21 +162,23 @@ $header-height: 3.5em;
 				}
 			}
 		}
-	}	
+	}
 }
 
 // logo ------------------------------------------------------------------------
 
 #logo {
-	@include image-replace("#{$base-url}/img/logo-block.png", 30px, 33px, #222);
+	@include image-replace("#{$base-url}/img/logo-block.png", 30px, 34px, #222);
 	background-position: center center;
-	padding:.65em .5em .8em;
+	padding:.6em .5em .8em;
 	float: left;
 	border-right:1px solid $darkerGray;
 }
 
 #logo-footer {
-	@include span-columns(5);
+	float: left;
+	width: 152px;
+	margin-right: 20px;
 	background: url("#{$base-url}/img/logo-footer.png") no-repeat 0 0;
 	height: 38px;
 	margin-top: 1.25em;
@@ -188,7 +190,7 @@ $header-height: 3.5em;
 		@include hide();
 	}
 	@include at-breakpoint($screen-smartphone){
-		@include hide();	
+		@include hide();
 	}
 }
 
@@ -360,7 +362,7 @@ $common-footer-height: 72px;
 						padding:.75em 0;
 						width:100%;
 					}
-				}		
+				}
 			}
 		}
 	}
@@ -416,7 +418,7 @@ $common-footer-height: 72px;
 
 @include	at-breakpoint($screen-large){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -424,7 +426,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-normal){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -432,7 +434,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-tablet-landscape){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -440,7 +442,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-tablet-portrait){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -448,7 +450,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-smartphone){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
