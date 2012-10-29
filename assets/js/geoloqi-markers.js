@@ -97,7 +97,13 @@ Geoloqi.module("markers.init", function(){
 						iconUrl: '/geoloqi-core/assets/img/markers/'+color+'_'+marker_type+'.png'
 					};
 					defaults = Geoloqi.markers.style_for(marker_type);
-					return L.Icon.extend(_.extend(options, defaults));
+					if(L.VERSION) {
+						return L.Icon.extend(_.extend(options, defaults));
+					} else {
+						return L.Icon.extend({
+							options: _.extend(options, defaults)
+						});
+					}
 				});
 			});
 		});

@@ -2,7 +2,7 @@
 
 @import "compass/layout/sticky-footer";
 
-$footer-height: 260px;
+$footer-height: 220px;
 
 @include sticky-footer($footer-height, "#wrapper", "#push", "#footer");
 
@@ -41,7 +41,7 @@ $header-height: 3.5em;
 	overflow: visible;
 	z-index: 100;
 	.inner {
-		@include container();	
+		@include container();
 	}
 }
 
@@ -74,7 +74,7 @@ $header-height: 3.5em;
 			li {
 				float:left;
 				text-shadow:0 1px 0 $darkestGray;
-				a {					
+				a {
 					color: $white;
 					padding: 0 1em;
 					line-height: 4em;
@@ -118,9 +118,6 @@ $header-height: 3.5em;
 							padding-right: .75em;
 							color: $lightestGray;
 						}
-						h3:first-of-type{
-							@include leader(.5);
-						}
 						hr {
 							border-top:1px solid $black;
 							border-bottom:1px solid $darkerGray;
@@ -132,7 +129,8 @@ $header-height: 3.5em;
 						ul {
 							margin: 0;
 							padding: 0;
-							width: 160px;
+							width: 172px;
+							@include trailer(.5);
 							li {
 								@include float(none);
 								display: block;
@@ -150,9 +148,6 @@ $header-height: 3.5em;
 								}
 							}
 						}
-						ul:last-of-type{
-							@include trailer(.5);
-						}
 					}
 					&:hover {
 						.dropdown-menu {
@@ -162,21 +157,23 @@ $header-height: 3.5em;
 				}
 			}
 		}
-	}	
+	}
 }
 
 // logo ------------------------------------------------------------------------
 
 #logo {
-	@include image-replace("#{$base-url}/img/logo-block.png", 30px, 33px, #222);
+	@include image-replace("#{$base-url}/img/logo-block.png", 30px, 34px, #222);
 	background-position: center center;
-	padding:.65em .5em .8em;
+	padding:.6em .5em .8em;
 	float: left;
 	border-right:1px solid $darkerGray;
 }
 
 #logo-footer {
-	@include span-columns(5);
+	float: left;
+	width: 109px;
+	margin-right: 20px;
 	background: url("#{$base-url}/img/logo-footer.png") no-repeat 0 0;
 	height: 38px;
 	margin-top: 1.25em;
@@ -188,7 +185,7 @@ $header-height: 3.5em;
 		@include hide();
 	}
 	@include at-breakpoint($screen-smartphone){
-		@include hide();	
+		@include hide();
 	}
 }
 
@@ -261,6 +258,7 @@ $common-footer-height: 72px;
 	}
 	h6 {
 		color: $white;
+		margin-top:1em;
 	}
 	a {
 		color: $lightGray;
@@ -281,12 +279,15 @@ $common-footer-height: 72px;
 	}
 	.box {
 		margin-top: 1.2em;
-		padding: 1em;
+		padding: .5em 1em;
 		@include clearfix();
 		@include background-clip(padding-box);
 		background: $offBlack;
 		@include box-shadow(inset 0 -2px 2px $black, 0 -1px 0 $darkerGray);
 		border-color: $darkerGray;
+		h6 {
+			margin:0;
+		}
 	}
 }
 
@@ -356,7 +357,7 @@ $common-footer-height: 72px;
 						padding:.75em 0;
 						width:100%;
 					}
-				}		
+				}
 			}
 		}
 	}
@@ -412,7 +413,7 @@ $common-footer-height: 72px;
 
 @include	at-breakpoint($screen-large){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -420,7 +421,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-normal){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -428,7 +429,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-tablet-landscape){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -436,7 +437,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-tablet-portrait){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
@@ -444,7 +445,7 @@ $common-footer-height: 72px;
 }
 @include	at-breakpoint($screen-smartphone){
 	.container {
-		@include container; 
+		@include container;
 		@if $enable-grids {
 			@include susy-grid-background;
 		}
