@@ -4,8 +4,7 @@ $legacy-support-for-mozilla: false;
 $legacy-support-for-ie6: false;
 $legacy-support-for-ie7: false;
 
-@import "normalize";
-@include normalize;
+@import "lib/_normalize.scss";
 
 // Common Geoloqi Core ---------------------------------------------------------
 
