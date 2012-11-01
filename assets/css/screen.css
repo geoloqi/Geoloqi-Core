@@ -1,4 +1,4 @@
-/* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
+/* line 13, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
 article,
 aside,
 details,
@@ -13,7 +13,7 @@ summary {
   display: block;
 }
 
-/* line 20, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
+/* line 20, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
 audio,
 canvas,
 video {
@@ -22,24 +22,24 @@ video {
   *zoom: 1;
 }
 
-/* line 28, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
+/* line 28, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 35, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
+/* line 35, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_html5.scss */
 [hidden] {
   display: none;
 }
 
-/* line 2, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_base.scss */
+/* line 2, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_base.scss */
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 20, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_base.scss */
+/* line 20, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_base.scss */
 html,
 button,
 input,
@@ -48,79 +48,79 @@ textarea {
   font-family: sans-serif;
 }
 
-/* line 4, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_links.scss */
+/* line 4, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_links.scss */
 a:focus {
   outline: thin dotted;
 }
-/* line 11, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_links.scss */
+/* line 11, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_links.scss */
 a:hover, a:active {
   outline: 0;
 }
 
-/* line 4, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 4, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 9, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 9, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 14, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 14, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 19, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 19, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 h4, h1.small {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 24, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 24, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 29, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 29, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
 }
 
-/* line 35, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 35, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 41, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 41, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 45, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 45, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 blockquote {
   margin: 1em 40px;
 }
 
-/* line 50, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 50, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 55, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 55, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 73, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 73, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 pre,
 code,
 kbd,
@@ -130,26 +130,26 @@ samp {
   font-size: 1em;
 }
 
-/* line 80, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 80, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 95, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 95, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 100, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 100, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 small, table caption {
   font-size: 75%;
 }
 
-/* line 107, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 107, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -158,46 +158,46 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 114, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 114, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 118, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
+/* line 118, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_typography.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 2, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_embedded.scss */
+/* line 2, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_embedded.scss */
 img {
   border: 0;
 }
 
-/* line 14, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_embedded.scss */
+/* line 14, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_embedded.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 3, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_figures.scss */
+/* line 3, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_figures.scss */
 figure {
   margin: 0;
 }
 
-/* line 10, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 10, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 16, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 16, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
 }
 
-/* line 34, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 34, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 button,
 input,
 select,
@@ -208,13 +208,13 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 48, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 48, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 55, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 55, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -223,20 +223,20 @@ input[type="submit"] {
   -webkit-appearance: button;
 }
 
-/* line 71, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 71, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 76, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 76, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 91, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 91, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
@@ -244,26 +244,26 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 104, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 104, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-/* line 112, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 112, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 118, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
+/* line 118, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_forms.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 3, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-normalize-plugin-0.3.0/scss/normalize/_tables.scss */
+/* line 3, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-normalize-plugin-0.3.0/scss/normalize/_tables.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -279,53 +279,53 @@ body {
   color: #2e2e2e;
   margin: 0;
 }
-/* line 61, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 body * html {
   font-size: 100%;
 }
-/* line 64, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 body html {
   font-size: 16px;
   line-height: 1.5em;
 }
 
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 5, ../sass/lib/_helpers.scss */
+/* line 5, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .left {
   float: left;
 }
 
-/* line 9, ../sass/lib/_helpers.scss */
+/* line 9, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .right {
   float: right;
 }
 
-/* line 13, ../sass/lib/_helpers.scss */
+/* line 13, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .clear {
   clear: both;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 22, ../sass/lib/_helpers.scss */
+/* line 22, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .hide {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 28, ../sass/lib/_helpers.scss */
+/* line 28, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .show {
   display: block !important;
   visibility: visible;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 49, ../sass/lib/_helpers.scss */
+/* line 49, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -336,7 +336,7 @@ body html {
   position: absolute;
   width: 1px;
 }
-/* line 40, ../sass/lib/_helpers.scss */
+/* line 40, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -347,71 +347,71 @@ body html {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 56, ../sass/lib/_helpers.scss */
+/* line 56, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 .invisible {
   visibility: hidden;
 }
 
 @media (min-width: 1367px) {
-  /* line 59, ../sass/lib/_helpers.scss */
+  /* line 59, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .hide-large-screen {
     display: none !important;
     visibility: hidden;
   }
 
-  /* line 62, ../sass/lib/_helpers.scss */
+  /* line 62, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .show-large-screen {
     display: block !important;
     visibility: visible;
   }
 }
 @media (max-width: 1366px) {
-  /* line 68, ../sass/lib/_helpers.scss */
+  /* line 68, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .hide-normal {
     display: none !important;
     visibility: hidden;
   }
 
-  /* line 71, ../sass/lib/_helpers.scss */
+  /* line 71, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .show-normal {
     display: block !important;
     visibility: visible;
   }
 }
 @media (max-width: 1024px) {
-  /* line 77, ../sass/lib/_helpers.scss */
+  /* line 77, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .hide-tablet-landscape {
     display: none !important;
     visibility: hidden;
   }
 
-  /* line 80, ../sass/lib/_helpers.scss */
+  /* line 80, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .show-tablet-landscape {
     display: block !important;
     visibility: visible;
   }
 }
 @media (max-width: 768px) {
-  /* line 86, ../sass/lib/_helpers.scss */
+  /* line 86, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .hide-tablet-portrait {
     display: none !important;
     visibility: hidden;
   }
 
-  /* line 89, ../sass/lib/_helpers.scss */
+  /* line 89, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .show-tablet-portrait {
     display: block !important;
     visibility: visible;
   }
 }
 @media (max-width: 480px) {
-  /* line 95, ../sass/lib/_helpers.scss */
+  /* line 95, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .hide-smartphone {
     display: none !important;
     visibility: hidden;
   }
 
-  /* line 98, ../sass/lib/_helpers.scss */
+  /* line 98, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
   .show-smartphone {
     display: block !important;
     visibility: visible;
@@ -470,7 +470,7 @@ body html {
 }
 */
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 3, ../sass/lib/_icons.scss */
+/* line 3, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -480,7 +480,7 @@ body html {
 }
 
 /* Use the following CSS code if you want to have a class per icon */
-/* line 12, ../sass/lib/_icons.scss */
+/* line 12, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: 'icomoon';
   font-style: normal;
@@ -489,422 +489,422 @@ body html {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 19, ../sass/lib/_icons.scss */
+/* line 19, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-gauge:before {
   content: "\21";
 }
 
-/* line 20, ../sass/lib/_icons.scss */
+/* line 20, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-announcement:before {
   content: "\22";
 }
 
-/* line 21, ../sass/lib/_icons.scss */
+/* line 21, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-caution-cone:before {
   content: "\23";
 }
 
-/* line 22, ../sass/lib/_icons.scss */
+/* line 22, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-lightbulb:before {
   content: "\24";
 }
 
-/* line 23, ../sass/lib/_icons.scss */
+/* line 23, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-comment:before {
   content: "\25";
 }
 
-/* line 24, ../sass/lib/_icons.scss */
+/* line 24, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-battery:before {
   content: "\26";
 }
 
-/* line 25, ../sass/lib/_icons.scss */
+/* line 25, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-laptop:before {
   content: "\27";
 }
 
-/* line 26, ../sass/lib/_icons.scss */
+/* line 26, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-globe:before {
   content: "\28";
 }
 
-/* line 27, ../sass/lib/_icons.scss */
+/* line 27, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-graph-bar:before, .icon-graph:before {
   content: "\29";
 }
 
-/* line 28, ../sass/lib/_icons.scss */
+/* line 28, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-window-alert:before {
   content: "\2a";
 }
 
-/* line 29, ../sass/lib/_icons.scss */
+/* line 29, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-search:before {
   content: "\2b";
 }
 
-/* line 30, ../sass/lib/_icons.scss */
+/* line 30, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-tags:before {
   content: "\2c";
 }
 
-/* line 31, ../sass/lib/_icons.scss */
+/* line 31, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-refresh:before {
   content: "\2d";
 }
 
-/* line 32, ../sass/lib/_icons.scss */
+/* line 32, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-window-lines:before {
   content: "\2e";
 }
 
-/* line 33, ../sass/lib/_icons.scss */
+/* line 33, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-book:before {
   content: "\2f";
 }
 
-/* line 34, ../sass/lib/_icons.scss */
+/* line 34, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-refresh-2:before {
   content: "\30";
 }
 
-/* line 35, ../sass/lib/_icons.scss */
+/* line 35, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-search-2:before {
   content: "\31";
 }
 
-/* line 36, ../sass/lib/_icons.scss */
+/* line 36, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-bookmark:before {
   content: "\32";
 }
 
-/* line 37, ../sass/lib/_icons.scss */
+/* line 37, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-phone:before {
   content: "\33";
 }
 
-/* line 38, ../sass/lib/_icons.scss */
+/* line 38, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-tag:before {
   content: "\34";
 }
 
-/* line 39, ../sass/lib/_icons.scss */
+/* line 39, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-support:before {
   content: "\35";
 }
 
-/* line 40, ../sass/lib/_icons.scss */
+/* line 40, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-settings-2:before {
   content: "\36";
 }
 
-/* line 41, ../sass/lib/_icons.scss */
+/* line 41, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-rss:before {
   content: "\37";
 }
 
-/* line 42, ../sass/lib/_icons.scss */
+/* line 42, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-email:before {
   content: "\38";
 }
 
-/* line 43, ../sass/lib/_icons.scss */
+/* line 43, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-pin-user:before {
   content: "\39";
 }
 
-/* line 44, ../sass/lib/_icons.scss */
+/* line 44, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-pin-geonote:before {
   content: "\3a";
 }
 
-/* line 45, ../sass/lib/_icons.scss */
+/* line 45, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-star:before {
   content: "\3b";
 }
 
-/* line 46, ../sass/lib/_icons.scss */
+/* line 46, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-pin:before {
   content: "\3c";
 }
 
-/* line 47, ../sass/lib/_icons.scss */
+/* line 47, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-delete:before, .icon-trash-can:before {
   content: "\3d";
 }
 
-/* line 48, ../sass/lib/_icons.scss */
+/* line 48, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-data:before {
   content: "\3e";
 }
 
-/* line 49, ../sass/lib/_icons.scss */
+/* line 49, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-unlocked:before {
   content: "\3f";
 }
 
-/* line 50, ../sass/lib/_icons.scss */
+/* line 50, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-locked:before {
   content: "\40";
 }
 
-/* line 51, ../sass/lib/_icons.scss */
+/* line 51, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-code:before {
   content: "\41";
 }
 
-/* line 52, ../sass/lib/_icons.scss */
+/* line 52, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-find:before {
   content: "\42";
 }
 
-/* line 53, ../sass/lib/_icons.scss */
+/* line 53, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-building:before {
   content: "\43";
 }
 
-/* line 54, ../sass/lib/_icons.scss */
+/* line 54, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-bug:before {
   content: "\44";
 }
 
-/* line 55, ../sass/lib/_icons.scss */
+/* line 55, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-grid:before {
   content: "\45";
 }
 
-/* line 56, ../sass/lib/_icons.scss */
+/* line 56, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-help:before {
   content: "\46";
 }
 
-/* line 57, ../sass/lib/_icons.scss */
+/* line 57, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-gears:before {
   content: "\47";
 }
 
-/* line 58, ../sass/lib/_icons.scss */
+/* line 58, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-map-pin:before {
   content: "\48";
 }
 
-/* line 59, ../sass/lib/_icons.scss */
+/* line 59, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-window-cursor:before {
   content: "\49";
 }
 
-/* line 60, ../sass/lib/_icons.scss */
+/* line 60, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-list-2:before {
   content: "\4a";
 }
 
-/* line 61, ../sass/lib/_icons.scss */
+/* line 61, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-window-close:before {
   content: "\4b";
 }
 
-/* line 62, ../sass/lib/_icons.scss */
+/* line 62, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-alert:before {
   content: "\4c";
 }
 
-/* line 63, ../sass/lib/_icons.scss */
+/* line 63, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-compass:before {
   content: "\4d";
 }
 
-/* line 64, ../sass/lib/_icons.scss */
+/* line 64, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-edit:before, .icon-pencil:before {
   content: "\4e";
 }
 
-/* line 65, ../sass/lib/_icons.scss */
+/* line 65, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-share:before {
   content: "\4f";
 }
 
-/* line 66, ../sass/lib/_icons.scss */
+/* line 66, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-camera:before {
   content: "\50";
 }
 
-/* line 67, ../sass/lib/_icons.scss */
+/* line 67, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-exit:before {
   content: "\51";
 }
 
-/* line 68, ../sass/lib/_icons.scss */
+/* line 68, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-clock:before {
   content: "\52";
 }
 
-/* line 69, ../sass/lib/_icons.scss */
+/* line 69, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-locate-2:before {
   content: "\53";
 }
 
-/* line 70, ../sass/lib/_icons.scss */
+/* line 70, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-graph-pie:before {
   content: "\54";
 }
 
-/* line 71, ../sass/lib/_icons.scss */
+/* line 71, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-analytics:before {
   content: "\56";
 }
 
-/* line 72, ../sass/lib/_icons.scss */
+/* line 72, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-eye-open:before {
   content: "\57";
 }
 
-/* line 73, ../sass/lib/_icons.scss */
+/* line 73, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-list:before {
   content: "\58";
 }
 
-/* line 74, ../sass/lib/_icons.scss */
+/* line 74, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-map-trail:before {
   content: "\59";
 }
 
-/* line 75, ../sass/lib/_icons.scss */
+/* line 75, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-airplane:before {
   content: "\5a";
 }
 
-/* line 76, ../sass/lib/_icons.scss */
+/* line 76, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-star-2:before {
   content: "\5b";
 }
 
-/* line 77, ../sass/lib/_icons.scss */
+/* line 77, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-window-console:before {
   content: "\5c";
 }
 
-/* line 78, ../sass/lib/_icons.scss */
+/* line 78, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-iphone:before {
   content: "\5d";
 }
 
-/* line 79, ../sass/lib/_icons.scss */
+/* line 79, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-heart:before {
   content: "\5e";
 }
 
-/* line 80, ../sass/lib/_icons.scss */
+/* line 80, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-user:before {
   content: "\5f";
 }
 
-/* line 81, ../sass/lib/_icons.scss */
+/* line 81, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-home:before {
   content: "\60";
 }
 
-/* line 82, ../sass/lib/_icons.scss */
+/* line 82, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-google-plus:before {
   content: "\61";
 }
 
-/* line 83, ../sass/lib/_icons.scss */
+/* line 83, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-linked-in:before {
   content: "\62";
 }
 
-/* line 84, ../sass/lib/_icons.scss */
+/* line 84, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-play:before {
   content: "\63";
 }
 
-/* line 85, ../sass/lib/_icons.scss */
+/* line 85, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-twitter:before {
   content: "\64";
 }
 
-/* line 86, ../sass/lib/_icons.scss */
+/* line 86, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-check:before {
   content: "\65";
 }
 
-/* line 87, ../sass/lib/_icons.scss */
+/* line 87, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-apple:before {
   content: "\66";
 }
 
-/* line 88, ../sass/lib/_icons.scss */
+/* line 88, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-locate:before {
   content: "\67";
 }
 
-/* line 89, ../sass/lib/_icons.scss */
+/* line 89, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-tag-2:before {
   content: "\68";
 }
 
-/* line 90, ../sass/lib/_icons.scss */
+/* line 90, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-plus:before {
   content: "\69";
 }
 
-/* line 91, ../sass/lib/_icons.scss */
+/* line 91, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-cancel:before, .icon-close:before, .leaflet-popup .leaflet-popup-close-button:before {
   content: "\6b";
 }
 
-/* line 92, ../sass/lib/_icons.scss */
+/* line 92, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-minus:before {
   content: "\6c";
 }
 
-/* line 93, ../sass/lib/_icons.scss */
+/* line 93, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-github:before {
   content: "\6d";
 }
 
-/* line 94, ../sass/lib/_icons.scss */
+/* line 94, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-android:before {
   content: "\6e";
 }
 
-/* line 95, ../sass/lib/_icons.scss */
+/* line 95, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-facebook:before {
   content: "\6f";
 }
 
-/* line 96, ../sass/lib/_icons.scss */
+/* line 96, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-polyline:before {
   content: "\70";
 }
 
-/* line 97, ../sass/lib/_icons.scss */
+/* line 97, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-polygon:before {
   content: "\71";
 }
 
-/* line 98, ../sass/lib/_icons.scss */
+/* line 98, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-pin-geonote-add:before {
   content: "\55";
 }
 
-/* line 99, ../sass/lib/_icons.scss */
+/* line 99, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-pin-add:before {
   content: "\6a";
 }
 
-/* line 100, ../sass/lib/_icons.scss */
+/* line 100, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_icons.scss */
 .icon-pin-user-add:before {
   content: "\72";
 }
 
-/* line 10, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #wrapper {
   clear: both;
   min-height: 100%;
@@ -912,29 +912,29 @@ html, body {
   height: 100%;
   margin-bottom: -220px;
 }
-/* line 18, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #wrapper #push {
   height: 220px;
 }
 
-/* line 20, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
   height: 220px;
 }
 
-/* line 10, ../sass/lib/_layout.scss */
+/* line 10, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #page {
   margin-top: 6em;
   margin-bottom: 3em;
 }
-/* line 16, ../sass/lib/_layout.scss */
+/* line 16, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #page.no-top {
   margin-top: 3.5em;
 }
 
-/* line 21, ../sass/lib/_layout.scss */
+/* line 21, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 .container {
   max-width: 59.375em;
   margin-left: auto;
@@ -942,14 +942,14 @@ html, body {
   padding-left: 0.625em;
   padding-right: 0.625em;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 32, ../sass/lib/_layout.scss */
+/* line 32, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header {
   overflow: hidden;
   background: #1f1f1f;
@@ -975,7 +975,7 @@ html, body {
   overflow: visible;
   z-index: 100;
 }
-/* line 43, ../sass/lib/_layout.scss */
+/* line 43, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header .inner {
   max-width: 59.375em;
   margin-left: auto;
@@ -983,29 +983,29 @@ html, body {
   padding-left: 0.625em;
   padding-right: 0.625em;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #header .inner:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 51, ../sass/lib/_layout.scss */
+/* line 51, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav {
   float: left;
   position: relative;
   z-index: 100;
 }
-/* line 55, ../sass/lib/_layout.scss */
+/* line 55, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav.secondary {
   display: inline;
   float: right;
 }
-/* line 60, ../sass/lib/_layout.scss */
+/* line 60, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav.secondary ul li.dropdown .dropdown-menu {
   right: 0;
 }
-/* line 67, ../sass/lib/_layout.scss */
+/* line 67, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul {
   font-size: 1em;
   line-height: 1.5em;
@@ -1015,12 +1015,12 @@ html, body {
   list-style: none;
   float: left;
 }
-/* line 74, ../sass/lib/_layout.scss */
+/* line 74, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li {
   float: left;
   text-shadow: 0 1px 0 #1f1f1f;
 }
-/* line 77, ../sass/lib/_layout.scss */
+/* line 77, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li a {
   color: white;
   padding: 0 1em;
@@ -1030,24 +1030,24 @@ html, body {
   color: #ebebeb;
   text-shadow: 0 1px 0 #1f1f1f;
 }
-/* line 86, ../sass/lib/_layout.scss */
+/* line 86, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li:hover, #header nav ul li:focus, #header nav ul li.active {
   -webkit-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   -moz-box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   box-shadow: inset -1px 0px 2px rgba(255, 255, 255, 0.05), inset 1px 0px 2px rgba(255, 255, 255, 0.05);
   background: #1f1f1f;
 }
-/* line 90, ../sass/lib/_layout.scss */
+/* line 90, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown {
   position: relative;
   padding-right: .5em;
 }
-/* line 93, ../sass/lib/_layout.scss */
+/* line 93, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown > a {
   background: transparent;
   position: relative;
 }
-/* line 72, ../sass/lib/_mixins.scss */
+/* line 72, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 #header nav ul li.dropdown > a:after {
   width: 0;
   height: 0;
@@ -1055,20 +1055,20 @@ html, body {
   text-indent: -9999em;
   display: block;
 }
-/* line 92, ../sass/lib/_mixins.scss */
+/* line 92, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 #header nav ul li.dropdown > a:after {
   margin-left: -4px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid #595959;
 }
-/* line 95, ../sass/lib/_layout.scss */
+/* line 95, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown > a:after {
   position: absolute;
   top: 49%;
   right: .25em;
 }
-/* line 101, ../sass/lib/_layout.scss */
+/* line 101, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu {
   overflow: hidden;
   position: absolute;
@@ -1082,11 +1082,11 @@ html, body {
   float: left;
   clear: both;
 }
-/* line 109, ../sass/lib/_layout.scss */
+/* line 109, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu > :nth-child(1) {
   margin-top: 0.75em;
 }
-/* line 112, ../sass/lib/_layout.scss */
+/* line 112, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu h3 {
   font-size: 1em;
   line-height: 1.5em;
@@ -1097,7 +1097,7 @@ html, body {
   padding-right: .75em;
   color: #ebebeb;
 }
-/* line 121, ../sass/lib/_layout.scss */
+/* line 121, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu hr {
   border-top: 1px solid black;
   border-bottom: 1px solid #333333;
@@ -1106,14 +1106,14 @@ html, body {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-/* line 129, ../sass/lib/_layout.scss */
+/* line 129, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul {
   margin: 0;
   padding: 0;
   width: 172px;
   margin-bottom: 0.75em;
 }
-/* line 134, ../sass/lib/_layout.scss */
+/* line 134, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li {
   display: inline;
   float: none;
@@ -1121,7 +1121,7 @@ html, body {
   clear: both;
   padding: 0;
 }
-/* line 139, ../sass/lib/_layout.scss */
+/* line 139, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li a {
   border: none;
   font-size: 0.813em;
@@ -1129,17 +1129,17 @@ html, body {
   line-height: 2.25em;
   color: #a6a6a6;
 }
-/* line 144, ../sass/lib/_layout.scss */
+/* line 144, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown .dropdown-menu ul li a:hover {
   color: white;
   background: black;
 }
-/* line 153, ../sass/lib/_layout.scss */
+/* line 153, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header nav ul li.dropdown:hover .dropdown-menu {
   display: block;
 }
 
-/* line 165, ../sass/lib/_layout.scss */
+/* line 165, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #logo {
   display: block;
   width: 30px;
@@ -1153,7 +1153,7 @@ html, body {
   border-right: 1px solid #333333;
 }
 
-/* line 173, ../sass/lib/_layout.scss */
+/* line 173, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #logo-footer {
   float: left;
   width: 109px;
@@ -1164,36 +1164,36 @@ html, body {
   text-indent: -9999em;
 }
 @media (max-width: 1024px) {
-  /* line 173, ../sass/lib/_layout.scss */
+  /* line 173, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
     visibility: hidden;
   }
 }
 @media (max-width: 768px) {
-  /* line 173, ../sass/lib/_layout.scss */
+  /* line 173, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
     visibility: hidden;
   }
 }
 @media (max-width: 480px) {
-  /* line 173, ../sass/lib/_layout.scss */
+  /* line 173, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #logo-footer {
     display: none !important;
     visibility: hidden;
   }
 }
 
-/* line 194, ../sass/lib/_layout.scss */
+/* line 194, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector {
   background: #222;
 }
-/* line 197, ../sass/lib/_layout.scss */
+/* line 197, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector ul li {
   padding-right: 0;
 }
-/* line 199, ../sass/lib/_layout.scss */
+/* line 199, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector ul li a {
   font-size: 1.5em;
   line-height: 2.35em;
@@ -1202,21 +1202,21 @@ html, body {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 206, ../sass/lib/_layout.scss */
+/* line 206, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector ul li a:hover {
   text-decoration: none;
 }
-/* line 212, ../sass/lib/_layout.scss */
+/* line 212, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul {
   width: 250px;
 }
-/* line 215, ../sass/lib/_layout.scss */
+/* line 215, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a {
   font-size: 1.25em;
   line-height: 1em;
   padding: .5em;
 }
-/* line 219, ../sass/lib/_layout.scss */
+/* line 219, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a h6 {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1225,7 +1225,7 @@ html, body {
   margin-bottom: 0em;
   color: white;
 }
-/* line 226, ../sass/lib/_layout.scss */
+/* line 226, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #header #site-selector ul li.dropdown .dropdown-menu ul li a small, #header #site-selector ul li.dropdown .dropdown-menu ul li a table caption, table #header #site-selector ul li.dropdown .dropdown-menu ul li a caption {
   display: block;
   color: gray;
@@ -1234,7 +1234,7 @@ html, body {
   font-weight: 500;
 }
 
-/* line 246, ../sass/lib/_layout.scss */
+/* line 246, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer {
   background: #1f1f1f;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #050505), color-stop(100%, #1f1f1f));
@@ -1249,31 +1249,31 @@ html, body {
   border-top: 1px solid #333333;
   height: 147px;
 }
-/* line 252, ../sass/lib/_layout.scss */
+/* line 252, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer nav {
   width: 20%;
   float: left;
   margin-right: 1.053%;
   color: #ebebeb;
 }
-/* line 255, ../sass/lib/_layout.scss */
+/* line 255, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer nav ul {
   margin-bottom: 0;
 }
-/* line 259, ../sass/lib/_layout.scss */
+/* line 259, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer h6 {
   color: white;
   margin-top: 1em;
 }
-/* line 263, ../sass/lib/_layout.scss */
+/* line 263, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer a {
   color: #a6a6a6;
 }
-/* line 265, ../sass/lib/_layout.scss */
+/* line 265, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer a:hover {
   color: #ebebeb;
 }
-/* line 269, ../sass/lib/_layout.scss */
+/* line 269, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer .apps {
   width: 36.842%;
   float: left;
@@ -1281,19 +1281,19 @@ html, body {
   float: right;
   margin-right: 0;
 }
-/* line 272, ../sass/lib/_layout.scss */
+/* line 272, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer .apps .ios, #site-footer .apps .android {
   width: 42.857%;
   float: left;
   margin-right: 2.857%;
 }
-/* line 275, ../sass/lib/_layout.scss */
+/* line 275, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer .apps .android {
   margin-left: 4.211%;
   float: right;
   margin-right: 0;
 }
-/* line 280, ../sass/lib/_layout.scss */
+/* line 280, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer .box {
   margin-top: 1.2em;
   padding: .5em 1em;
@@ -1307,19 +1307,19 @@ html, body {
   box-shadow: inset 0 -2px 2px black, 0 -1px 0 #333333;
   border-color: #333333;
 }
-/* line 288, ../sass/lib/_layout.scss */
+/* line 288, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #site-footer .box h6 {
   margin: 0;
 }
 
-/* line 294, ../sass/lib/_layout.scss */
+/* line 294, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #common-footer {
   background: #ebebeb;
   border-top: 1px solid #1f1f1f;
   height: 72px;
 }
 
-/* line 301, ../sass/lib/_layout.scss */
+/* line 301, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #common-footer .inner, #site-footer .inner {
   max-width: 59.375em;
   margin-left: auto;
@@ -1327,14 +1327,14 @@ html, body {
   padding-left: 0.625em;
   padding-right: 0.625em;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #common-footer .inner:after, #site-footer .inner:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 306, ../sass/lib/_layout.scss */
+/* line 306, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu {
   width: 57.895%;
   float: left;
@@ -1343,12 +1343,12 @@ html, body {
   margin-top: 1em;
   color: #a6a6a6;
 }
-/* line 311, ../sass/lib/_layout.scss */
+/* line 311, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu nav {
   margin: 0;
   padding: 0;
 }
-/* line 314, ../sass/lib/_layout.scss */
+/* line 314, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu nav ul {
   overflow: hidden;
   font-size: 0.75em;
@@ -1357,31 +1357,31 @@ html, body {
   margin: 0;
   padding: 0;
 }
-/* line 320, ../sass/lib/_layout.scss */
+/* line 320, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu nav ul li {
   float: left;
   margin-right: 1em;
 }
-/* line 323, ../sass/lib/_layout.scss */
+/* line 323, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu nav ul li a {
   color: gray;
 }
-/* line 329, ../sass/lib/_layout.scss */
+/* line 329, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu small, #footer-menu table caption, table #footer-menu caption {
   font-size: 0.688em;
   line-height: 2.182em;
   display: block;
 }
-/* line 332, ../sass/lib/_layout.scss */
+/* line 332, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu small a, #footer-menu table caption a, table #footer-menu caption a {
   color: #a6a6a6;
 }
-/* line 334, ../sass/lib/_layout.scss */
+/* line 334, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #footer-menu small a:hover, #footer-menu table caption a:hover, table #footer-menu caption a:hover {
   color: #a6a6a6;
 }
 @media (max-width: 1024px) {
-  /* line 306, ../sass/lib/_layout.scss */
+  /* line 306, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #footer-menu {
     width: 62.105%;
     float: left;
@@ -1389,7 +1389,7 @@ html, body {
   }
 }
 @media (max-width: 768px) {
-  /* line 306, ../sass/lib/_layout.scss */
+  /* line 306, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #footer-menu {
     width: 100%;
     float: left;
@@ -1398,20 +1398,20 @@ html, body {
   }
 }
 @media (max-width: 480px) {
-  /* line 306, ../sass/lib/_layout.scss */
+  /* line 306, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #footer-menu {
     width: 100%;
     float: left;
     margin-right: 4.348%;
     margin-top: 0;
   }
-  /* line 351, ../sass/lib/_layout.scss */
+  /* line 351, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #footer-menu nav ul li {
     float: none;
     width: 100%;
     border-bottom: 1px solid #a6a6a6;
   }
-  /* line 355, ../sass/lib/_layout.scss */
+  /* line 355, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #footer-menu nav ul li a {
     display: block;
     padding: .75em 0;
@@ -1419,7 +1419,7 @@ html, body {
   }
 }
 
-/* line 366, ../sass/lib/_layout.scss */
+/* line 366, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #social-links {
   width: 20%;
   float: right;
@@ -1428,20 +1428,20 @@ html, body {
   padding-top: .85em;
   text-align: right;
 }
-/* line 371, ../sass/lib/_layout.scss */
+/* line 371, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #social-links a {
   font-size: 2.25em;
   line-height: 1.333em;
   padding: 0 0 0 .25em;
   color: #a6a6a6;
 }
-/* line 375, ../sass/lib/_layout.scss */
+/* line 375, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
 #social-links a:hover {
   color: gray;
   text-decoration: none;
 }
 @media (max-width: 768px) {
-  /* line 366, ../sass/lib/_layout.scss */
+  /* line 366, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #social-links {
     width: 100%;
     float: left;
@@ -1452,7 +1452,7 @@ html, body {
   }
 }
 @media (max-width: 480px) {
-  /* line 366, ../sass/lib/_layout.scss */
+  /* line 366, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #social-links {
     width: 100%;
     float: left;
@@ -1461,14 +1461,14 @@ html, body {
     border-bottom: 1px solid #a6a6a6;
     padding: .25em 0;
   }
-  /* line 391, ../sass/lib/_layout.scss */
+  /* line 391, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #social-links a {
     width: 30.435%;
     float: left;
     margin-right: 4.348%;
     padding: 0;
   }
-  /* line 394, ../sass/lib/_layout.scss */
+  /* line 394, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #social-links a:last-of-type {
     float: right;
     margin-right: 0;
@@ -1476,19 +1476,19 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  /* line 403, ../sass/lib/_layout.scss */
+  /* line 403, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #footer, #site-footer, #common-footer {
     height: auto;
   }
 }
 @media (max-width: 480px) {
-  /* line 409, ../sass/lib/_layout.scss */
+  /* line 409, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   #footer, #site-footer, #common-footer {
     height: auto;
   }
 }
 @media (min-width: 1367px) {
-  /* line 415, ../sass/lib/_layout.scss */
+  /* line 415, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1496,7 +1496,7 @@ html, body {
     padding-left: 0.625em;
     padding-right: 0.625em;
   }
-  /* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;
@@ -1504,7 +1504,7 @@ html, body {
   }
 }
 @media (max-width: 1366px) {
-  /* line 423, ../sass/lib/_layout.scss */
+  /* line 423, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1512,7 +1512,7 @@ html, body {
     padding-left: 0.625em;
     padding-right: 0.625em;
   }
-  /* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;
@@ -1520,7 +1520,7 @@ html, body {
   }
 }
 @media (max-width: 1024px) {
-  /* line 431, ../sass/lib/_layout.scss */
+  /* line 431, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   .container {
     max-width: 59.375em;
     margin-left: auto;
@@ -1528,7 +1528,7 @@ html, body {
     padding-left: 0.625em;
     padding-right: 0.625em;
   }
-  /* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;
@@ -1536,7 +1536,7 @@ html, body {
   }
 }
 @media (max-width: 768px) {
-  /* line 439, ../sass/lib/_layout.scss */
+  /* line 439, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   .container {
     max-width: 39.375em;
     margin-left: auto;
@@ -1544,7 +1544,7 @@ html, body {
     padding-left: 0.625em;
     padding-right: 0.625em;
   }
-  /* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;
@@ -1552,7 +1552,7 @@ html, body {
   }
 }
 @media (max-width: 480px) {
-  /* line 447, ../sass/lib/_layout.scss */
+  /* line 447, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_layout.scss */
   .container {
     max-width: 14.375em;
     margin-left: auto;
@@ -1560,133 +1560,133 @@ html, body {
     padding-left: 0.625em;
     padding-right: 0.625em;
   }
-  /* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;
     clear: both;
   }
 }
-/* line 3, ../sass/lib/_typography.scss */
+/* line 3, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 hgroup > :first-child {
   margin-bottom: 0em;
 }
-/* line 6, ../sass/lib/_typography.scss */
+/* line 6, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 hgroup > :last-child {
   margin-top: 0em;
 }
 
-/* line 11, ../sass/lib/_typography.scss */
+/* line 11, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1, h2, h3, h4, h1.small, h5, h6 {
   font-family: "PTSans";
   color: #1f1f1f;
 }
-/* line 14, ../sass/lib/_typography.scss */
+/* line 14, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.divider, h2.divider, h3.divider, h4.divider, h1.divider.small, h5.divider, h6.divider {
   border-color: #cccccc;
 }
 
-/* line 19, ../sass/lib/_typography.scss */
+/* line 19, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1 {
   font-size: 3em;
   line-height: 1.5em;
 }
-/* line 21, ../sass/lib/_typography.scss */
+/* line 21, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.divider {
   border-bottom-style: solid;
   border-bottom-width: 0.021em;
   padding-bottom: -0.021em;
 }
 
-/* line 29, ../sass/lib/_typography.scss */
+/* line 29, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h2 {
   font-size: 2.25em;
   line-height: 1.333em;
 }
-/* line 31, ../sass/lib/_typography.scss */
+/* line 31, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h2.divider {
   border-bottom-style: solid;
   border-bottom-width: 0.028em;
   padding-bottom: -0.028em;
 }
 
-/* line 36, ../sass/lib/_typography.scss */
+/* line 36, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h3 {
   font-size: 1.5em;
   line-height: 2em;
 }
-/* line 38, ../sass/lib/_typography.scss */
+/* line 38, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h3.divider {
   border-bottom-style: solid;
   border-bottom-width: 0.042em;
   padding-bottom: -0.042em;
 }
 
-/* line 43, ../sass/lib/_typography.scss */
+/* line 43, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h4, h1.small {
   font-size: 1.125em;
   line-height: 1.333em;
 }
-/* line 45, ../sass/lib/_typography.scss */
+/* line 45, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h4.divider, h1.divider.small {
   border-bottom-style: solid;
   border-bottom-width: 0.056em;
   padding-bottom: -0.056em;
 }
 
-/* line 50, ../sass/lib/_typography.scss */
+/* line 50, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h5 {
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 52, ../sass/lib/_typography.scss */
+/* line 52, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h5.divider {
   border-bottom-style: solid;
   border-bottom-width: 0.063em;
   padding-bottom: -0.063em;
 }
 
-/* line 57, ../sass/lib/_typography.scss */
+/* line 57, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h6 {
   font-size: 1em;
   line-height: 1.5em;
   color: #333333;
 }
-/* line 60, ../sass/lib/_typography.scss */
+/* line 60, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h6.divider {
   border-bottom-style: solid;
   border-bottom-width: 0.063em;
   padding-bottom: -0.063em;
 }
 
-/* line 66, ../sass/lib/_typography.scss */
+/* line 66, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.compress, h2.compress, h3.compress, h4.compress, h1.compress.small, h5.compress, h6.compress {
   margin-top: 0em;
   margin-bottom: 0em;
 }
-/* line 70, ../sass/lib/_typography.scss */
+/* line 70, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.compress-top, h2.compress-top, h3.compress-top, h4.compress-top, h1.compress-top.small, h5.compress-top, h6.compress-top {
   margin-top: 0em;
 }
-/* line 73, ../sass/lib/_typography.scss */
+/* line 73, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.compress-bottom, h2.compress-bottom, h3.compress-bottom, h4.compress-bottom, h1.compress-bottom.small, h5.compress-bottom, h6.compress-bottom {
   margin-bottom: 0em;
 }
-/* line 76, ../sass/lib/_typography.scss */
+/* line 76, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.compress-half, h2.compress-half, h3.compress-half, h4.compress-half, h1.compress-half.small, h5.compress-half, h6.compress-half {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-/* line 80, ../sass/lib/_typography.scss */
+/* line 80, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.compress-top-half, h2.compress-top-half, h3.compress-top-half, h4.compress-top-half, h1.compress-top-half.small, h5.compress-top-half, h6.compress-top-half {
   margin-top: 0.75em;
 }
-/* line 83, ../sass/lib/_typography.scss */
+/* line 83, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 h1.compress-bottom-half, h2.compress-bottom-half, h3.compress-bottom-half, h4.compress-bottom-half, h1.compress-bottom-half.small, h5.compress-bottom-half, h6.compress-bottom-half {
   margin-bottom: 0.75em;
 }
 
-/* line 90, ../sass/lib/_typography.scss */
+/* line 90, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 blockquote {
   margin-left: 0;
   border-color: #cccccc;
@@ -1699,51 +1699,51 @@ blockquote {
   margin-bottom: 1.5em;
 }
 
-/* line 101, ../sass/lib/_typography.scss */
+/* line 101, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 p {
   margin-bottom: 1.5em;
   font-size: 0.875em;
   line-height: 1.714em;
   margin-top: 0;
 }
-/* line 105, ../sass/lib/_typography.scss */
+/* line 105, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 p.large {
   font-size: 1.125em;
   line-height: 1.333em;
 }
-/* line 108, ../sass/lib/_typography.scss */
+/* line 108, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 p.small {
   font-size: 0.813em;
   line-height: 1.846em;
 }
 
-/* line 115, ../sass/lib/_typography.scss */
+/* line 115, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 a {
   color: #27adec;
   outline: none;
   text-decoration: none;
 }
-/* line 119, ../sass/lib/_typography.scss */
+/* line 119, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 a:hover {
   text-decoration: underline;
 }
-/* line 122, ../sass/lib/_typography.scss */
+/* line 122, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 a:hover, a:focus {
   color: #55c8fe;
   cursor: pointer;
 }
-/* line 125, ../sass/lib/_typography.scss */
+/* line 125, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 a:hover[class^="icon-"], a:hover[class*=" icon-"], a:focus[class^="icon-"], a:focus[class*=" icon-"] {
   text-decoration: none;
 }
 
-/* line 134, ../sass/lib/_typography.scss */
+/* line 134, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 nav ul, nav ol {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 140, ../sass/lib/_typography.scss */
+/* line 140, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 ul, ol {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1751,18 +1751,18 @@ ul, ol {
   padding-left: 1.25em;
   margin-top: 0;
 }
-/* line 145, ../sass/lib/_typography.scss */
+/* line 145, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 ul.unstyled, ol.unstyled {
   list-style: none;
 }
 
-/* line 150, ../sass/lib/_typography.scss */
+/* line 150, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 dl {
   font-size: 0.875em;
   line-height: 1.714em;
   margin-top: 0;
 }
-/* line 153, ../sass/lib/_typography.scss */
+/* line 153, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 dl dt {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -1770,32 +1770,32 @@ dl dt {
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 159, ../sass/lib/_typography.scss */
+/* line 159, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 dl dd {
   margin: 0;
   margin-bottom: 1.5em;
 }
-/* line 163, ../sass/lib/_typography.scss */
+/* line 163, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 dl.horizontal {
   overflow: hidden;
 }
-/* line 165, ../sass/lib/_typography.scss */
+/* line 165, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 dl.horizontal dt, dl.horizontal dd {
   font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 0em;
   float: left;
 }
-/* line 170, ../sass/lib/_typography.scss */
+/* line 170, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 dl.horizontal dt {
   clear: left;
 }
-/* line 173, ../sass/lib/_typography.scss */
+/* line 173, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 dl.horizontal dd {
   padding-left: .5em;
 }
 
-/* line 181, ../sass/lib/_typography.scss */
+/* line 181, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 code {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1806,7 +1806,7 @@ code {
   background: #fafafa;
   padding: .1em .25em;
 }
-/* line 186, ../sass/lib/_typography.scss */
+/* line 186, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 code[lang] {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -1821,17 +1821,17 @@ code[lang] {
   display: block;
 }
 
-/* line 200, ../sass/lib/_typography.scss */
+/* line 200, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 abbr[title] {
   cursor: help;
 }
 
-/* line 206, ../sass/lib/_typography.scss */
+/* line 206, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 .center-text {
   text-align: center;
 }
 
-/* line 211, ../sass/lib/_typography.scss */
+/* line 211, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_typography.scss */
 hr {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -1840,23 +1840,23 @@ hr {
   border-bottom: 1px solid white;
 }
 
-/* line 5, ../sass/lib/_forms.scss */
+/* line 5, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label {
   margin-top: 1.5em;
   clear: both;
   display: block;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 form label:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 10, ../sass/lib/_forms.scss */
+/* line 10, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label.collapse {
   margin-top: 0em;
 }
-/* line 14, ../sass/lib/_forms.scss */
+/* line 14, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label.hide-text > span {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1867,7 +1867,7 @@ form label.hide-text > span {
   position: absolute;
   width: 1px;
 }
-/* line 40, ../sass/lib/_helpers.scss */
+/* line 40, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_helpers.scss */
 form label.hide-text > span.focusable:active, form label.hide-text > span.focusable:focus {
   clip: auto;
   height: auto;
@@ -1876,11 +1876,11 @@ form label.hide-text > span.focusable:active, form label.hide-text > span.focusa
   position: static;
   width: auto;
 }
-/* line 17, ../sass/lib/_forms.scss */
+/* line 17, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label.hide-text .input, form label.hide-text .input-list {
   margin-left: 0%;
 }
-/* line 21, ../sass/lib/_forms.scss */
+/* line 21, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label > span {
   width: 20%;
   float: left;
@@ -1892,184 +1892,184 @@ form label > span {
   padding-top: 0.429em;
   text-align: right;
 }
-/* line 27, ../sass/lib/_forms.scss */
+/* line 27, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .input, form label .input-list {
   margin-left: 21.053%;
   margin-top: 1px;
 }
-/* line 31, ../sass/lib/_forms.scss */
+/* line 31, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label small, form label table caption, table form label caption {
   display: block;
   font-size: 0.75em;
   line-height: 2em;
   color: #a6a6a6;
 }
-/* line 38, ../sass/lib/_forms.scss */
+/* line 38, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input {
   margin-left: 21.053%;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 form label .multi-input:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 41, ../sass/lib/_forms.scss */
+/* line 41, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input .input:last-child {
   display: inline;
   float: right;
 }
-/* line 45, ../sass/lib/_forms.scss */
+/* line 45, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.two .input {
   margin-left: 0%;
   width: 49%;
 }
-/* line 49, ../sass/lib/_forms.scss */
+/* line 49, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.two .input:first-child {
   display: inline;
   float: left;
 }
-/* line 52, ../sass/lib/_forms.scss */
+/* line 52, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.two .input:last-child {
   display: inline;
   float: right;
 }
-/* line 57, ../sass/lib/_forms.scss */
+/* line 57, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.three .input {
   margin-left: 0%;
   width: 31.5%;
   display: inline;
   float: left;
 }
-/* line 62, ../sass/lib/_forms.scss */
+/* line 62, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.three .input:nth-child(2) {
   margin: 0 2.5%;
 }
-/* line 65, ../sass/lib/_forms.scss */
+/* line 65, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.three .input:last-child {
   display: inline;
   float: right;
 }
-/* line 70, ../sass/lib/_forms.scss */
+/* line 70, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.four .input {
   margin-left: 0%;
   width: 23.5%;
   display: inline;
   float: left;
 }
-/* line 75, ../sass/lib/_forms.scss */
+/* line 75, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form label .multi-input.four .input:nth-child(1), form label .multi-input.four .input:nth-child(2), form label .multi-input.four .input:nth-child(3) {
   margin: 0 1.75% 0 0;
 }
-/* line 84, ../sass/lib/_forms.scss */
+/* line 84, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields + .adjacent-fields {
   margin-top: 1.5em;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 form .adjacent-fields:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 88, ../sass/lib/_forms.scss */
+/* line 88, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields label {
   margin-left: 0%;
   margin-top: 0em;
   clear: none;
 }
-/* line 94, ../sass/lib/_forms.scss */
+/* line 94, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.two label {
   margin-left: 0%;
   width: 49%;
 }
-/* line 98, ../sass/lib/_forms.scss */
+/* line 98, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.two label:first-child {
   display: inline;
   float: left;
 }
-/* line 101, ../sass/lib/_forms.scss */
+/* line 101, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.two label:last-child {
   display: inline;
   float: right;
 }
-/* line 106, ../sass/lib/_forms.scss */
+/* line 106, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.three label {
   margin-left: 0%;
   width: 31.5%;
   display: inline;
   float: left;
 }
-/* line 111, ../sass/lib/_forms.scss */
+/* line 111, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.three label:nth-child(2) {
   margin: 0 2.5%;
 }
-/* line 114, ../sass/lib/_forms.scss */
+/* line 114, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.three label:last-child {
   display: inline;
   float: right;
 }
-/* line 119, ../sass/lib/_forms.scss */
+/* line 119, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.four label {
   margin-left: 0%;
   width: 23.5%;
   display: inline;
   float: left;
 }
-/* line 124, ../sass/lib/_forms.scss */
+/* line 124, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .adjacent-fields.four label:nth-child(1), form .adjacent-fields.four .input:nth-child(2), form .adjacent-fields.four .input:nth-child(3) {
   margin: 0 1.75% 0 0;
 }
-/* line 131, ../sass/lib/_forms.scss */
+/* line 131, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .input-list {
   border-top-style: solid;
   border-top-width: 0em;
   padding-top: 0.429em;
 }
-/* line 133, ../sass/lib/_forms.scss */
+/* line 133, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .input-list ul {
   margin-top: 0em;
   margin-bottom: 0em;
   padding: 0;
   list-style: none;
 }
-/* line 138, ../sass/lib/_forms.scss */
+/* line 138, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .input-list ul li {
   margin: 0;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 form .input-list ul li:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 141, ../sass/lib/_forms.scss */
+/* line 141, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .input-list ul li label {
   margin-top: 0em;
   float: left;
   line-height: 24px;
   margin: 0;
 }
-/* line 146, ../sass/lib/_forms.scss */
+/* line 146, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .input-list ul li label input {
   float: left;
 }
-/* line 156, ../sass/lib/_forms.scss */
+/* line 156, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .actions {
   margin-left: 21.053%;
   margin-top: 1.5em;
 }
-/* line 159, ../sass/lib/_forms.scss */
+/* line 159, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .actions :first-child {
   display: inline;
   float: left;
 }
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194@Geoloqi-Developer-Site/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 form .actions:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 163, ../sass/lib/_forms.scss */
+/* line 163, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .actions .secondary {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -2079,47 +2079,47 @@ form .actions .secondary {
   display: inline;
   float: right;
 }
-/* line 167, ../sass/lib/_forms.scss */
+/* line 167, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form .actions .secondary.left {
   display: inline;
   float: left;
   margin-left: .25em;
 }
-/* line 176, ../sass/lib/_forms.scss */
+/* line 176, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.stacked label > span {
   font-size: 1em;
   line-height: 1.5em;
   text-align: left;
   width: auto;
 }
-/* line 181, ../sass/lib/_forms.scss */
+/* line 181, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.stacked label .input, form.stacked label .input-list {
   margin-left: 0%;
   padding: 0;
   clear: both;
 }
-/* line 186, ../sass/lib/_forms.scss */
+/* line 186, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.stacked label .multi-input {
   margin-left: 0%;
   clear: both;
 }
-/* line 189, ../sass/lib/_forms.scss */
+/* line 189, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.stacked label .multi-input .input {
   clear: none;
 }
-/* line 194, ../sass/lib/_forms.scss */
+/* line 194, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.stacked .actions {
   margin-left: 0%;
 }
-/* line 200, ../sass/lib/_forms.scss */
+/* line 200, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.single {
   position: relative;
 }
-/* line 202, ../sass/lib/_forms.scss */
+/* line 202, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.single label {
   margin-top: 0em;
 }
-/* line 205, ../sass/lib/_forms.scss */
+/* line 205, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.single .btn, form.single button, form.single input[type="submit"] {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -2146,17 +2146,17 @@ form.single .btn, form.single button, form.single input[type="submit"] {
   top: 0;
   right: 0;
 }
-/* line 220, ../sass/lib/_forms.scss */
+/* line 220, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 form.single .actions {
   margin-top: 0em;
 }
 
-/* line 228, ../sass/lib/_forms.scss */
+/* line 228, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 input:focus, label:focus, select:focus {
   outline: none;
 }
 
-/* line 234, ../sass/lib/_forms.scss */
+/* line 234, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 input, select, textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2164,14 +2164,14 @@ input, select, textarea {
   width: 100%;
 }
 
-/* line 240, ../sass/lib/_forms.scss */
+/* line 240, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 input[type="checkbox"], input[type="radio"] {
   display: block;
   margin: 5px 4px 0 1px;
   width: auto;
 }
 
-/* line 256, ../sass/lib/_forms.scss */
+/* line 256, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 input[type="email"],
 input[type="password"],
 input[type="text"],
@@ -2201,7 +2201,7 @@ textarea {
   border: 1px solid #a6a6a6;
   height: 2.571em;
 }
-/* line 264, ../sass/lib/_forms.scss */
+/* line 264, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 input[type="email"]:focus,
 input[type="password"]:focus,
 input[type="text"]:focus,
@@ -2219,12 +2219,12 @@ textarea:focus {
   outline: none;
 }
 
-/* line 271, ../sass/lib/_forms.scss */
+/* line 271, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 textarea {
   height: auto;
 }
 
-/* line 276, ../sass/lib/_forms.scss */
+/* line 276, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 select {
   border-style: solid;
   border-width: 0.071em;
@@ -2235,94 +2235,94 @@ select {
   height: 34px;
 }
 
-/* line 286, ../sass/lib/_forms.scss */
+/* line 286, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 input[type="file"] {
   font-size: 12px;
   width: 90%;
   margin: 8px 0;
 }
 
-/* line 294, ../sass/lib/_forms.scss */
+/* line 294, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_forms.scss */
 input[type="submit"] {
   width: auto;
 }
 
-/* line 1, ../sass/lib/_tables.scss */
+/* line 1, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   width: 100%;
 }
-/* line 5, ../sass/lib/_tables.scss */
+/* line 5, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table th, table td {
   padding: 0.5em;
 }
-/* line 8, ../sass/lib/_tables.scss */
+/* line 8, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table td {
   font-size: 0.875em;
   line-height: 1.714em;
 }
-/* line 11, ../sass/lib/_tables.scss */
+/* line 11, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table th {
   font-size: 1.125em;
   line-height: 1.333em;
   font-family: "PTSans";
   text-align: left;
 }
-/* line 17, ../sass/lib/_tables.scss */
+/* line 17, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table tfoot.strong, table thead.strong {
   background: #ebebeb;
 }
-/* line 19, ../sass/lib/_tables.scss */
+/* line 19, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table tfoot.strong th, table tfoot.strong td, table thead.strong th, table thead.strong td {
   border-color: gray;
 }
-/* line 22, ../sass/lib/_tables.scss */
+/* line 22, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table tfoot.strong th, table thead.strong th {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   padding-bottom: 10px;
 }
-/* line 25, ../sass/lib/_tables.scss */
+/* line 25, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table tfoot.strong td, table thead.strong td {
   border-top-style: solid;
   border-top-width: 2px;
   padding-top: 10px;
 }
-/* line 31, ../sass/lib/_tables.scss */
+/* line 31, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table tfoot td {
   font-size: 1.125em;
   line-height: 1.333em;
   font-family: "PTSans";
   font-weight: 700;
 }
-/* line 38, ../sass/lib/_tables.scss */
+/* line 38, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table caption {
   text-align: left;
   color: gray;
   caption-side: bottom;
 }
-/* line 46, ../sass/lib/_tables.scss */
+/* line 46, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table.bordered {
   background: white;
 }
-/* line 48, ../sass/lib/_tables.scss */
+/* line 48, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table.bordered th, table.bordered td {
   border-style: solid;
   border-width: 1px;
   padding: 11px;
   border-color: #a6a6a6;
 }
-/* line 55, ../sass/lib/_tables.scss */
+/* line 55, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table.striped tbody tr:nth-child(even) {
   background: #ebebeb;
 }
-/* line 62, ../sass/lib/_tables.scss */
+/* line 62, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_tables.scss */
 table.hover-rows tbody tr:hover {
   background: #55c8fe;
 }
 
-/* line 1, ../sass/lib/_button.scss */
+/* line 1, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"], .btn, button {
   font-size: 1em;
   line-height: 1.5em;
@@ -2359,11 +2359,11 @@ input[type="submit"], .btn, button {
   color: white;
   display: inline-block;
 }
-/* line 6, ../sass/lib/_mixins.scss */
+/* line 6, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 input[type="submit"]:hover, .btn:hover, button:hover {
   background: #a6a6a6;
 }
-/* line 15, ../sass/lib/_button.scss */
+/* line 15, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"]:hover, .btn:hover, button:hover {
   text-decoration: none;
   color: white;
@@ -2371,7 +2371,7 @@ input[type="submit"]:hover, .btn:hover, button:hover {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 20, ../sass/lib/_button.scss */
+/* line 20, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"]:hover:disabled:hover, input[type="submit"]:hover.disabled:hover, .btn:hover:disabled:hover, .btn:hover.disabled:hover, button:hover:disabled:hover, button:hover.disabled:hover {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 2px rgba(0, 0, 0, 0.1);
@@ -2384,16 +2384,16 @@ input[type="submit"]:hover:disabled:hover, input[type="submit"]:hover.disabled:h
   background: -ms-linear-gradient(#cccccc, #a6a6a6);
   background: linear-gradient(#cccccc, #a6a6a6);
 }
-/* line 27, ../sass/lib/_button.scss */
+/* line 27, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"]:disabled, input[type="submit"].disabled, .btn:disabled, .btn.disabled, button:disabled, button.disabled {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 29, ../sass/lib/_button.scss */
+/* line 29, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"]:disabled:hover, input[type="submit"].disabled:hover, .btn:disabled:hover, .btn.disabled:hover, button:disabled:hover, button.disabled:hover {
   cursor: default;
 }
-/* line 35, ../sass/lib/_button.scss */
+/* line 35, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue, button.primary, button.blue {
   background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
@@ -2405,11 +2405,11 @@ input[type="submit"].primary, input[type="submit"].blue, .btn.primary, .btn.blue
   border-color: #27adec;
   text-shadow: 0 -1px 0 #27adec;
 }
-/* line 6, ../sass/lib/_mixins.scss */
+/* line 6, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 input[type="submit"].primary:hover, input[type="submit"].blue:hover, .btn.primary:hover, .btn.blue:hover, button.primary:hover, button.blue:hover {
   background: #27adec;
 }
-/* line 38, ../sass/lib/_button.scss */
+/* line 38, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabled:hover, input[type="submit"].blue:disabled:hover, input[type="submit"].blue.disabled:hover, .btn.primary:disabled:hover, .btn.primary.disabled:hover, .btn.blue:disabled:hover, .btn.blue.disabled:hover, button.primary:disabled:hover, button.primary.disabled:hover, button.blue:disabled:hover, button.blue.disabled:hover {
   background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
@@ -2419,49 +2419,49 @@ input[type="submit"].primary:disabled:hover, input[type="submit"].primary.disabl
   background: -ms-linear-gradient(#55c8fe, #27adec);
   background: linear-gradient(#55c8fe, #27adec);
 }
-/* line 44, ../sass/lib/_button.scss */
+/* line 44, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light, .btn.light, button.light {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 50, ../sass/lib/_button.scss */
+/* line 50, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light:disabled:hover, input[type="submit"].light.disabled:hover, .btn.light:disabled:hover, .btn.light.disabled:hover, button.light:disabled:hover, button.light.disabled:hover {
   background: #fafafa;
   border-color: #cccccc;
   color: #a6a6a6;
   text-shadow: none;
 }
-/* line 57, ../sass/lib/_button.scss */
+/* line 57, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light:hover, .btn.light:hover, button.light:hover {
   background: #ebebeb;
 }
-/* line 60, ../sass/lib/_button.scss */
+/* line 60, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light[class^="hover-"]:hover, input[type="submit"].light[class*=" hover-"]:hover, .btn.light[class^="hover-"]:hover, .btn.light[class*=" hover-"]:hover, button.light[class^="hover-"]:hover, button.light[class*=" hover-"]:hover {
   color: white;
 }
-/* line 63, ../sass/lib/_button.scss */
+/* line 63, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light.hover-blue:hover, .btn.light.hover-blue:hover, button.light.hover-blue:hover {
   background: #27adec;
   border-color: #27adec;
 }
-/* line 67, ../sass/lib/_button.scss */
+/* line 67, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light.hover-green:hover, .btn.light.hover-green:hover, button.light.hover-green:hover {
   background: #79b335;
   border-color: #79b335;
 }
-/* line 71, ../sass/lib/_button.scss */
+/* line 71, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light.hover-orange:hover, .btn.light.hover-orange:hover, button.light.hover-orange:hover {
   background: #e37b2f;
   border-color: #e37b2f;
 }
-/* line 75, ../sass/lib/_button.scss */
+/* line 75, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].light.hover-red:hover, .btn.light.hover-red:hover, button.light.hover-red:hover {
   background: #de2c2c;
   border-color: #de2c2c;
 }
-/* line 81, ../sass/lib/_button.scss */
+/* line 81, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .btn.orange, button.secondary, button.orange {
   background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
@@ -2473,11 +2473,11 @@ input[type="submit"].secondary, input[type="submit"].orange, .btn.secondary, .bt
   border-color: #e37b2f;
   text-shadow: 0 -1px 0 #e37b2f;
 }
-/* line 6, ../sass/lib/_mixins.scss */
+/* line 6, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 input[type="submit"].secondary:hover, input[type="submit"].orange:hover, .btn.secondary:hover, .btn.orange:hover, button.secondary:hover, button.orange:hover {
   background: #e37b2f;
 }
-/* line 84, ../sass/lib/_button.scss */
+/* line 84, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.disabled:hover, input[type="submit"].orange:disabled:hover, input[type="submit"].orange.disabled:hover, .btn.secondary:disabled:hover, .btn.secondary.disabled:hover, .btn.orange:disabled:hover, .btn.orange.disabled:hover, button.secondary:disabled:hover, button.secondary.disabled:hover, button.orange:disabled:hover, button.orange.disabled:hover {
   background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
@@ -2487,7 +2487,7 @@ input[type="submit"].secondary:disabled:hover, input[type="submit"].secondary.di
   background: -ms-linear-gradient(#f59555, #e37b2f);
   background: linear-gradient(#f59555, #e37b2f);
 }
-/* line 90, ../sass/lib/_button.scss */
+/* line 90, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].cancel, input[type="submit"].red, .btn.danger, .btn.delete, .btn.cancel, .btn.red, button.danger, button.delete, button.cancel, button.red {
   background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
@@ -2499,11 +2499,11 @@ input[type="submit"].danger, input[type="submit"].delete, input[type="submit"].c
   border-color: #de2c2c;
   text-shadow: 0 -1px 0 #de2c2c;
 }
-/* line 6, ../sass/lib/_mixins.scss */
+/* line 6, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 input[type="submit"].danger:hover, input[type="submit"].delete:hover, input[type="submit"].cancel:hover, input[type="submit"].red:hover, .btn.danger:hover, .btn.delete:hover, .btn.cancel:hover, .btn.red:hover, button.danger:hover, button.delete:hover, button.cancel:hover, button.red:hover {
   background: #de2c2c;
 }
-/* line 93, ../sass/lib/_button.scss */
+/* line 93, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled:hover, input[type="submit"].delete:disabled:hover, input[type="submit"].delete.disabled:hover, input[type="submit"].cancel:disabled:hover, input[type="submit"].cancel.disabled:hover, input[type="submit"].red:disabled:hover, input[type="submit"].red.disabled:hover, .btn.danger:disabled:hover, .btn.danger.disabled:hover, .btn.delete:disabled:hover, .btn.delete.disabled:hover, .btn.cancel:disabled:hover, .btn.cancel.disabled:hover, .btn.red:disabled:hover, .btn.red.disabled:hover, button.danger:disabled:hover, button.danger.disabled:hover, button.delete:disabled:hover, button.delete.disabled:hover, button.cancel:disabled:hover, button.cancel.disabled:hover, button.red:disabled:hover, button.red.disabled:hover {
   background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
@@ -2513,7 +2513,7 @@ input[type="submit"].danger:disabled:hover, input[type="submit"].danger.disabled
   background: -ms-linear-gradient(#ec5555, #de2c2c);
   background: linear-gradient(#ec5555, #de2c2c);
 }
-/* line 99, ../sass/lib/_button.scss */
+/* line 99, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].green, .btn.green, button.green {
   background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
@@ -2525,11 +2525,11 @@ input[type="submit"].green, .btn.green, button.green {
   border-color: #79b335;
   text-shadow: 0 -1px 0 #79b335;
 }
-/* line 6, ../sass/lib/_mixins.scss */
+/* line 6, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 input[type="submit"].green:hover, .btn.green:hover, button.green:hover {
   background: #79b335;
 }
-/* line 102, ../sass/lib/_button.scss */
+/* line 102, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:hover, .btn.green:disabled:hover, .btn.green.disabled:hover, button.green:disabled:hover, button.green.disabled:hover {
   background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
@@ -2539,7 +2539,7 @@ input[type="submit"].green:disabled:hover, input[type="submit"].green.disabled:h
   background: -ms-linear-gradient(#89ce37, #79b335);
   background: linear-gradient(#89ce37, #79b335);
 }
-/* line 109, ../sass/lib/_button.scss */
+/* line 109, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].small, .btn.small, button.small {
   font-size: 0.875em;
   line-height: 1.714em;
@@ -2556,7 +2556,7 @@ input[type="submit"].small, .btn.small, button.small {
   border-right-width: 0.063em;
   padding-right: 1.063em;
 }
-/* line 117, ../sass/lib/_button.scss */
+/* line 117, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].large, .btn.large, button.large {
   font-size: 1.125em;
   line-height: 1.333em;
@@ -2567,7 +2567,7 @@ input[type="submit"].large, .btn.large, button.large {
   border-right-width: 0.063em;
   padding-right: 1.438em;
 }
-/* line 123, ../sass/lib/_button.scss */
+/* line 123, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].x-large, .btn.x-large, button.x-large {
   font-size: 1.5em;
   line-height: 2em;
@@ -2585,29 +2585,29 @@ input[type="submit"].x-large, .btn.x-large, button.x-large {
   border-right-width: 0.063em;
   padding-right: 1.438em;
 }
-/* line 133, ../sass/lib/_button.scss */
+/* line 133, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].block, .btn.block, button.block {
   text-align: center;
   display: block;
 }
-/* line 136, ../sass/lib/_button.scss */
+/* line 136, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].block[class^="icon-"]::before, input[type="submit"].block[class*=" icon-"]::before, .btn.block[class^="icon-"]::before, .btn.block[class*=" icon-"]::before, button.block[class^="icon-"]::before, button.block[class*=" icon-"]::before {
   font-size: 135%;
   position: static;
   padding: 0;
   display: block;
 }
-/* line 142, ../sass/lib/_button.scss */
+/* line 142, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].block[class^="icon-"], input[type="submit"].block[class*=" icon-"], .btn.block[class^="icon-"], .btn.block[class*=" icon-"], button.block[class^="icon-"], button.block[class*=" icon-"] {
   padding-left: .75em;
   padding-right: .75em;
 }
-/* line 149, ../sass/lib/_button.scss */
+/* line 149, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"][class^="icon-"]::before, input[type="submit"][class*=" icon-"]::before, .btn[class^="icon-"]::before, .btn[class*=" icon-"]::before, button[class^="icon-"]::before, button[class*=" icon-"]::before {
   padding-right: .35em;
   font-weight: normal !important;
 }
-/* line 154, ../sass/lib/_button.scss */
+/* line 154, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].fill, .btn.fill, button.fill {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2618,14 +2618,14 @@ input[type="submit"].fill, .btn.fill, button.fill {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 161, ../sass/lib/_button.scss */
+/* line 161, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].fill[class^="icon-"]::before, input[type="submit"].fill[class*=" icon-"]::before, .btn.fill[class^="icon-"]::before, .btn.fill[class*=" icon-"]::before, button.fill[class^="icon-"]::before, button.fill[class*=" icon-"]::before {
   position: relative;
   top: 1px;
   left: auto;
   padding-right: .35em;
 }
-/* line 169, ../sass/lib/_button.scss */
+/* line 169, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].transparent, .btn.transparent, button.transparent {
   background: none;
   border-color: transparent;
@@ -2635,18 +2635,18 @@ input[type="submit"].transparent, .btn.transparent, button.transparent {
   box-shadow: none;
   text-shadow: none;
 }
-/* line 176, ../sass/lib/_button.scss */
+/* line 176, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 input[type="submit"].transparent:disabled:hover, input[type="submit"].transparent.disabled:hover, .btn.transparent:disabled:hover, .btn.transparent.disabled:hover, button.transparent:disabled:hover, button.transparent.disabled:hover {
   background: none;
   border-color: transparent;
   color: #55c8fe;
 }
 
-/* line 186, ../sass/lib/_button.scss */
+/* line 186, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 .btn-group {
   overflow: hidden;
 }
-/* line 188, ../sass/lib/_button.scss */
+/* line 188, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 .btn-group input[type="submit"], .btn-group .btn, .btn-group button {
   min-width: 48px;
   -webkit-border-radius: 0px;
@@ -2654,11 +2654,11 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
-  border-left-width: 0px;
+  border-left-width: 0px !important;
   display: block;
   float: left;
 }
-/* line 194, ../sass/lib/_button.scss */
+/* line 194, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 .btn-group input[type="submit"]:first-child, .btn-group .btn:first-child, .btn-group button:first-child {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -2666,9 +2666,9 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   -moz-border-radius-bottomleft: 4px;
   -webkit-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  border-left-width: 1px;
+  border-left-width: 1px !important;
 }
-/* line 199, ../sass/lib/_button.scss */
+/* line 199, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_button.scss */
 .btn-group input[type="submit"]:last-child, .btn-group .btn:last-child, .btn-group button:last-child {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -2678,7 +2678,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   border-bottom-right-radius: 4px;
 }
 
-/* line 1, ../sass/lib/_patterns.scss */
+/* line 1, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash, .alert {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2700,12 +2700,12 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   margin-bottom: 0.75em;
   position: relative;
 }
-/* line 8, ../sass/lib/_patterns.scss */
+/* line 8, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash h1, .flash h2, .flash h3, .flash h4, .flash h1.small, .flash h5, .flash h6, .alert h1, .alert h2, .alert h3, .alert h4, .alert h1.small, .alert h5, .alert h6 {
   margin-top: 0em;
   margin-bottom: 0.75em;
 }
-/* line 12, ../sass/lib/_patterns.scss */
+/* line 12, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash .icon-close, .alert .icon-close {
   font-size: 0.625em;
   line-height: 2.4em;
@@ -2716,26 +2716,26 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   right: 1em;
   border-bottom: none;
 }
-/* line 19, ../sass/lib/_patterns.scss */
+/* line 19, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash .icon-close:hover, .alert .icon-close:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   text-decoration: none;
 }
 
-/* line 26, ../sass/lib/_patterns.scss */
+/* line 26, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .alert {
   border-style: solid;
   border-width: 0.063em;
   padding: 1.438em;
   display: block;
 }
-/* line 29, ../sass/lib/_patterns.scss */
+/* line 29, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .alert .icon-close {
   top: .5em;
   color: gray;
 }
-/* line 33, ../sass/lib/_patterns.scss */
+/* line 33, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .alert.success {
   background: #d2ecb2;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d2ecb2), color-stop(100%, #d2ecb2));
@@ -2746,7 +2746,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   background: linear-gradient(#d2ecb2, #d2ecb2);
   border-color: #79b335;
 }
-/* line 36, ../sass/lib/_patterns.scss */
+/* line 36, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .alert.error {
   background: #fbdfdf;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbdfdf), color-stop(100%, #fbdfdf));
@@ -2757,7 +2757,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   background: linear-gradient(#fbdfdf, #fbdfdf);
   border-color: #de2c2c;
 }
-/* line 39, ../sass/lib/_patterns.scss */
+/* line 39, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .alert.info {
   background: #bae9ff;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bae9ff), color-stop(100%, #bae9ff));
@@ -2768,7 +2768,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   background: linear-gradient(#bae9ff, #bae9ff);
   border-color: #27adec;
 }
-/* line 42, ../sass/lib/_patterns.scss */
+/* line 42, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .alert.notice {
   background: #fbd1b5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbd1b5), color-stop(100%, #fbd1b5));
@@ -2779,14 +2779,14 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   background: linear-gradient(#fbd1b5, #fbd1b5);
   border-color: #e37b2f;
 }
-/* line 45, ../sass/lib/_patterns.scss */
+/* line 45, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .alert .btn {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 50, ../sass/lib/_patterns.scss */
+/* line 50, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash {
   background: #b9b9b9;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #a6a6a6));
@@ -2803,29 +2803,29 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   text-align: center;
   text-shadow: 0 -1px 0 #a6a6a6;
 }
-/* line 56, ../sass/lib/_patterns.scss */
+/* line 56, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash .icon-close {
   top: 25%;
   color: white;
 }
-/* line 60, ../sass/lib/_patterns.scss */
+/* line 60, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 63, ../sass/lib/_patterns.scss */
+/* line 63, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   border-bottom: none;
   text-decoration: none;
 }
-/* line 69, ../sass/lib/_patterns.scss */
+/* line 69, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash p {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-/* line 73, ../sass/lib/_patterns.scss */
+/* line 73, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash.fixed {
   position: fixed;
   left: 50%;
@@ -2833,7 +2833,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   width: 50%;
   z-index: 100;
 }
-/* line 80, ../sass/lib/_patterns.scss */
+/* line 80, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash.success {
   background: #81c036;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89ce37), color-stop(100%, #79b335));
@@ -2845,7 +2845,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   border-color: #79b335;
   text-shadow: 0 -1px 0 #79b335;
 }
-/* line 84, ../sass/lib/_patterns.scss */
+/* line 84, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash.error {
   background: #e54040;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec5555), color-stop(100%, #de2c2c));
@@ -2857,7 +2857,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   border-color: #de2c2c;
   text-shadow: 0 -1px 0 #de2c2c;
 }
-/* line 88, ../sass/lib/_patterns.scss */
+/* line 88, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash.info {
   background: #3ebaf5;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #55c8fe), color-stop(100%, #27adec));
@@ -2869,7 +2869,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   border-color: #27adec;
   text-shadow: 0 -1px 0 #27adec;
 }
-/* line 92, ../sass/lib/_patterns.scss */
+/* line 92, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .flash.notice {
   background: #ec8842;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f59555), color-stop(100%, #e37b2f));
@@ -2882,7 +2882,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   text-shadow: 0 -1px 0 #e37b2f;
 }
 
-/* line 102, ../sass/lib/_patterns.scss */
+/* line 102, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box, .well {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2899,7 +2899,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   border-width: 1px;
   border-color: #cccccc;
 }
-/* line 112, ../sass/lib/_patterns.scss */
+/* line 112, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box > footer, .well > footer {
   border-style: solid;
   border-width: 0em;
@@ -2907,112 +2907,112 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   background: #ebebeb;
   border-top: 1px solid #cccccc;
 }
-/* line 118, ../sass/lib/_patterns.scss */
+/* line 118, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box form label:first-child, .well form label:first-child {
   margin-top: 0em;
 }
-/* line 122, ../sass/lib/_patterns.scss */
+/* line 122, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box > *:first-child, .well > *:first-child {
   margin-top: 0em;
 }
-/* line 125, ../sass/lib/_patterns.scss */
+/* line 125, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box > *:last-child, .well > *:last-child {
   margin-bottom: 0em;
 }
-/* line 128, ../sass/lib/_patterns.scss */
+/* line 128, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.clip-bottom, .well.clip-bottom {
   padding-bottom: 0;
 }
-/* line 131, ../sass/lib/_patterns.scss */
+/* line 131, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.clip-top, .well.clip-top {
   padding-top: 0;
 }
-/* line 134, ../sass/lib/_patterns.scss */
+/* line 134, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.edge-to-edge, .well.edge-to-edge {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 138, ../sass/lib/_patterns.scss */
+/* line 138, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.no-padding, .box.list, .box.articles, .well.no-padding, .well.list, .well.articles {
   padding: 0;
 }
-/* line 141, ../sass/lib/_patterns.scss */
+/* line 141, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.half-padding, .well.half-padding {
   border-style: solid;
   border-width: 0.063em;
   padding: 0.688em;
 }
-/* line 144, ../sass/lib/_patterns.scss */
+/* line 144, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.push-bottom, .well.push-bottom {
   margin-bottom: 1.5em;
 }
-/* line 149, ../sass/lib/_patterns.scss */
+/* line 149, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.list ul, .well.list ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 153, ../sass/lib/_patterns.scss */
+/* line 153, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.list ul li, .well.list ul li {
   border-style: solid;
   border-width: 0em;
   padding: 1.5em;
   border-bottom: 1px solid #cccccc;
 }
-/* line 156, ../sass/lib/_patterns.scss */
+/* line 156, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.list ul li:last-of-type, .well.list ul li:last-of-type {
   border-bottom: none;
 }
-/* line 159, ../sass/lib/_patterns.scss */
+/* line 159, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.list ul li > *:first-child, .well.list ul li > *:first-child {
   margin-top: 0em;
 }
-/* line 162, ../sass/lib/_patterns.scss */
+/* line 162, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.list ul li > *:last-child, .well.list ul li > *:last-child {
   margin-bottom: 0em;
 }
-/* line 170, ../sass/lib/_patterns.scss */
+/* line 170, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.articles article, .well.articles article {
   border-style: solid;
   border-width: 0em;
   padding: 1.5em;
   border-bottom: 1px solid #cccccc;
 }
-/* line 173, ../sass/lib/_patterns.scss */
+/* line 173, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.articles article:last-of-type, .well.articles article:last-of-type {
   border-bottom: none;
 }
-/* line 176, ../sass/lib/_patterns.scss */
+/* line 176, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.articles article > *:first-child, .well.articles article > *:first-child {
   margin-top: 0em;
 }
-/* line 179, ../sass/lib/_patterns.scss */
+/* line 179, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .box.articles article > *:last-child, .well.articles article > *:last-child {
   margin-bottom: 0em;
 }
 
-/* line 187, ../sass/lib/_patterns.scss */
+/* line 187, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .tabs {
   *zoom: 1;
   list-style: none;
   border-bottom: 1px solid #ebebeb;
   padding-left: .5em;
 }
-/* line 25, ../sass/lib/_mixins.scss */
+/* line 25, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 .tabs:before, .tabs:after {
   display: table;
   content: "";
 }
-/* line 29, ../sass/lib/_mixins.scss */
+/* line 29, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_mixins.scss */
 .tabs:after {
   clear: both;
 }
-/* line 192, ../sass/lib/_patterns.scss */
+/* line 192, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .tabs li {
   float: left;
   margin-bottom: -1px;
 }
-/* line 195, ../sass/lib/_patterns.scss */
+/* line 195, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .tabs li a {
   -moz-border-radius-topleft: 3px;
   -webkit-border-top-left-radius: 3px;
@@ -3024,32 +3024,32 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   display: block;
   background: white;
 }
-/* line 203, ../sass/lib/_patterns.scss */
+/* line 203, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .tabs li.active a {
   border: 1px solid #ebebeb;
   border-bottom-color: transparent;
 }
-/* line 206, ../sass/lib/_patterns.scss */
+/* line 206, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .tabs li.active a:hover, .tabs li.active a:focus {
   text-decoration: none;
 }
 
-/* line 215, ../sass/lib/_patterns.scss */
+/* line 215, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .tab-content .tab-pane {
   display: none;
 }
-/* line 218, ../sass/lib/_patterns.scss */
+/* line 218, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .tab-content .tab-pane.active {
   display: block;
 }
 
-/* line 224, ../sass/lib/_patterns.scss */
+/* line 224, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .media-grid {
   overflow: hidden;
   list-style: none;
   padding: 0;
 }
-/* line 229, ../sass/lib/_patterns.scss */
+/* line 229, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .media-grid li a {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3066,13 +3066,13 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   display: block;
   padding: 4px;
 }
-/* line 236, ../sass/lib/_patterns.scss */
+/* line 236, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .media-grid li a img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* line 241, ../sass/lib/_patterns.scss */
+/* line 241, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_patterns.scss */
 .media-grid li a:hover {
   border-color: #27adec;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
@@ -3080,7 +3080,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
 
-/* line 2, ../sass/lib/_leaflet.scss */
+/* line 2, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-close-button {
   background: none;
   width: auto;
@@ -3088,29 +3088,29 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   font-size: .5em;
   color: #cccccc;
 }
-/* line 4, ../sass/lib/_leaflet.scss */
+/* line 4, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-close-button:before {
   font-family: 'IcoMoon';
   font-style: normal;
   speak: none;
 }
-/* line 14, ../sass/lib/_leaflet.scss */
+/* line 14, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-close-button:hover {
   color: #a6a6a6;
   text-decoration: none;
 }
-/* line 19, ../sass/lib/_leaflet.scss */
+/* line 19, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-content-wrapper {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
   background: transparent;
 }
-/* line 22, ../sass/lib/_leaflet.scss */
+/* line 22, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content {
   margin: 0;
 }
-/* line 24, ../sass/lib/_leaflet.scss */
+/* line 24, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content .geoloqi-popup-wrapper {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -3123,17 +3123,17 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
   background: #fafafa;
   border: 1px solid #cccccc;
 }
-/* line 29, ../sass/lib/_leaflet.scss */
+/* line 29, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content .geoloqi-popup-wrapper .geoloqi-popup-content {
   margin: 12px;
 }
-/* line 35, ../sass/lib/_leaflet.scss */
+/* line 35, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-tip-container {
   background: none;
   z-index: 100;
   top: -2px;
 }
-/* line 39, ../sass/lib/_leaflet.scss */
+/* line 39, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_leaflet.scss */
 .leaflet-popup .leaflet-popup-tip-container .leaflet-popup-tip {
   background: #fafafa;
   border-top: none;
@@ -3145,7 +3145,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
 }
 
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-  /* line 2, ../sass/lib/_retina.scss */
+  /* line 2, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_retina.scss */
   #logo {
     display: block;
     width: 30px;
@@ -3157,7 +3157,7 @@ input[type="submit"].transparent:disabled:hover, input[type="submit"].transparen
     background-position: center center;
   }
 
-  /* line 7, ../sass/lib/_retina.scss */
+  /* line 7, /Users/patricklocal/Projects/geoloqi/developers/assets/geoloqi-core/assets/sass/lib/_retina.scss */
   #logo-footer {
     background: url("/geoloqi-core/assets/img/logo-footer@2x.png") no-repeat 0 0;
     background-size: 100% auto;
