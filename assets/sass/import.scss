@@ -27,7 +27,6 @@ $grid-padding   : $gutter-width;
 @import "susy";
 
 // Break Points --------------------------------------------------------------
-
 $screen-large 						: 1367px 24; 				// width > 1367px ex. all macs, smaller high quality laptops over 13"+
 $screen-normal			 			: 24 1366px;	// width 1025-1281px covers most things new cheap windows laptops, macbook airs, ect
 $screen-tablet-landscape	: 24 1024px;  // width 769-1024px covers most tablets in landscape (ipad), netbooks, really crappy old screens
@@ -35,7 +34,6 @@ $screen-tablet-portrait		: 16 768px;   // width 481-768px covers ipad in portrai
 $screen-smartphone				: 6 480px;    // width 769-1024px smaller phones in portrait and landscape (iphone and small androids)
 
 // Debug --------------------------------------------------------------
-
 $enable-grids		: false;
 
 // Clearfix --------------------------------------------------------------
