@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 // CSS3 Helpers --------------------------------------------------------------
-@import "compass/css3";
+@import "compass";
 
 // Settings --------------------------------------------------------------
 // Susy & Compass use HTML hacks to support IE 6 and 7. You can turn that off.
@@ -35,11 +35,6 @@ $screen-smartphone				: 6 480px;    // width 769-1024px smaller phones in portra
 
 // Debug --------------------------------------------------------------
 $enable-grids		: false;
-
-// Clearfix --------------------------------------------------------------
-
-@import "compass/utilities/general/clearfix";
-@import "compass/utilities/general/float";
 
 // Includes --------------------------------------------------------------
 
